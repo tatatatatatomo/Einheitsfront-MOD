@@ -1,6 +1,7 @@
-version="1.11.**"
-tags={
+version = "v0.1"
+tags = {
 	"Alternative History"
 }
-name="Einheitsfront"
-supported_version="1.11.*"
+
+name = "Einheitsfront"
+supported_version = "1.12.*"
