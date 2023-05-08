@@ -1,19 +1,17 @@
 ﻿capital = 43
-
 set_research_slots = 3
 set_convoys = 0
-set_stability = 0.30
-set_war_support = 0.30
-
+set_stability = 0.3
+set_war_support = 0.3
 set_politics = {
-	ruling_party = communism
+	ruling_party = revisionist_socialism
 	last_election = "1935.7.5"
 	election_frequency = 48
 	elections_allowed = no
-
 }
+
 set_popularities = {
-	communism = 100
+	revisionist_socialism = 100
 }
 
 add_ideas = {

@@ -1,11 +1,11 @@
 #ポーランドのNFです
 focus_tree = {
-	id = [POL]_focus
+	id = POL_focus
 	country = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = [POL]
+			tag = POL
 		}
 	}
 	default = no

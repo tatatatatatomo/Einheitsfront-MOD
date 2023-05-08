@@ -1,11 +1,11 @@
 #ブハーリンルートソ連のNFです
 focus_tree = {
-	id = [SOV]_focus
+	id = SOV_focus
 	country = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = [SOV]
+			tag = SOV
 		}
 	}
 	default = no

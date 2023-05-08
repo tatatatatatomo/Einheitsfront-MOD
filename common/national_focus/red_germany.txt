@@ -1,11 +1,11 @@
 #ブハーリンルートの赤化ドイツNFです
 focus_tree = {
-	id = [GER]_focus
+	id = red_GER_focus
 	country = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = [GER]
+			tag = GER
 		}
 	}
 	default = no
