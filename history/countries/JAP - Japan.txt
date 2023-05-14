@@ -1477,4 +1477,12 @@ if = {
 			}
 		}	
 	}
+	create_country_leader = {
+	name = "宇垣一成"
+	desc = ""
+	picture = "Portrait_Japan_Ugaki_Kazu_Shige.dds"
+	expire = "1936.1.1"
+	ideology = 
+	traits = {}
+}
 	
