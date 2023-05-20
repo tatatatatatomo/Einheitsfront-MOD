@@ -423,13 +423,13 @@ if = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 100
+	conservatism = 100
 }
 
 recruit_character = JAP_tetsu_katayama
@@ -1478,11 +1478,11 @@ if = {
 		}	
 	}
 	create_country_leader = {
-	name = "宇垣一成"
+	name = "uzi"
 	desc = ""
-	picture = "Portrait_Japan_Ugaki_Kazu_Shige.dds"
+	picture = "gfx\leaders\JAP\Portrait_Japan_Ugaki_Kazu_Shige.dds"
 	expire = "1936.1.1"
-	ideology = 
+	ideology = conservatism 
 	traits = {}
 }
 	
