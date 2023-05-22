@@ -9,9 +9,6 @@ ideologies = {
 			national_syndicalism = {
 				can_be_randomly_selected = no
 			}
-			corporatism = {
-				can_be_randomly_selected = no
-			}
 			national_bolshevism = {
 				can_be_randomly_selected = no
 			}
