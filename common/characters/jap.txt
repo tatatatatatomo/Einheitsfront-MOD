@@ -1,14 +1,14 @@
 characters = {
-JAP_Ugaki_Kazu_Shige = {
+	JAP_Ugaki_Kazu_Shige = {
 		name = JAP_Ugaki_Kazu_Shige
 		portraits = {
 			civilian = {
-				large = GFX_portrait_JAP_Ugaki_Kazu_Shige
+				large = GFX_portrait_JAP_Ugaki_Kazushige
 			}
 		}
 		country_leader = {
-			ideology = conservatism
-			desc = Ugaki_Kazu_Shige_desc
+			ideology = conservatism_generic
+			desc = JAP_Ugaki_Kazushige_desc
 		}
 	}
 }
