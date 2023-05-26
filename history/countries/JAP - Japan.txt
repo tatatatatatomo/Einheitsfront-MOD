@@ -1477,12 +1477,5 @@ if = {
 			}
 		}	
 	}
-	create_country_leader = {
-	name = "uzi"
-	desc = ""
-	picture = "gfx\leaders\JAP\Portrait_Japan_Ugaki_Kazu_Shige.dds"
-	expire = "1936.1.1"
-	ideology = conservatism 
-	traits = {}
-}
+	
 	

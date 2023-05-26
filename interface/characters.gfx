@@ -75,4 +75,9 @@ spriteTypes = {
 		name = GFX_portrait_SOV_mikhail_tukhachevsky
 		textureFile = gfx/leaders/SOV/mikhail_tukhachevsky.png
 	}
+	#日本帝国の国家元首たち
+	spriteType = {
+		name = GFX_portrait_JAP_Ugaki_Kazu_Shige
+		textureFile = gfx/leaders/JAP/Portrait_Japan_Ugaki_Kazu_Shige.dds
+	}
 }
