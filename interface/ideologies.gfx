@@ -17,10 +17,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/national_socialism/national_syndicalism.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_corporatism"
-		texturefile = "gfx/interface/ideologies/national_socialism/corporatism.png"
-	}
-	spriteType = {
 		name = "GFX_ideology_national_bolshevism"
 		texturefile = "gfx/interface/ideologies/national_socialism/national_bolshevism.png"
 	}
