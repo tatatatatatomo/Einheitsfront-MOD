@@ -164,6 +164,16 @@ set_research_slots = 4
 set_convoys = 0
 set_stability = 0.7
 set_war_support = 0.8
+#国家元首級キャラクター達
+recruit_character = GER_gregor_strasser
+recruit_character = GER_karl_radek
+recruit_character = GER_heinrich_brandler
+recruit_character = GER_karl_kautsky
+recruit_character = GER_rosa_luxemburg
+recruit_character = GER_otto_ruhle
+recruit_character = GER_hermann_muller
+recruit_character = GER_koch_weser
+recruit_character = GER_heinrich_bruning
 set_politics = {
 	ruling_party = popular_socialism
 	last_election = "1932.7.5"
@@ -180,28 +190,8 @@ set_popularities = {
 	conservatism = 10
 }
 
-#国家元首級キャラクター達
-recruit_character = GER_gregor_strasser
-recruit_character = GER_karl_radek
-recruit_character = GER_heinrich_brandler
-recruit_character = GER_karl_kautsky
-recruit_character = GER_rosa_luxemburg
-recruit_character = GER_otto_ruhle
-recruit_character = GER_hermann_muller
-recruit_character = GER_koch_weser
-recruit_character = GER_heinrich_bruning
 add_ideas = {
 	volunteer_only
 	export_focus
 	civilian_economy
 }
-
-#create_country_leader = {
-#	name = "しれーかんさん"
-#	desc = "今やドイツはアメリカの占領下にある。"
-#	picture = "gfx/leaders/USA/Portrait_しれーかんさん.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {		
-#	}
-#}

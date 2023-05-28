@@ -20,6 +20,10 @@ spriteTypes = {
 		name = "GFX_ideology_national_bolshevism"
 		texturefile = "gfx/interface/ideologies/national_socialism/national_bolshevism.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_kita_ikki_thought"
+		texturefile = "gfx/interface/ideologies/national_socialism/kita_ikki_thought.png"
+	}
 	#ここから前衛社会主義
 	spriteType = {
 		name = "GFX_ideology_vanguard_socialism_group"
@@ -62,6 +66,10 @@ spriteTypes = {
 		name = "GFX_ideology_council_communism"
 		texturefile = "gfx/interface/ideologies/popular_socialism/council_communism.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_new_democracy"
+		texturefile = "gfx/interface/ideologies/popular_socialism/new_democracy.png"
+	}
 	#ここから修正社会主義
 	spriteType = {
 		name = "GFX_ideology_revisionist_socialism_group"
@@ -82,6 +90,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_bukharinism"
 		texturefile = "gfx/interface/ideologies/revisionist_socialism/bukharinism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_anarchism"
+		texturefile = "gfx/interface/ideologies/revisionist_socialism/anarchism.png"
 	}
 	#ここから進歩主義
 	spriteType = {

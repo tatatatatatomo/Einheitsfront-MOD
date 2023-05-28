@@ -1,6 +1,6 @@
 characters = {
-	JAP_Ugaki_Kazu_Shige = {
-		name = JAP_Ugaki_Kazu_Shige
+	JAP_Ugaki_Kazushige = {
+		name = JAP_Ugaki_Kazushige
 		portraits = {
 			civilian = {
 				large = GFX_portrait_JAP_Ugaki_Kazushige
@@ -9,6 +9,162 @@ characters = {
 		country_leader = {
 			ideology = conservatism_generic
 			desc = JAP_Ugaki_Kazushige_desc
+		}
+	}
+	JAP_Abe_Isoo = {
+		name = JAP_Abe_Isoo
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_Abe_Isoo
+			}
+		}
+		country_leader = {
+			ideology = social_patriotism
+			desc = JAP_Abe_Isoo_desc
+		}
+	}
+	JAP_Machida_Chuuji = {
+		name = JAP_Machida_Chuuji
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_Machida_Chuuji
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			desc = JAP_Machida_Chuuji_desc
+		}
+	}
+	JAP_Hatoyama_Ichiro = {
+		name = JAP_Hatoyama_Ichiro
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_Hatoyama_Ichiro
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			desc = JAP_Hatoyama_Ichiro_desc
+		}
+	}
+	JAP_Asoo_Hisashi = {
+		name = JAP_Asoo_Hisashi
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_Asoo_Hisashi
+			}
+		}
+		country_leader = {
+			ideology = social_democracy
+			desc = JAP_Asoo_Hisashi_desc
+		}
+	}
+	JAP_Araki_Sadao = {
+		name = JAP_Araki_Sadao
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_Araki_Sadao
+			}
+		}
+		country_leader = {
+			ideology = ultramilitarism
+			desc = JAP_Araki_Sadao_desc
+		}
+	}
+	JAP_Ishihara_Kanzi = {
+		name = JAP_Ishihara_Kanzi
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_Ishihara_Kanzi
+			}
+		}
+		country_leader = {
+			ideology = fundamentalism
+			desc = JAP_Ishihara_Kanzi_desc
+		}
+	}
+	JAP_Kita_Ikki = {
+		name = JAP_Kita_Ikki
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_Kita_Ikki
+			}
+		}
+		country_leader = {
+			ideology = kita_ikki_thought
+			desc = JAP_Kita_Ikki_desc
+		}
+	}
+	JAP_Asanuma_Inajiro = {
+		name = JAP_Asanuma_Inajiro
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_Asanuma_Inajiro
+			}
+		}
+		country_leader = {
+			ideology = social_democracy
+			desc = JAP_Asanuma_Inajiro_desc
+		}
+	}
+	JAP_Akao_Bin = {
+		name = JAP_Akao_Bin
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_Akao_Bin
+			}
+		}
+		country_leader = {
+			ideology = national_bolshevism
+			desc = JAP_Akao_Bin_desc
+		}
+	}
+	JAP_Suzuki_Mosaburo = {
+		name = JAP_Suzuki_Mosaburo
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_Suzuki_Mosaburo
+			}
+		}
+		country_leader = {
+			ideology = popular_socialism_generic
+			desc = JAP_Suzuki_Mosaburo_desc
+		}
+	}
+	JAP_Tokuda_Kyuuichi = {
+		name = JAP_Tokuda_Kyuuichi
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_Tokuda_Kyuuichi
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			desc = JAP_Tokuda_Kyuuichi_desc
+		}
+	}
+	JAP_Sakisaka_Ituro = {
+		name = JAP_Sakisaka_Ituro
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_Sakisaka_Ituro
+			}
+		}
+		country_leader = {
+			ideology = trotskyism
+			desc = JAP_Sakisaka_Ituro_desc
+		}
+	}
+	JAP_Sano_Manabu = {
+		name = JAP_Sano_Manabu
+		portraits = {
+			civilian = {
+				large = GFX_portrait_JAP_Sano_Manabu
+			}
+		}
+		country_leader = {
+			ideology = bukharinism
+			desc = JAP_Sano_Manabu_desc
 		}
 	}
 }

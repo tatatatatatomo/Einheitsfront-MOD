@@ -12,6 +12,9 @@ ideologies = {
 			national_bolshevism = {
 				can_be_randomly_selected = no
 			}
+			kita_ikki_thought = {
+				can_be_randomly_selected = no
+			}
 		}
 		color = {
 			97
@@ -64,6 +67,9 @@ ideologies = {
 			council_communism = {
 				can_be_randomly_selected = no
 			}
+			new_democracy = {
+				can_be_randomly_selected = no
+			}
 		}
 		color = {
 			255
@@ -88,6 +94,9 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			bukharinism = {
+				can_be_randomly_selected = no
+			}
+			anarchism = {
 				can_be_randomly_selected = no
 			}
 		}
