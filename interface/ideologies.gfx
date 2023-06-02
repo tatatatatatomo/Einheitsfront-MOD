@@ -116,6 +116,10 @@ spriteTypes = {
 		name = "GFX_ideology_christian_progressivism"
 		texturefile = "gfx/interface/ideologies/progressivism/christian_progressivism.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_left_wing_populism"
+		texturefile = "gfx/interface/ideologies/progressivism/left_wing_populism.png"
+	}
 	#ここから自由主義
 	spriteType = {
 		name = "GFX_ideology_liberalism_group"

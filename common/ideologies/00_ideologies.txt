@@ -125,6 +125,9 @@ ideologies = {
 			christian_progressivism = {
 				can_be_randomly_selected = no
 			}
+			left_wing_populism = {
+				can_be_randomly_selected = no
+			}
 		}
 		color = {
 			194
