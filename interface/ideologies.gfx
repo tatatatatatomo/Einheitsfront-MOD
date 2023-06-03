@@ -196,6 +196,10 @@ spriteTypes = {
 		name = "GFX_ideology_absolute_monarchy"
 		texturefile = "gfx/interface/ideologies/despotism/absolute_monarchy.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_fascism"
+		texturefile = "gfx/interface/ideologies/despotism/fascism.png"
+	}
 	#ここから超国家主義
 	spriteType = {
 		name = "GFX_ideology_ultranationalism_group"
@@ -212,10 +216,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_integralism"
 		texturefile = "gfx/interface/ideologies/ultranationalism/integralism.png"
-	}
-	spriteType = {
-		name = "GFX_ideology_fascism"
-		texturefile = "gfx/interface/ideologies/ultranationalism/fascism.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_esoteric_racism"

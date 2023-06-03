@@ -226,6 +226,9 @@ ideologies = {
 			absolute_monarchy = {
 				can_be_randomly_selected = no
 			}
+			fascism = {
+				can_be_randomly_selected = no
+			}
 		}
 		color = {
 			142
@@ -247,9 +250,6 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			integralism = {
-				can_be_randomly_selected = no
-			}
-			fascism = {
 				can_be_randomly_selected = no
 			}
 			esoteric_racism = {
