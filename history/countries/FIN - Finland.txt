@@ -6,14 +6,14 @@ set_stability = 0.30
 set_war_support = 0.30
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = progressivism
 	last_election = "1935.7.5"
 	election_frequency = 48
 	elections_allowed = no
 
 }
 set_popularities = {
-	communism = 100
+	progressivism = 100
 }
 
 add_ideas = {

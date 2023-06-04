@@ -175,7 +175,7 @@ recruit_character = GER_hermann_muller
 recruit_character = GER_koch_weser
 recruit_character = GER_heinrich_bruning
 set_politics = {
-	ruling_party = popular_socialism
+	ruling_party = revisionist_socialism
 	last_election = "1932.7.5"
 	election_frequency = 48
 	elections_allowed = yes
@@ -184,10 +184,10 @@ set_politics = {
 set_popularities = {
 	national_socialism = 15
 	vanguard_socialism = 10
-	popular_socialism = 30
+	popular_socialism = 20
 	revisionist_socialism = 20
 	progressivism = 15
-	conservatism = 10
+	conservatism = 20
 }
 
 add_ideas = {

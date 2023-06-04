@@ -297,12 +297,12 @@ set_politics = {
 }
 
 set_popularities = {
-	ultranationalism = 25
+	ultranationalism = 15
 	conservatism = 15
 	liberalism = 15
 	progressivism = 20
 	revisionist_socialism = 15
-	national_socialism = 10
+	national_socialism = 20
 }
 
 if = {

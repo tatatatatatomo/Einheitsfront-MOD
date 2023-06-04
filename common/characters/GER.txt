@@ -44,7 +44,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = popular_socialism_generic
+			ideology = social_democracy
 			desc = GER_karl_kautsky_desc
 		}
 	}
