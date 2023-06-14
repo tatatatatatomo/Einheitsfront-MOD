@@ -24,7 +24,8 @@
 
  CZS_democratic:0 "チェコスロヴァキア"
 
-
+GER_conservatism:0 "ドイツ共和国"
+GER_conservatism_DEF:0 "ドイツ共和国"
  GER_fascism:0 "ドイツ"
  GER_fascism_DEF:0 "ドイツ"
  GER_democratic:0 "ドイツ共和国"
