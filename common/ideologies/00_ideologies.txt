@@ -15,6 +15,9 @@ ideologies = {
 			kita_ikki_thought = {
 				can_be_randomly_selected = no
 			}
+			monarcho_socialism = {
+				can_be_randomly_selected = no
+			}
 		}
 		color = {
 			97
@@ -200,6 +203,9 @@ ideologies = {
 			authoritarian_democracy = {
 				can_be_randomly_selected = no
 			}
+			semi_constitutional_monarchy = {
+				can_be_randomly_selected = no
+			}
 		}
 		color = {
 			110
@@ -252,10 +258,7 @@ ideologies = {
 			integralism = {
 				can_be_randomly_selected = no
 			}
-			esoteric_racism = {
-				can_be_randomly_selected = no
-			}
-			fundamentalism = {
+			national_religionism = {
 				can_be_randomly_selected = no
 			}
 		}

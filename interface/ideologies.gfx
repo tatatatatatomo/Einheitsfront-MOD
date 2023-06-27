@@ -24,6 +24,10 @@ spriteTypes = {
 		name = "GFX_ideology_kita_ikki_thought"
 		texturefile = "gfx/interface/ideologies/national_socialism/kita_ikki_thought.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_monarcho_socialism"
+		texturefile = "gfx/interface/ideologies/national_socialism/national_socialism.png"
+	}
 	#ここから前衛社会主義
 	spriteType = {
 		name = "GFX_ideology_vanguard_socialism_group"
@@ -175,6 +179,10 @@ spriteTypes = {
 		name = "GFX_ideology_authoritarian_democracy"
 		texturefile = "gfx/interface/ideologies/paternalism/authoritarian_democracy.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_semi_constitutional_monarchy"
+		texturefile = "gfx/interface/ideologies/paternalism/semi-constitutional-monarchy.png"
+	}
 	#ここから専制主義
 	spriteType = {
 		name = "GFX_ideology_despotism_group"
@@ -218,11 +226,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/ultranationalism/integralism.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_esoteric_racism"
-		texturefile = "gfx/interface/ideologies/ultranationalism/esoteric_racism.png"
-	}
-	spriteType = {
-		name = "GFX_ideology_fundamentalism"
+		name = "GFX_ideology_national_religionism"
 		texturefile = "gfx/interface/ideologies/ultranationalism/fundamentalism.png"
 	}
 }
