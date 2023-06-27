@@ -162,6 +162,10 @@ spriteTypes = {
 		name = "GFX_ideology_right_wing_populism"
 		texturefile = "gfx/interface/ideologies/conservatism/right_wing_populism.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_agrarianism"
+		texturefile = "gfx/interface/ideologies/conservatism/agrarianism.png"
+	}
 	#ここから父権主義
 	spriteType = {
 		name = "GFX_ideology_paternalism_group"

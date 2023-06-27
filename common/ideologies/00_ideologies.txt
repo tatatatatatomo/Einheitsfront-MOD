@@ -180,6 +180,9 @@ ideologies = {
 			right_wing_populism = {
 				can_be_randomly_selected = no
 			}
+			agrarianism = {
+				can_be_randomly_selected = no
+			}
 		}
 		color = {
 			0
