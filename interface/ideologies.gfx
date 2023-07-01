@@ -26,7 +26,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_ideology_monarcho_socialism"
-		texturefile = "gfx/interface/ideologies/national_socialism/national_socialism.png"
+		texturefile = "gfx/interface/ideologies/national_socialism/monarcho_socialism.png"
 	}
 	#ここから前衛社会主義
 	spriteType = {
@@ -231,6 +231,6 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_ideology_national_religionism"
-		texturefile = "gfx/interface/ideologies/ultranationalism/fundamentalism.png"
+		texturefile = "gfx/interface/ideologies/ultranationalism/national_religionism.png"
 	}
 }
