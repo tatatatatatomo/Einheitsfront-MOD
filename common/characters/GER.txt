@@ -108,4 +108,16 @@ characters = {
 			desc = GER_heinrich_bruning_desc
 		}
 	}
+	GER_otto_strasser = {
+		name = GER_otto_strasser
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_otto_strasser
+			}
+		}
+		country_leader = {
+			ideology = christian_democracy
+			desc = GER_otto_strasser_desc
+		}
+	}
 }

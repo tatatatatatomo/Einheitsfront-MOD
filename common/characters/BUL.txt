@@ -1,0 +1,133 @@
+characters = {
+	BUL_alexander_kazembek = {
+		name = BUL_alexander_kazembek
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_alexander_kazembek
+			}
+		}
+		country_leader = {
+			ideology = monarcho_socialism
+			desc = BUL_alexander_kazembek_desc
+		}
+	}
+	BUL_Georgi_Dimitrov = {
+		name = BUL_Georgi_Dimitrov
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_Georgi_Dimitrov
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			desc = BUL_Georgi_Dimitrov_desc
+		}
+	}
+	BUL_Aleksandar_Stamboliyski = {
+		name = BUL_Aleksandar_Stamboliyski
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_Aleksandar_Stamboliyski
+			}
+		}
+		country_leader = {
+			ideology = agrarian_socialism
+			desc = BUL_Aleksandar_Stamboliyski_desc
+		}
+	}
+	BUL_Aleksandar_Tsankov = {
+		name = BUL_Aleksandar_Tsankov
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_Aleksandar_Tsankov
+			}
+		}
+		country_leader = {
+			ideology = national_liberalism
+			desc = BUL_Aleksandar_Tsankov_desc
+		}
+	}
+	BUL_boris_the_3rd = {
+		name = BUL_boris_the_3rd
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_boris_the_3rd
+			}
+		}
+		country_leader = {
+			ideology = semi_constitutional_monarchy
+			desc = BUL_boris_the_3rd_desc
+		}
+	}
+	BUL_Pyotr_Wrangel = {
+		name = BUL_Pyotr_Wrangel
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_Pyotr_Wrangel
+			}
+		}
+		country_leader = {
+			ideology = despotism_generic
+			desc = BUL_Pyotr_Wrangel_desc
+		}
+	}
+	BUL_Hristo_Lukov = {
+		name = BUL_Hristo_Lukov
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_Hristo_Lukov
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_generic
+			desc = BUL_Hristo_Lukov_desc
+		}
+	}
+	BUL_Kimon_Georgiev = {
+		name = BUL_Kimon_Georgiev
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_Kimon_Georgiev
+			}
+		}
+		country_leader = {
+			ideology = civil_despot
+			desc = BUL_Kimon_Georgiev_desc
+		}
+	}
+	BUL_Kirill_Romanov = {
+		name = BUL_Kirill_Romanov
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_Kirill_Romanov
+			}
+		}
+		country_leader = {
+			ideology = monarcho_socialism
+			desc = BUL_Kirill_Romanov_desc
+		}
+	}
+	BUL_Vladimir_Romanov = {
+		name = BUL_Vladimir_Romanov
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_Vladimir_Romanov
+			}
+		}
+		country_leader = {
+			ideology = monarcho_socialism
+			desc = BUL_Vladimir_Romanov_desc
+		}
+	}
+	BUL_Dmitri_Romanov = {
+		name = BUL_Dmitri_Romanov
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BUL_Dmitri_Romanov
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy
+		}
+	}
+}

@@ -115,7 +115,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_bolshevism
+			ideology = monarcho_socialism
 			desc = JAP_Akao_Bin_desc
 		}
 	}

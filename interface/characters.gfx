@@ -40,6 +40,10 @@ spriteTypes = {
 		name = GFX_portrait_GER_heinrich_bruning
 		textureFile = gfx/leaders/GER/Heinrich_Bruning.png
 	}
+	spriteType = {
+		name = GFX_portrait_GER_otto_strasser
+		textureFile = gfx/leaders/GER/otto_strasser.png
+	}
 	#ドイツのその他人物
 	spriteType = {
 		name = GFX_portrait_GER_paul_levi
@@ -131,5 +135,50 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_portrait_JAP_Sano_Manabu
 		textureFile = gfx/leaders/JAP/Sano_Manabu.png
+	}
+	#ブルガリアの国家元首
+	spriteType = {
+		name = GFX_portrait_BUL_alexander_kazembek
+		textureFile = gfx/leaders/BUL/alexander_kazembek.png
+	}
+	spriteType = {
+		name = GFX_portrait_BUL_Georgi_Dimitrov
+		textureFile = gfx/leaders/BUL/Georgi_Dimitrov.png
+	}
+	spriteType = {
+		name = GFX_portrait_BUL_Aleksandar_Stamboliyski
+		textureFile = gfx/leaders/BUL/Aleksandar_Stamboliyski.png
+	}
+	spriteType = {
+		name = GFX_portrait_BUL_Aleksandar_Tsankov
+		textureFile = gfx/leaders/BUL/Aleksandar_Tsankov.png
+	}
+	spriteType = {
+		name = GFX_portrait_BUL_boris_the_3rd
+		textureFile = gfx/leaders/BUL/boris_the_3rd.png
+	}
+	spriteType = {
+		name = GFX_portrait_BUL_Pyotr_Wrangel
+		textureFile = gfx/leaders/BUL/Pyotr_Wrangel.png
+	}
+	spriteType = {
+		name = GFX_portrait_BUL_Hristo_Lukov
+		textureFile = gfx/leaders/BUL/Hristo_Lukov.png
+	}
+	spriteType = {
+		name = GFX_portrait_BUL_Kimon_Georgiev
+		textureFile = gfx/leaders/BUL/Kimon_Georgiev.png
+	}
+	spriteType = {
+		name = GFX_portrait_BUL_Kirill_Romanov
+		textureFile = gfx/leaders/BUL/Kirill_Romanov.png
+	}
+	spriteType = {
+		name = GFX_portrait_BUL_Vladimir_Romanov
+		textureFile = gfx/leaders/BUL/Vladimir_Romanov.png
+	}
+	spriteType = {
+		name = GFX_portrait_BUL_Dmitri_Romanov
+		textureFile = gfx/leaders/BUL/Dmitri_Romanov.png
 	}
 }
