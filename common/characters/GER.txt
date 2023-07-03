@@ -24,6 +24,18 @@ characters = {
 			desc = GER_karl_radek_desc
 		}
 	}
+	GER_Ruth_Fischer = {
+		name = GER_Ruth_Fischer
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_Ruth_Fischer
+			}
+		}
+		country_leader = {
+			ideology = trotskyism
+			desc = GER_Ruth_Fischer_desc
+		}
+	}
 	GER_heinrich_brandler = {
 		name = GER_heinrich_brandler
 		portraits = {

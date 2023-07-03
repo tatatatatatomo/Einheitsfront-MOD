@@ -9,6 +9,10 @@ spriteTypes = {
 		textureFile = gfx/leaders/GER/karl_radek.png
 	}
 	spriteType = {
+		name = GFX_portrait_GER_Ruth_Fischer
+		textureFile = gfx/leaders/GER/Ruth_Fischer.png
+	}
+	spriteType = {
 		name = GFX_portrait_GER_heinrich_brandler
 		textureFile = gfx/leaders/GER/brandler.png
 	}

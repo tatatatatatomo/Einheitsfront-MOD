@@ -168,6 +168,7 @@ set_war_support = 0.8
 recruit_character = GER_gregor_strasser
 recruit_character = GER_karl_radek
 recruit_character = GER_heinrich_brandler
+recruit_character = GER_Ruth_Fischer
 recruit_character = GER_karl_kautsky
 recruit_character = GER_rosa_luxemburg
 recruit_character = GER_otto_ruhle
