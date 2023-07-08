@@ -32,8 +32,32 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_conservatism
+			ideology = national_socialism_generic
 			desc = POL_roman_dmowski_desc
+		}
+	}
+	POL_Roman_Rybarski = {
+		name = POL_Roman_Rybarski
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POL_Roman_Rybarski
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			desc = POL_Roman_Rybarski_desc
+		}
+	}
+	POL_Bolesław_Piasecki = {
+		name = POL_Bolesław_Piasecki
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POL_Bolesław_Piasecki
+			}
+		}
+		country_leader = {
+			ideology = national_religionism
+			desc = POL_Bolesław_Piasecki_desc
 		}
 	}
 }

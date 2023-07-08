@@ -2503,4 +2503,29 @@ spriteTypes = {
 		name = "GFX_ger_third_way"
 		texturefile = "gfx/interface/goals/GER_third_way.png"
 	}
+	#ここから国家社会主義
+	spriteType = {
+		name = "GFX_focus_national_socialism_generic"
+		texturefile = "gfx/interface/ideologies/national_socialism/national_socialism.png"
+	}
+	spriteType = {
+		name = "GFX_focus_strasserism"
+		texturefile = "gfx/interface/ideologies/national_socialism/strasserism.png"
+	}
+	spriteType = {
+		name = "GFX_focus_national_syndicalism"
+		texturefile = "gfx/interface/ideologies/national_socialism/national_syndicalism.png"
+	}
+	spriteType = {
+		name = "GFX_focus_national_bolshevism"
+		texturefile = "gfx/interface/ideologies/national_socialism/national_bolshevism.png"
+	}
+	spriteType = {
+		name = "GFX_focus_kita_ikki_thought"
+		texturefile = "gfx/interface/ideologies/national_socialism/kita_ikki_thought.png"
+	}
+	spriteType = {
+		name = "GFX_focus_monarcho_socialism"
+		texturefile = "gfx/interface/ideologies/national_socialism/monarcho_socialism.png"
+	}
 }

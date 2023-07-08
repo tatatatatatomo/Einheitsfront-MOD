@@ -1,0 +1,625 @@
+#祖国戦線以外のブルガリアのNFです。
+focus_tree = {
+	id = BUL_focus
+	country = {
+		base = 0
+		modifier = {
+			add = 60
+			tag = BUL
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 100
+		y = 2000
+	}
+	#ここから政治ツリー
+	focus = {
+		id = BUL_focus_national_crisis
+		icon = "GFX_focus_BUL_oppose_the_royal_dictatorship"
+		x = 6
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ここから内戦確定するかどうかの分岐
+	focus = {
+		id = BUL_focus_just_by_ourselves
+		icon = "GFX_focus_BUL_consolidate_the_third_bulgarian_state"
+		prerequisite = {
+			focus = BUL_focus_national_crisis
+		}
+		relative_position_id = BUL_focus_national_crisis
+		mutually_exclusive = {
+			focus = BUL_focus_along_with_partners
+		}
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_along_with_partners
+		icon = "GFX_goal_generic_military_deal"
+		prerequisite = {
+			focus = BUL_focus_national_crisis
+		}
+		relative_position_id = BUL_focus_national_crisis
+		mutually_exclusive = {
+			focus = BUL_focus_just_by_ourselves
+		}
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#タルノヴォ憲法ルート
+	focus = {
+		id = BUL_focus_Tarnovo_constitution
+		icon = "GFX_focus_hol_the_foundations_of_defense"
+		prerequisite = {
+			focus = BUL_focus_just_by_ourselves
+			focus = BUL_focus_along_with_partners
+		}
+		relative_position_id = BUL_focus_just_by_ourselves
+		mutually_exclusive = {
+			focus = BUL_focus_royalist_government
+			focus = BUL_focus_national_region
+		}
+		x = -3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#農民同盟ルート
+	focus = {
+		id = BUL_focus_agrarian_union
+		icon = "GFX_focus_SOV_breadbasket_of_the_union"
+		prerequisite = {
+			focus = BUL_focus_Tarnovo_constitution
+		}
+		relative_position_id = BUL_focus_Tarnovo_constitution
+		mutually_exclusive = {
+			focus = BUL_focus_constitutional_bloc
+		}
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_crush_the_rightists
+		icon = "GFX_focus_BUL_destroy_the_zveno"
+		prerequisite = {
+			focus = BUL_focus_agrarian_union
+		}
+		relative_position_id = BUL_focus_agrarian_union
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_kick_russians_out
+		icon = "GFX_focus_SOV_military_purge"
+		prerequisite = {
+			focus = BUL_focus_crush_the_rightists
+		}
+		relative_position_id = BUL_focus_crush_the_rightists
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_ally_with_demsoc
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = BUL_focus_kick_russians_out
+		}
+		relative_position_id = BUL_focus_kick_russians_out
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_our_new_republic
+		icon = "GFX_focus_BUL_promote_bulgarian_nationalism"
+		prerequisite = {
+			focus = BUL_focus_ally_with_demsoc
+		}
+		relative_position_id = BUL_focus_ally_with_demsoc
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#立憲ブロックルート
+	focus = {
+		id = BUL_focus_constitutional_bloc
+		icon = "GFX_goal_support_democracy"
+		prerequisite = {
+			focus = BUL_focus_Tarnovo_constitution
+		}
+		relative_position_id = BUL_focus_Tarnovo_constitution
+		mutually_exclusive = {
+			focus = BUL_focus_agrarian_union
+		}
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_negotiate_with_military
+		icon = "GFX_focus_generic_military_mission"
+		prerequisite = {
+			focus = BUL_focus_constitutional_bloc
+		}
+		relative_position_id = BUL_focus_constitutional_bloc
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_naturalize_white_army
+		icon = "GFX_focus_SOV_restore_cossack_units"
+		prerequisite = {
+			focus = BUL_focus_negotiate_with_military
+		}
+		relative_position_id = BUL_focus_negotiate_with_military
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_peoples_kingdom
+		icon = "GFX_goal_generic_national_unity"
+		prerequisite = {
+			focus = BUL_focus_naturalize_white_army
+		}
+		relative_position_id = BUL_focus_naturalize_white_army
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_our_kingdom
+		icon = "GFX_focus_generic_monarchy_2"
+		prerequisite = {
+			focus = BUL_focus_peoples_kingdom
+		}
+		relative_position_id = BUL_focus_peoples_kingdom
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#王政ルート
+	focus = {
+		id = BUL_focus_royalist_government
+		icon = "GFX_focus_generic_monarchy_1"
+		prerequisite = {
+			focus = BUL_focus_just_by_ourselves
+			focus = BUL_focus_along_with_partners
+		}
+		relative_position_id = BUL_focus_just_by_ourselves
+		mutually_exclusive = {
+			focus = BUL_focus_Tarnovo_constitution
+			focus = BUL_focus_national_region
+		}
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_change_of_course
+		icon = "GFX_focus_rom_royal_dictatorship"
+		prerequisite = {
+			focus = BUL_focus_royalist_government
+		}
+		relative_position_id = BUL_focus_royalist_government
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_fate_of_kingdom
+		icon = "GFX_focus_SOV_zemsky_sobor"
+		prerequisite = {
+			focus = BUL_focus_change_of_course
+		}
+		relative_position_id = BUL_focus_change_of_course
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ボリス続投・権限強化ルート
+	focus = {
+		id = BUL_focus_our_king_boris
+		icon = "GFX_focus_BUL_power_to_the_tsar"
+		prerequisite = {
+			focus = BUL_focus_fate_of_kingdom
+		}
+		relative_position_id = BUL_focus_fate_of_kingdom
+		mutually_exclusive = {
+			focus = BUL_focus_russians_strike
+		}
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_negotiate_with_democrats
+		icon = "GFX_focus_usa_voter_registration_act"
+		prerequisite = {
+			focus = BUL_focus_our_king_boris
+		}
+		relative_position_id = BUL_focus_our_king_boris
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_appoint_new_PM
+		icon = "GFX_goal_tfv_strengthen_commonwealth_ties"
+		prerequisite = {
+			focus = BUL_focus_negotiate_with_democrats
+		}
+		relative_position_id = BUL_focus_negotiate_with_democrats
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rejuvenate_bulgaria
+		icon = "GFX_focus_generic_befriend_bulgaria"
+		prerequisite = {
+			focus = BUL_focus_appoint_new_PM
+		}
+		relative_position_id = BUL_focus_appoint_new_PM
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ロマノフ朝ブルガリアルート
+	focus = {
+		id = BUL_focus_russians_strike
+		icon = "GFX_focus_SOV_the_glory_of_the_red_army_alternative"
+		prerequisite = {
+			focus = BUL_focus_fate_of_kingdom
+		}
+		relative_position_id = BUL_focus_fate_of_kingdom
+		mutually_exclusive = {
+			focus = BUL_focus_our_king_boris
+		}
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_romanovs_kingdom
+		icon = "GFX_focus_SOV_the_true_tsars"
+		prerequisite = {
+			focus = BUL_focus_russians_strike
+		}
+		relative_position_id = BUL_focus_russians_strike
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ここからムラドロッシルート
+	focus = {
+		id = BUL_focus_mladorossi
+		icon = "GFX_focus_monarcho_socialism"
+		prerequisite = {
+			focus = BUL_focus_romanovs_kingdom
+		}
+		relative_position_id = BUL_focus_romanovs_kingdom
+		mutually_exclusive = {
+			focus = BUL_focus_ROVS
+		}
+		x = -2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_tsar_and_soviets
+		icon = "GFX_goal_tfv_burn_the_royal_portraits"
+		prerequisite = {
+			focus = BUL_focus_mladorossi
+		}
+		relative_position_id = BUL_focus_mladorossi
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_binding_two_ends
+		icon = "GFX_focus_national_socialism_generic"
+		prerequisite = {
+			focus = BUL_focus_tsar_and_soviets
+		}
+		relative_position_id = BUL_focus_tsar_and_soviets
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ここでムラドロッシルート終了
+	#ここからロシア全軍連合ルート
+	focus = {
+		id = BUL_focus_ROVS
+		icon = "GFX_focus_SOV_the_glory_of_the_red_army_alternative"
+		prerequisite = {
+			focus = BUL_focus_romanovs_kingdom
+		}
+		relative_position_id = BUL_focus_romanovs_kingdom
+		mutually_exclusive = {
+			focus = BUL_focus_mladorossi
+		}
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_tsar_in_Sofia
+		icon = "GFX_focus_SOV_my_brothers_keeper"
+		prerequisite = {
+			focus = BUL_focus_ROVS
+		}
+		relative_position_id = BUL_focus_ROVS
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_god_save_the_tsar
+		icon = "GFX_focus_SOV_panslavic_nationalism"
+		prerequisite = {
+			focus = BUL_focus_tsar_in_Sofia
+		}
+		relative_position_id = BUL_focus_tsar_in_Sofia
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ここでロシア全軍連合ルート終了、以後ムラドロッシと共通
+	focus = {
+		id = BUL_focus_our_petrograd
+		icon = "GFX_focus_ger_strike_at_the_source"
+		prerequisite = {
+			focus = BUL_focus_binding_two_ends
+			focus = BUL_focus_god_save_the_tsar
+		}
+		relative_position_id = BUL_focus_binding_two_ends
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#国家軍団ルート
+	focus = {
+		id = BUL_focus_national_region
+		icon = "GFX_focus_BUL_bulgarian_administration_of_the_balkans"
+		prerequisite = {
+			focus = BUL_focus_just_by_ourselves
+			focus = BUL_focus_along_with_partners
+		}
+		relative_position_id = BUL_focus_just_by_ourselves
+		mutually_exclusive = {
+			focus = BUL_focus_Tarnovo_constitution
+			focus = BUL_focus_royalist_government
+		}
+		x = 4
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_form_regency_council
+		icon = "GFX_focus_BUL_form_a_regency_council"
+		prerequisite = {
+			focus = BUL_focus_national_region
+		}
+		relative_position_id = BUL_focus_national_region
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_advocate_nationalism
+		icon = "GFX_focus_BUL_guardians_of_the_balkans"
+		prerequisite = {
+			focus = BUL_focus_form_regency_council
+		}
+		relative_position_id = BUL_focus_form_regency_council
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_consolidate_the_nation
+		icon = "GFX_focus_generic_diplomatic_treaty"
+		prerequisite = {
+			focus = BUL_focus_advocate_nationalism
+		}
+		relative_position_id = BUL_focus_advocate_nationalism
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_third_BUL_empire
+		icon = "GFX_focus_BUL_the_third_bulgarian_empire"
+		prerequisite = {
+			focus = BUL_focus_consolidate_the_nation
+		}
+		relative_position_id = BUL_focus_consolidate_the_nation
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+}

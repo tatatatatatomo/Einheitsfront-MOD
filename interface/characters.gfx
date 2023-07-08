@@ -66,6 +66,14 @@ spriteTypes = {
 		name = GFX_portrait_POL_roman_dmowski
 		textureFile = gfx/leaders/POL/Portrait_Poland_Roman_Dmowski.dds
 	}
+	spriteType = {
+		name = GFX_portrait_POL_Roman_Rybarski
+		textureFile = gfx/leaders/POL/Roman_Rybarski.png
+	}
+	spriteType = {
+		name = GFX_portrait_POL_Bolesław_Piasecki
+		textureFile = gfx/leaders/POL/Bolesław_Piasecki.png
+	}
 	#ロシア（ソ連）の国家元首たち
 	spriteType = {
 		name = GFX_portrait_SOV_nikolai_bukharin
