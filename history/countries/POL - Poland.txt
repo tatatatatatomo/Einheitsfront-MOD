@@ -6,6 +6,8 @@ set_war_support = 0.3
 recruit_character = POL_felix_dzerzhinski
 recruit_character = POL_gabriel_nartovich
 recruit_character = POL_roman_dmowski
+recruit_character = POL_Roman_Rybarski
+recruit_character = POL_Bolesław_Piasecki
 set_politics = {
 	ruling_party = popular_socialism
 	last_election = "1932.7.5"
@@ -16,7 +18,7 @@ set_politics = {
 set_popularities = {
 	popular_socialism = 45
 	progressivism = 30
-	conservatism = 25
+	national_socialism = 25
 }
 
 oob = "POL_1936"

@@ -549,7 +549,7 @@ focus_tree = {
 			focus = BUL_focus_Tarnovo_constitution
 			focus = BUL_focus_royalist_government
 		}
-		x = 4
+		x = 5
 		y = 1
 		cost = 10
 		ai_will_do = {

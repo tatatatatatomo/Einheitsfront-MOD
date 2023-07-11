@@ -1,0 +1,67 @@
+capital = 48
+#TROOPS
+oob = "BUL_1936"
+if = {
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	set_air_oob = "BUL_1936_air_bba"
+	else = {
+		set_air_oob = "BUL_1936_air_legacy"
+	}
+}
+
+set_convoys = 5
+set_stability = 0.4
+set_war_support = 0.3
+recruit_character = BUL_alexander_kazembek
+recruit_character = BUL_Georgi_Dimitrov
+recruit_character = BUL_Aleksandar_Stamboliyski
+recruit_character = BUL_Aleksandar_Tsankov
+recruit_character = BUL_boris_the_3rd
+recruit_character = BUL_Kimon_Georgiev
+recruit_character = BUL_Hristo_Lukov
+recruit_character = BUL_Pyotr_Wrangel
+recruit_character = BUL_Kirill_Romanov
+recruit_character = BUL_Vladimir_Romanov
+recruit_character = BUL_Dmitri_Romanov
+set_politics = {
+	ruling_party = revisionist_socialism
+	last_election = "1932.7.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	vanguard_socialism = 20
+	popular_socialism = 8
+	revisionist_socialism = 25
+	progressivism = 2
+	liberalism = 15
+	paternalism = 10
+	despotism = 15
+	ultranationalism = 5
+}
+
+set_research_slots = 3
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	fuel_silos = 1
+	basic_train = 1
+	tech_mountaineers = 1
+}
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "By Blood Alone"
+		}
+	}
+	set_technology = {
+		early_fighter = 1
+	}
+}
