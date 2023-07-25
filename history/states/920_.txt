@@ -4,8 +4,11 @@ state = {
 	state_category=wasteland
 	manpower = 6607
 	history = {
-		owner = TOR
+		owner = ITA
 		add_core_of = LBA
+		buildings = {
+			infrastructure = 1
+		}
 		
 		
 	}

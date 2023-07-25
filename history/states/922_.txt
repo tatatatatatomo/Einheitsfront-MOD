@@ -1,12 +1,15 @@
 state = {
 	id = 922
 	name="STATE_922"
-	state_category=wasteland
+	state_category=city
 	manpower = 2520975
 	history = {
 		owner = SOV
 		add_core_of = POL
 		add_core_of = UKR
+		buildings = {
+			infrastructure = 2
+		}
 		
 		victory_points = {
 			11479 3

@@ -4,8 +4,11 @@ state = {
 	state_category=town
 	manpower = 812000
 	history = {
-		owner = PDS
+		owner = FRA
 		add_core_of = GER
+		buildings = {
+			infrastructure = 4
+		}
 		victory_points = {
 			11531 5
 		}

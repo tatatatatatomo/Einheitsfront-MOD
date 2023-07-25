@@ -4,9 +4,11 @@ state = {
 	state_category=rural
 	manpower=30000
 	history = {
-		owner = GER
+		owner = DEN
 		add_core_of = GER
-		
+		buildings = {
+			infrastructure = 2
+		}
 		
 	}
 	provinces = {

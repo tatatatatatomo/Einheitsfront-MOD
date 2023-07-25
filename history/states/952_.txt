@@ -1,0 +1,24 @@
+
+state={
+	id=952
+	name="STATE_952"	#ジラン
+	manpower = 1
+	
+	state_category = rural
+
+	history={
+		owner = YUG
+		add_core_of = YUG
+		add_core_of = MAC
+		add_core_of = COS
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		9890 
+	}
+
+	local_supplies=11.0 
+}

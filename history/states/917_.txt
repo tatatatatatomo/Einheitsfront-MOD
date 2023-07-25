@@ -5,7 +5,7 @@ state = {
 	manpower = 6090
 	impassable = yes
 	history = {
-		owner = ENG
+		owner = ITA
 		add_core_of = LBA
 		
 		

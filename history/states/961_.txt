@@ -1,0 +1,29 @@
+
+state={
+	id=961
+	name="STATE_961"
+	resources={
+	#	aluminium=9.000
+	}
+
+	history={
+		owner = SIT
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = NIT
+
+		victory_points = {
+			925 1 
+		}
+	}
+
+	provinces={
+		925 967 3885 6926 11861 
+	}
+	manpower=3202401
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

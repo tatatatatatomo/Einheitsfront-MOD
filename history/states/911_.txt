@@ -7,7 +7,11 @@ state = {
 		owner = ZHC
 		add_core_of = CHI
 		add_core_of = ZHC
-		
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+		}
 		
 		victory_points = {
 			4619 5 

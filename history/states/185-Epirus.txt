@@ -13,12 +13,6 @@ state={
 
 	history={
 		victory_points = {
-			10203 1
-		}
-		victory_points = {
-			3914 3
-		}
-		victory_points = {
 			1205 1
 		}
 		owner = GRE
@@ -26,15 +20,12 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 			air_base = 3
-			9805 = {
-				naval_base = 1
-			}
 		}
 		add_core_of = GRE
 	}
 
 	provinces = {
-		841 1106 1205 3914 3980 9805 9837 9916 10203 11786 11895 12001 
+		1106 1205 3980 9916 11786 11895 12001 
 	}
 
 	local_supplies=9.0 

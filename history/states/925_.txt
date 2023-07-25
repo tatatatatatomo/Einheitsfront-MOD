@@ -6,7 +6,10 @@ state = {
 	history = {
 		owner = PDS
 		add_core_of = GER
-		
+		buildings = {
+			infrastructure = 4
+			
+		}
 	}
 	provinces = {
 		11560 

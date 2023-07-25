@@ -1,7 +1,7 @@
 state={
 	id=927
 	name="STATE_927" #south sudatenland
-	manpower = 1
+	manpower = 9000
 	
 	state_category = town
 	
@@ -10,7 +10,7 @@ state={
 	}
 	
 	history={
-		owner = POL
+		owner = SOV
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

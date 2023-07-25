@@ -4,9 +4,11 @@ state = {
 	state_category=wasteland
 	manpower = 20216
 	history = {
-		owner = SEC
+		owner = ITA
 		add_core_of = LBA
-		
+		buildings = {
+			infrastructure = 1
+		}
 		
 	}
 	provinces = {

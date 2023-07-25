@@ -1,0 +1,27 @@
+
+state={
+	id=936
+	name="STATE_936"
+	manpower = 1
+	resources={
+	}
+	
+	state_category=pastoral
+	
+	history={
+		owner = BUL
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = YUG
+		add_core_of = SER
+		add_claim_by = BUL
+
+	}
+
+	provinces={
+		11868 
+	}
+
+	local_supplies=0.0 
+}

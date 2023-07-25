@@ -8,7 +8,7 @@ state = {
 
 
 	history = {
-		owner = NIT
+		owner = CRO
 		victory_points = { #Fiume (Rijeka)
 			11564 1 
 		}
@@ -29,7 +29,7 @@ state = {
 	}
 
 	provinces = {
-		11564 11735
+		11564 
 	}
 
 	local_supplies = 0.0 

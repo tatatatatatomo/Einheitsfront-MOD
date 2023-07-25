@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = NIT
+		owner = SIT
 		victory_points = {
 			6606 3 
 		}
@@ -23,13 +23,10 @@ state={
 		}
 		add_core_of = NIT
 
-		victory_points = {
-			925 1 
-		}
 	}
 
 	provinces={
-		782 925 967 3773 3976 6606 6790 6793 6926 6985 9752 9924 11861 
+		782 6606 6793 6985 9924 
 	}
 	manpower=3202401
 	buildings_max_level_factor=1.000

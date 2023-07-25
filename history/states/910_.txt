@@ -7,6 +7,14 @@ state = {
 		owner = ENG
 		add_core_of = CHI
 		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			13257 = {
+				naval_base = 2
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
 		
 		victory_points = {
 			13257 5

@@ -1,0 +1,26 @@
+
+state={
+	id=933
+	name="STATE_933"
+	manpower = 1
+	resources={
+	}
+	
+	state_category = town
+	
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = YUG
+		add_core_of = BOS
+
+	}
+
+	provinces={
+		606 982 11741 
+	}
+
+	local_supplies=0.0 
+}

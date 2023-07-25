@@ -1,0 +1,23 @@
+
+state={
+	id=942
+	name="STATE_942" # Croatia
+	manpower = 1
+	
+	state_category = large_town
+
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = YUG
+		add_core_of = CRO
+	}
+
+	provinces={
+		6647 9595 11577 11580
+	}
+
+	local_supplies=0.0 
+}
