@@ -148,6 +148,11 @@ spriteTypes = {
 		name = GFX_portrait_JAP_Sano_Manabu
 		textureFile = gfx/leaders/JAP/Sano_Manabu.png
 	}
+	#フランスの国家元首
+	spriteType = {
+		name = GFX_portrait_FRA_Gaston_Doumergue
+		textureFile = gfx/leaders/FRA/Gaston_Doumergue.png
+	}
 	#ブルガリアの国家元首
 	spriteType = {
 		name = GFX_portrait_BUL_alexander_kazembek
