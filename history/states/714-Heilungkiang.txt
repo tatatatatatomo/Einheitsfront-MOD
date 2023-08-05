@@ -3,10 +3,15 @@ state={
 	name="STATE_714"
 
 	history={
-		owner = CHI
+		owner = MAN
 		add_core_of = CHI
-		add_core_of = MAN
 		add_core_of = PRC
+		add_core_of = YUN
+		add_core_of = MAN
+		add_core_of = ZHC
+		add_core_of = XSM
+		add_core_of = SZC
+		add_core_of = SIK
 		buildings = {
 			infrastructure = 2
 
