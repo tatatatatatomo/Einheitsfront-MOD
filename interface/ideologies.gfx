@@ -176,10 +176,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/paternalism/paternalism.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_corrupt_democracy"
-		texturefile = "gfx/interface/ideologies/paternalism/corrupt_democracy.png"
-	}
-	spriteType = {
 		name = "GFX_ideology_authoritarian_democracy"
 		texturefile = "gfx/interface/ideologies/paternalism/authoritarian_democracy.png"
 	}

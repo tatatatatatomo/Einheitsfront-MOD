@@ -200,9 +200,6 @@ ideologies = {
 		types = {
 			paternalism_generic = {
 			}
-			corrupt_democracy = {
-				can_be_randomly_selected = no
-			}
 			authoritarian_democracy = {
 				can_be_randomly_selected = no
 			}
