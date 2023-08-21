@@ -16,8 +16,8 @@ focus_tree = {
 	#ここから政治ツリー
 	focus = {
 		id = BUL_focus_national_crisis
-		icon = "GFX_focus_BUL_oppose_the_royal_dictatorship"
-		x = 6
+		icon = "GFX_focus_rom_abdicate"
+		x = 5
 		y = 0
 		cost = 10
 		ai_will_do = {
@@ -65,6 +65,165 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	#祖国戦線ルート
+	focus = {
+		id = BUL_focus_fatherland_front
+		icon = "GFX_focus_BUL_the_fatherland_front"
+		prerequisite = {
+			focus = BUL_focus_just_by_ourselves
+			focus = BUL_focus_along_with_partners
+		}
+		relative_position_id = BUL_focus_just_by_ourselves
+		mutually_exclusive = {
+			focus = BUL_focus_royalist_government
+			focus = BUL_focus_national_region
+			focus = BUL_focus_Tarnovo_constitution
+		}
+		x = -2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#共産党ルート　
+	focus = {
+		id = BUL_focus_our_revolution
+		icon = "GFX_focus_generic_join_comintern"
+		prerequisite = {
+			focus = BUL_focus_fatherland_front
+		}
+		relative_position_id = BUL_focus_fatherland_front
+		mutually_exclusive = {
+			focus = BUL_focus_our_nation
+		}
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_purge_threats
+		icon = "GFX_focus_BUL_destroy_the_zveno"
+		prerequisite = {
+			focus = BUL_focus_our_revolution
+		}
+		relative_position_id = BUL_focus_our_revolution
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_revolution_continues
+		icon = "GFX_focus_YUG_pan_slavic_congress"
+		prerequisite = {
+			focus = BUL_focus_purge_threats
+		}
+		relative_position_id = BUL_focus_purge_threats
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_proclaim_socrep
+		icon = "GFX_focus_BUL_the_peoples_republic_of_bulgaria"
+		prerequisite = {
+			focus = BUL_focus_revolution_continues
+		}
+		relative_position_id = BUL_focus_revolution_continues
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ズヴェノルート
+	focus = {
+		id = BUL_focus_our_nation
+		icon = "GFX_focus_BUL_cooperate_with_the_zveno"
+		prerequisite = {
+			focus = BUL_focus_fatherland_front
+		}
+		relative_position_id = BUL_focus_fatherland_front
+		mutually_exclusive = {
+			focus = BUL_focus_our_revolution
+		}
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_to_unify_yugoslav
+		icon = "GFX_focus_BUL_guardians_of_the_balkans"
+		prerequisite = {
+			focus = BUL_focus_our_nation
+		}
+		relative_position_id = BUL_focus_our_nation
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_end_revolution
+		icon = "GFX_goal_anti_comintern_pact"
+		prerequisite = {
+			focus = BUL_focus_to_unify_yugoslav
+		}
+		relative_position_id = BUL_focus_to_unify_yugoslav
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_yugoslav_prussia
+		icon = "GFX_focus_BUL_prussia_of_the_balkans"
+		prerequisite = {
+			focus = BUL_focus_end_revolution
+		}
+		relative_position_id = BUL_focus_end_revolution
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
 	#タルノヴォ憲法ルート
 	focus = {
 		id = BUL_focus_Tarnovo_constitution
@@ -77,8 +236,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = BUL_focus_royalist_government
 			focus = BUL_focus_national_region
+			focus = BUL_focus_fatherland_front
 		}
-		x = -3
+		x = 6
 		y = 1
 		cost = 10
 		ai_will_do = {
@@ -108,8 +268,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BUL_focus_crush_the_rightists
-		icon = "GFX_focus_BUL_destroy_the_zveno"
+		id = BUL_focus_retake_power
+		icon = "GFX_focus_generic_support_the_left_right"
 		prerequisite = {
 			focus = BUL_focus_agrarian_union
 		}
@@ -127,9 +287,9 @@ focus_tree = {
 		id = BUL_focus_kick_russians_out
 		icon = "GFX_focus_SOV_military_purge"
 		prerequisite = {
-			focus = BUL_focus_crush_the_rightists
+			focus = BUL_focus_retake_power
 		}
-		relative_position_id = BUL_focus_crush_the_rightists
+		relative_position_id = BUL_focus_retake_power
 		x = 0
 		y = 1
 		cost = 10
@@ -267,6 +427,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = BUL_focus_Tarnovo_constitution
 			focus = BUL_focus_national_region
+			focus = BUL_focus_fatherland_front
 		}
 		x = 1
 		y = 1
@@ -278,8 +439,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BUL_focus_change_of_course
-		icon = "GFX_focus_rom_royal_dictatorship"
+		id = BUL_focus_attempt_stabilization
+		icon = "GFX_goal_generic_neutrality_focus"
 		prerequisite = {
 			focus = BUL_focus_royalist_government
 		}
@@ -297,11 +458,11 @@ focus_tree = {
 		id = BUL_focus_fate_of_kingdom
 		icon = "GFX_focus_SOV_zemsky_sobor"
 		prerequisite = {
-			focus = BUL_focus_change_of_course
+			focus = BUL_focus_attempt_stabilization
 		}
-		relative_position_id = BUL_focus_change_of_course
+		relative_position_id = BUL_focus_attempt_stabilization
 		x = 0
-		y = 1
+		y = 3
 		cost = 10
 		ai_will_do = {
 			factor = 100
@@ -379,7 +540,7 @@ focus_tree = {
 	}
 	#ロマノフ朝ブルガリアルート
 	focus = {
-		id = BUL_focus_russians_strike
+		id = BUL_focus_a_new_monarch
 		icon = "GFX_focus_SOV_the_glory_of_the_red_army_alternative"
 		prerequisite = {
 			focus = BUL_focus_fate_of_kingdom
@@ -388,7 +549,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = BUL_focus_our_king_boris
 		}
-		x = -1
+		x = -2
 		y = 1
 		cost = 10
 		ai_will_do = {
@@ -401,11 +562,11 @@ focus_tree = {
 		id = BUL_focus_romanovs_kingdom
 		icon = "GFX_focus_SOV_the_true_tsars"
 		prerequisite = {
-			focus = BUL_focus_russians_strike
+			focus = BUL_focus_a_new_monarch
 		}
-		relative_position_id = BUL_focus_russians_strike
+		relative_position_id = BUL_focus_a_new_monarch
 		x = 0
-		y = 2
+		y = 1
 		cost = 10
 		ai_will_do = {
 			factor = 100
@@ -424,7 +585,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = BUL_focus_ROVS
 		}
-		x = -2
+		x = -1
 		y = 1
 		cost = 10
 		ai_will_do = {
@@ -434,7 +595,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BUL_focus_tsar_and_soviets
+		id = BUL_focus_greater_than_reaction
 		icon = "GFX_goal_tfv_burn_the_royal_portraits"
 		prerequisite = {
 			focus = BUL_focus_mladorossi
@@ -450,12 +611,12 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BUL_focus_binding_two_ends
-		icon = "GFX_focus_national_socialism_generic"
+		id = BUL_focus_better_than_rev
+		icon = "GFX_goal_generic_war_with_comintern"
 		prerequisite = {
-			focus = BUL_focus_tsar_and_soviets
+			focus = BUL_focus_greater_than_reaction
 		}
-		relative_position_id = BUL_focus_tsar_and_soviets
+		relative_position_id = BUL_focus_greater_than_reaction
 		x = 0
 		y = 1
 		cost = 10
@@ -477,7 +638,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = BUL_focus_mladorossi
 		}
-		x = 0
+		x = 1
 		y = 1
 		cost = 10
 		ai_will_do = {
@@ -487,8 +648,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BUL_focus_tsar_in_Sofia
-		icon = "GFX_focus_SOV_my_brothers_keeper"
+		id = BUL_focus_black_hundreds
+		icon = "GFX_focus_SOV_penal_battalions"
 		prerequisite = {
 			focus = BUL_focus_ROVS
 		}
@@ -503,12 +664,12 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BUL_focus_god_save_the_tsar
-		icon = "GFX_focus_SOV_panslavic_nationalism"
+		id = BUL_focus_to_retake_motherland
+		icon = "GFX_focus_SOV_the_defense_of_moscow"
 		prerequisite = {
-			focus = BUL_focus_tsar_in_Sofia
+			focus = BUL_focus_black_hundreds
 		}
-		relative_position_id = BUL_focus_tsar_in_Sofia
+		relative_position_id = BUL_focus_black_hundreds
 		x = 0
 		y = 1
 		cost = 10
@@ -521,12 +682,12 @@ focus_tree = {
 	#ここでロシア全軍連合ルート終了、以後ムラドロッシと共通
 	focus = {
 		id = BUL_focus_our_petrograd
-		icon = "GFX_focus_ger_strike_at_the_source"
+		icon = "GFX_focus_SOV_third_rome"
 		prerequisite = {
-			focus = BUL_focus_binding_two_ends
-			focus = BUL_focus_god_save_the_tsar
+			focus = BUL_focus_better_than_rev
+			focus = BUL_focus_to_retake_motherland
 		}
-		relative_position_id = BUL_focus_binding_two_ends
+		relative_position_id = BUL_focus_better_than_rev
 		x = 1
 		y = 1
 		cost = 10
@@ -548,8 +709,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = BUL_focus_Tarnovo_constitution
 			focus = BUL_focus_royalist_government
+			focus = BUL_focus_fatherland_front
 		}
-		x = 5
+		x = 3
 		y = 1
 		cost = 10
 		ai_will_do = {
@@ -575,8 +737,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BUL_focus_advocate_nationalism
-		icon = "GFX_focus_BUL_guardians_of_the_balkans"
+		id = BUL_focus_controlled_monarch
+		icon = "GFX_focus_rom_handle_king"
 		prerequisite = {
 			focus = BUL_focus_form_regency_council
 		}
@@ -591,12 +753,12 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BUL_focus_consolidate_the_nation
-		icon = "GFX_focus_generic_diplomatic_treaty"
+		id = BUL_focus_justice_served
+		icon = "GFX_focus_generic_strike_at_democracy1"
 		prerequisite = {
-			focus = BUL_focus_advocate_nationalism
+			focus = BUL_focus_controlled_monarch
 		}
-		relative_position_id = BUL_focus_advocate_nationalism
+		relative_position_id = BUL_focus_controlled_monarch
 		x = 0
 		y = 1
 		cost = 10
@@ -610,9 +772,9 @@ focus_tree = {
 		id = BUL_focus_third_BUL_empire
 		icon = "GFX_focus_BUL_the_third_bulgarian_empire"
 		prerequisite = {
-			focus = BUL_focus_consolidate_the_nation
+			focus = BUL_focus_justice_served
 		}
-		relative_position_id = BUL_focus_consolidate_the_nation
+		relative_position_id = BUL_focus_justice_served
 		x = 0
 		y = 1
 		cost = 10
