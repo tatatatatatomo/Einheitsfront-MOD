@@ -1,0 +1,57 @@
+ideas = {
+	country = {
+		BUL_NS_national_crisis = {
+			picture = bul_second_national_catastrophe
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.3
+				war_support_factor = -0.2
+				ultranationalism_drift = 0.2
+			}
+		}
+		BUL_NS_army_restiricted = {
+			picture = generic_army_problems
+			removal_cost = -1
+			modifier = {
+				conscription_factor = -0.5
+				production_speed_arms_factory_factor = -0.25
+			}
+			country_lock_all_division_template = yes
+		}
+		BUL_NS_boris_3 = {
+			picture = bul_tsar_boris_positive
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.2
+				war_support_factor = 0.05
+			}
+		}
+		BUL_NS_IMRO = {
+			picture = bul_imro
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = 0.1
+				improve_relations_maintain_cost_factor = 0.5
+			}
+		}
+		BUL_NS_white_russians = {
+			picture = SOV_romanov_tsars
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.05
+				stability_factor = -0.05
+				production_speed_industrial_complex_factor = 0.05
+			}
+		}
+		BUL_NS_fatherland_front = {
+			picture = bul_fatherland_front_negative
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				vanguard_socialism_drift = 0.5
+				despotism_drift = 0.5
+			}
+		}
+	}
+}

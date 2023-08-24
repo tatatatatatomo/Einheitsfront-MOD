@@ -21,9 +21,9 @@
 
  CAU_communism:0 "コーカサス・ソヴィエト社会主義共和国"
 
- NIT_communism:0 "イタリア連邦"
+ NIT:0 "イタリア連邦"
 
- SIT_democratic:0 "イタリア社会主義共和国"	#南イタリア
+ SIT:0 "イタリア社会主義共和国"	#南イタリア
 
  SEC_neutrality:0 "サヌーシー教団"
 

@@ -1,0 +1,21 @@
+﻿capital = 2
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.3
+set_war_support = 0.3
+set_politics = {
+	ruling_party = national_socialism
+	last_election = "1935.7.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	national_socialism = 35
+	vanguard_socialism = 15
+	revisionist_socialism = 20
+	despotism = 30
+}
+
+add_ideas = {
+}

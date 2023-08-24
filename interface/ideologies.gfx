@@ -205,7 +205,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/despotism/absolute_monarchy.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_fascism"
+		name = "GFX_ideology_revolutionary_nationalism"
 		texturefile = "gfx/interface/ideologies/despotism/fascism.png"
 	}
 	#ここから超国家主義

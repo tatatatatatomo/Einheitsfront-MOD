@@ -232,7 +232,7 @@ ideologies = {
 			absolute_monarchy = {
 				can_be_randomly_selected = no
 			}
-			fascism = {
+			revolutionary_nationalism = {
 				can_be_randomly_selected = no
 			}
 		}
