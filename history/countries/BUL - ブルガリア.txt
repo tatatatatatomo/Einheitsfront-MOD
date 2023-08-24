@@ -11,6 +11,15 @@ if = {
 	}
 }
 
+add_ideas = {
+	BUL_NS_national_crisis
+	BUL_NS_army_restiricted
+	BUL_NS_boris_3
+	BUL_NS_IMRO
+	BUL_NS_white_russians
+	BUL_NS_fatherland_front
+}
+
 country_lock_all_division_template = yes
 set_convoys = 5
 set_stability = 0.4
@@ -27,7 +36,7 @@ recruit_character = BUL_Kirill_Romanov
 recruit_character = BUL_Vladimir_Romanov
 recruit_character = BUL_Dmitri_Romanov
 set_politics = {
-	ruling_party = revisionist_socialism
+	ruling_party = conservatism
 	last_election = "1932.7.5"
 	election_frequency = 48
 	elections_allowed = yes
@@ -36,9 +45,10 @@ set_politics = {
 set_popularities = {
 	vanguard_socialism = 20
 	popular_socialism = 8
-	revisionist_socialism = 30
+	revisionist_socialism = 5
 	progressivism = 2
 	liberalism = 10
+	conservatism = 25
 	paternalism = 10
 	despotism = 15
 	ultranationalism = 5
