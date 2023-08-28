@@ -20,7 +20,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = progressivism_generic
+			ideology = social_patriotism
 			desc = POL_gabriel_nartovich_desc
 		}
 	}

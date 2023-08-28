@@ -1,0 +1,58 @@
+characters = {
+	ENG_Stanley_Baldwin = {
+		name = ENG_Stanley_Baldwin
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_Stanley_Baldwin
+			}
+		}
+		country_leader = {
+			ideology = conservatism_generic
+			desc = ENG_Stanley_Baldwin_desc
+		}
+	}
+	ENG_Winston_Churchill = {
+		name = ENG_Winston_Churchill
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_Winston_Churchill
+			}
+		}
+		country_leader = {
+			ideology = market_liberalism
+			desc = ENG_Winston_Churchill_desc
+		}
+	}
+	ENG_Clement_Attlee = {
+		name = ENG_Clement_Attlee
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_Clement_Attlee
+			}
+		}
+		country_leader = {
+			ideology = progressivism_generic
+			desc = ENG_Clement_Attlee_desc
+		}
+	}
+	ENG_Oswald_Mosley = {
+		name = ENG_Oswald_Mosley
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_Oswald_Mosley
+			}
+		}
+		country_leader = {
+			ideology = monarcho_socialism
+			desc = ENG_Oswald_Mosley_desc
+		}
+	}
+	ENG_Neville_Chamberlain = {
+		name = ENG_Neville_Chamberlain
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_Neville_Chamberlain
+			}
+		}
+	}
+}

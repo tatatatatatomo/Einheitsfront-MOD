@@ -23,7 +23,7 @@
 
  NIT:0 "イタリア連邦"
 
- SIT:0 "イタリア社会主義共和国"	#南イタリア
+ SIT:0 "イタリア社会主義共和国"
 
  SEC_neutrality:0 "サヌーシー教団"
 
@@ -33,16 +33,7 @@
 
  CZS_democratic:0 "チェコスロヴァキア"
 
- GER_conservatism:0 "ドイツ共和国"
- GER_conservatism_DEF:0 "ドイツ共和国"
- GER_progressivism:0 "ドイツ共和国"
- GER_progressivism_DEF:0 "ドイツ共和国"
- GER_social_democracy:0 "ドイツ共和国"
- GER_social_democracy_DEF:0 "ドイツ共和国"
- GER_fascism:0 "ドイツ"
- GER_fascism_DEF:0 "ドイツ"
- GER_fascism_ADJ:0 "ドイツ"
- GER:0 "ドイツ"
+ GER:0 "ドイツ共和国"
  GER_DEF:0 "ドイツ"
  GER_ADJ:0 "ドイツ"
  ENG_fascism:0 "帝政イギリス"

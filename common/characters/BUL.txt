@@ -66,10 +66,6 @@ characters = {
 				large = GFX_portrait_BUL_Pyotr_Wrangel
 			}
 		}
-		country_leader = {
-			ideology = despotism_generic
-			desc = BUL_Pyotr_Wrangel_desc
-		}
 	}
 	BUL_Hristo_Lukov = {
 		name = BUL_Hristo_Lukov
@@ -102,10 +98,6 @@ characters = {
 				large = GFX_portrait_BUL_Kirill_Romanov
 			}
 		}
-		country_leader = {
-			ideology = monarcho_socialism
-			desc = BUL_Kirill_Romanov_desc
-		}
 	}
 	BUL_Vladimir_Romanov = {
 		name = BUL_Vladimir_Romanov
@@ -114,10 +106,6 @@ characters = {
 				large = GFX_portrait_BUL_Vladimir_Romanov
 			}
 		}
-		country_leader = {
-			ideology = monarcho_socialism
-			desc = BUL_Vladimir_Romanov_desc
-		}
 	}
 	BUL_Dmitri_Romanov = {
 		name = BUL_Dmitri_Romanov
@@ -125,10 +113,6 @@ characters = {
 			civilian = {
 				large = GFX_portrait_BUL_Dmitri_Romanov
 			}
-		}
-		country_leader = {
-			ideology = absolute_monarchy
-			desc = BUL_Dmitri_Romanov_desc
 		}
 	}
 }

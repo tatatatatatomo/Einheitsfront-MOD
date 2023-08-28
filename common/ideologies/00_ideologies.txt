@@ -154,6 +154,9 @@ ideologies = {
 			social_liberalism = {
 				can_be_randomly_selected = no
 			}
+			market_liberalism = {
+				can_be_randomly_selected = no
+			}
 		}
 		color = {
 			15

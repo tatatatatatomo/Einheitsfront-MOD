@@ -42,10 +42,6 @@ characters = {
 				large = GFX_portrait_JAP_Hatoyama_Ichiro
 			}
 		}
-		country_leader = {
-			ideology = national_conservatism
-			desc = JAP_Hatoyama_Ichiro_desc
-		}
 	}
 	JAP_Asoo_Hisashi = {
 		name = JAP_Asoo_Hisashi
@@ -78,10 +74,6 @@ characters = {
 				large = GFX_portrait_JAP_Ishihara_Kanzi
 			}
 		}
-		country_leader = {
-			ideology = fundamentalism
-			desc = JAP_Ishihara_Kanzi_desc
-		}
 	}
 	JAP_Kita_Ikki = {
 		name = JAP_Kita_Ikki
@@ -102,10 +94,6 @@ characters = {
 				large = GFX_portrait_JAP_Asanuma_Inajiro
 			}
 		}
-		country_leader = {
-			ideology = social_democracy
-			desc = JAP_Asanuma_Inajiro_desc
-		}
 	}
 	JAP_Akao_Bin = {
 		name = JAP_Akao_Bin
@@ -113,10 +101,6 @@ characters = {
 			civilian = {
 				large = GFX_portrait_JAP_Akao_Bin
 			}
-		}
-		country_leader = {
-			ideology = monarcho_socialism
-			desc = JAP_Akao_Bin_desc
 		}
 	}
 	JAP_Suzuki_Mosaburo = {
@@ -138,10 +122,6 @@ characters = {
 				large = GFX_portrait_JAP_Tokuda_Kyuuichi
 			}
 		}
-		country_leader = {
-			ideology = stalinism
-			desc = JAP_Tokuda_Kyuuichi_desc
-		}
 	}
 	JAP_Sakisaka_Ituro = {
 		name = JAP_Sakisaka_Ituro
@@ -161,10 +141,6 @@ characters = {
 			civilian = {
 				large = GFX_portrait_JAP_Sano_Manabu
 			}
-		}
-		country_leader = {
-			ideology = bukharinism
-			desc = JAP_Sano_Manabu_desc
 		}
 	}
 }

@@ -141,6 +141,10 @@ spriteTypes = {
 		name = "GFX_ideology_national_liberalism"
 		texturefile = "gfx/interface/ideologies/liberalism/national_liberalism.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_market_liberalism"
+		textureFile = "gfx/interface/ideologies/liberalism/market_liberalism.png"
+	}
 	#ここから保守主義
 	spriteType = {
 		name = "GFX_ideology_conservatism_group"

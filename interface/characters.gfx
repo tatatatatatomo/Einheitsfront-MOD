@@ -37,6 +37,10 @@ spriteTypes = {
 		textureFile = gfx/leaders/GER/herman_muller.png
 	}
 	spriteType = {
+		name = GFX_portrait_GER_Hans_Vogel
+		textureFile = gfx/leaders/GER/Hans_Vogel.png
+	}
+	spriteType = {
 		name = GFX_portrait_GER_koch_weser
 		textureFile = gfx/leaders/GER/Erich_Koch-Weser.png
 	}
@@ -201,5 +205,26 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_portrait_BUL_Dmitri_Romanov
 		textureFile = gfx/leaders/BUL/Dmitri_Romanov.png
+	}
+	#イギリスの国家元首たち
+	spriteType = {
+		name = GFX_portrait_ENG_Stanley_Baldwin
+		textureFile = gfx/leaders/ENG/Stanley_Baldwin.png
+	}
+	spriteType = {
+		name = GFX_portrait_ENG_Winston_Churchill
+		textureFile = gfx/leaders/ENG/Winston_Churchill.png
+	}
+	spriteType = {
+		name = GFX_portrait_ENG_Clement_Attlee
+		textureFile = gfx/leaders/ENG/Clement_Attlee.png
+	}
+	spriteType = {
+		name = GFX_portrait_ENG_Oswald_Mosley
+		textureFile = gfx/leaders/ENG/Oswald_Mosley.png
+	}
+	spriteType = {
+		name = GFX_portrait_ENG_Neville_Chamberlain
+		textureFile = gfx/leaders/ENG/Neville_Chamberlain.png
 	}
 }
