@@ -227,4 +227,30 @@ spriteTypes = {
 		name = GFX_portrait_ENG_Neville_Chamberlain
 		textureFile = gfx/leaders/ENG/Neville_Chamberlain.png
 	}
+	#クロアチアの国家元首たち
+	spriteType = {
+		name = GFX_portrait_CRO_Ante_Pavelić
+		textureFile = gfx/leaders/CRO/Ante_Pavelić.png
+	}
+	#イタリア社会主義共和国の国家元首たち
+	spriteType = {
+		name = GFX_portrait_SIT_italo_balbo
+		textureFile = gfx/leaders/SIT/italo_balbo.png
+	}
+	spriteType = {
+		name = GFX_portrait_SIT_Edmondo_Rossoni
+		textureFile = gfx/leaders/SIT/Edmondo_Rossoni.png
+	}
+	spriteType = {
+		name = GFX_portrait_SIT_Benito_mussolini
+		textureFile = gfx/leaders/SIT/Benito_mussolini.png
+	}
+	spriteType = {
+		name = GFX_portrait_SIT_Amadeo_Bordiga
+		textureFile = gfx/leaders/SIT/Amadeo_Bordiga.png
+	}
+	spriteType = {
+		name = GFX_portrait_SIT_Pietro_Nenni
+		textureFile = gfx/leaders/SIT/Pietro_Nenni.png
+	}
 }

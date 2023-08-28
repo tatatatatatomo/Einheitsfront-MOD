@@ -1,0 +1,14 @@
+characters = {
+	CRO_Ante_Pavelić = {
+		name = CRO_Ante_Pavelić
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CRO_Ante_Pavelić
+			}
+		}
+		country_leader = {
+			ideology = national_religionism
+			desc = CRO_Ante_Pavelić_desc
+		}
+	}
+}

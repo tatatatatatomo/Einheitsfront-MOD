@@ -1,0 +1,58 @@
+characters = {
+	SIT_italo_balbo = {
+		name = SIT_italo_balbo
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SIT_italo_balbo
+			}
+		}
+		country_leader = {
+			ideology = military_junta
+			desc = SIT_italo_balbo_desc
+		}
+	}
+	SIT_Edmondo_Rossoni = {
+		name = SIT_Edmondo_Rossoni
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SIT_Edmondo_Rossoni
+			}
+		}
+	}
+	SIT_Pietro_Nenni = {
+		name = SIT_Pietro_Nenni
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SIT_Pietro_Nenni
+			}
+		}
+		country_leader = {
+			ideology = social_democracy
+			desc = SIT_Pietro_Nenni_desc
+		}
+	}
+	SIT_Amadeo_Bordiga = {
+		name = SIT_Amadeo_Bordiga
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SIT_Amadeo_Bordiga
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			desc = SIT_Amadeo_Bordiga_desc
+		}
+	}
+	SIT_Benito_mussolini = {
+		name = SIT_Benito_mussolini
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SIT_Benito_mussolini
+			}
+		}
+		country_leader = {
+			ideology = national_syndicalism
+			desc = SIT_Benito_mussolini_desc
+		}
+	}
+}
