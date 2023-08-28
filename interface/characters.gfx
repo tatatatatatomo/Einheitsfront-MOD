@@ -25,6 +25,10 @@ spriteTypes = {
 		textureFile = gfx/leaders/GER/rosa_luxemburg.png
 	}
 	spriteType = {
+		name = GFX_portrait_GER_arthur_crispien
+		textureFile = gfx/leaders/GER/Arthur_Crispien.png
+	}
+	spriteType = {
 		name = GFX_portrait_GER_otto_ruhle
 		textureFile = gfx/leaders/GER/otto_rhle.png
 	}

@@ -72,6 +72,18 @@ characters = {
 			desc = GER_rosa_luxemburg_desc
 		}
 	}
+	GER_arthur_crispien = {
+		name = GER_arthur_crispien
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_arthur_crispien
+			}
+		}
+		country_leader = {
+			ideology = luxemburgism
+			desc = GER_arthur_crispien_desc
+		}
+	}
 	GER_otto_ruhle = {
 		name = GER_otto_ruhle
 		portraits = {
