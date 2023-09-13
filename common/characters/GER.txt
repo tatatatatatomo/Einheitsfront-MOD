@@ -19,6 +19,10 @@ characters = {
 				large = GFX_portrait_GER_karl_radek
 			}
 		}
+		country_leader = {
+			ideology = national_bolshevism
+			desc = GER_karl_radek_desc
+		}
 	}
 	GER_Ruth_Fischer = {
 		name = GER_Ruth_Fischer
@@ -26,6 +30,10 @@ characters = {
 			civilian = {
 				large = GFX_portrait_GER_Ruth_Fischer
 			}
+		}
+		country_leader = {
+			ideology = trotskyism
+			desc = GER_Ruth_Fischer_desc
 		}
 	}
 	GER_heinrich_brandler = {
@@ -71,6 +79,10 @@ characters = {
 				large = GFX_portrait_GER_arthur_crispien
 			}
 		}
+		country_leader = {
+			ideology = luxemburgism
+			desc = GER_arthur_crispien_desc
+		}
 	}
 	GER_otto_ruhle = {
 		name = GER_otto_ruhle
@@ -79,6 +91,10 @@ characters = {
 				large = GFX_portrait_GER_otto_ruhle
 			}
 		}
+		country_leader = {
+			ideology = council_communism
+			desc = GER_otto_ruhle_desc
+		}
 	}
 	GER_hermann_muller = {
 		name = GER_hermann_muller
@@ -86,6 +102,10 @@ characters = {
 			civilian = {
 				large = GFX_portrait_GER_hermann_muller
 			}
+		}
+		country_leader = {
+			ideology = social_democracy
+			desc = GER_hermann_muller_desc
 		}
 	}
 	GER_Hans_Vogel = {
@@ -130,6 +150,10 @@ characters = {
 			civilian = {
 				large = GFX_portrait_GER_otto_strasser
 			}
+		}
+		country_leader = {
+			ideology = strasserism
+			desc = GER_otto_strasser_desc
 		}
 	}
 }

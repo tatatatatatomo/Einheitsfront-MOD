@@ -31,6 +31,10 @@ characters = {
 				large = GFX_portrait_SOV_joseph_stalin
 			}
 		}
+		country_leader = {
+			ideology = stalinism
+			desc = SOV_joseph_stalin_desc
+		}
 	}
 	SOV_mikhail_tukhachevsky = {
 		name = SOV_mikhail_tukhachevsky
@@ -41,6 +45,10 @@ characters = {
 			civilian = {
 				large = GFX_portrait_SOV_mikhail_tukhachevsky
 			}
+		}
+		country_leader = {
+			ideology = militarist_socialism
+			desc = SOV_mikhail_tukhachevsky_desc
 		}
 	}
 }
