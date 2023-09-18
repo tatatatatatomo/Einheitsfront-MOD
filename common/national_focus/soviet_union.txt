@@ -445,6 +445,22 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = SOV_production_infantry_tank
+		icon = "GFX_focus_SOV_the_road_of_life"
+		prerequisite = {
+			focus = SOV_expand_motorized_divisions
+		}
+		relative_position_id = SOV_expand_motorized_divisions
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
 		id = SOV_deep_operations_doctrine
 		icon = "GFX_focus_generic_provoke_border_clashes"
 		prerequisite = {
@@ -500,8 +516,113 @@ focus_tree = {
 		icon = "GFX_goal_generic_air_fighter2"
 		prerequisite = {
 			focus = SOV_paratrooper_divisions
+			focus = SOV_strongthen_production
+		}
+		prerequisite = {
+			focus = SOV_production_infantry_tank
+			focus = SOV_comprehensive_artillery_support
 		}
 		relative_position_id = SOV_paratrooper_divisions
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SOV_yegorov_plan
+		icon = "GFX_focus_SOV_builder_of_the_red_army"
+		prerequisite = {
+			focus = SOV_reform_the_ground_forces
+		}
+		relative_position_id = SOV_reform_the_ground_forces
+		x = -2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SOV_goddess_of_battlefield
+		icon = "GFX_focus_SOV_builder_of_the_red_army"
+		prerequisite = {
+			focus = SOV_yegorov_plan
+		}
+		relative_position_id = SOV_yegorov_plan
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SOV_strongthen_production
+		icon = "GFX_focus_SOV_builder_of_the_red_army"
+		prerequisite = {
+			focus = SOV_goddess_of_battlefield
+		}
+		relative_position_id = SOV_goddess_of_battlefield
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SOV_triple_attack_theory
+		icon = "GFX_focus_SOV_builder_of_the_red_army"
+		prerequisite = {
+			focus = SOV_yegorov_plan
+		}
+		relative_position_id = SOV_yegorov_plan
+		x = -2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#列車砲とか艦砲射撃の有効性を上げる感じ
+	focus = {
+		id = SOV_comprehensive_artillery_support
+		icon = "GFX_focus_SOV_builder_of_the_red_army"
+		prerequisite = {
+			focus = SOV_triple_attack_theory
+		}
+		relative_position_id = SOV_triple_attack_theory
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SOV_self_propelled_artillery
+		icon = "GFX_focus_SOV_builder_of_the_red_army"
+		prerequisite = {
+			focus = SOV_strongthen_production
+		}
+		prerequisite = {
+			focus = SOV_comprehensive_artillery_support
+		}
+		relative_position_id = SOV_strongthen_production
 		x = 0
 		y = 1
 		cost = 10
@@ -516,10 +637,11 @@ focus_tree = {
 		icon = "GFX_focus_SOV_builder_of_the_red_army"
 		prerequisite = {
 			focus = SOV_cooperation_with_air_force
+			focus = SOV_self_propelled_artillery
 		}
-		relative_position_id = SOV_cooperation_with_air_force
+		relative_position_id = SOV_reform_the_ground_forces
 		x = 0
-		y = 1
+		y = 5
 		cost = 10
 		ai_will_do = {
 			factor = 100
