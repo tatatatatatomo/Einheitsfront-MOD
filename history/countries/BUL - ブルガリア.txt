@@ -43,14 +43,14 @@ set_politics = {
 }
 
 set_popularities = {
+	national_socialism = 8
 	vanguard_socialism = 20
-	popular_socialism = 8
-	revisionist_socialism = 5
 	progressivism = 2
 	liberalism = 10
 	conservatism = 25
 	paternalism = 10
-	despotism = 15
+	despotism = 5
+	revolutionary_nationalism = 15
 	ultranationalism = 5
 }
 

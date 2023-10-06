@@ -21,7 +21,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/national_socialism/national_bolshevism.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_kita_ikki_thought"
+		name = "GFX_ideology_JAP_monarcho_socialism"
 		texturefile = "gfx/interface/ideologies/national_socialism/kita_ikki_thought.png"
 	}
 	spriteType = {
@@ -71,7 +71,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/popular_socialism/council_communism.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_new_democracy"
+		name = "GFX_ideology_PRC_popular_socialism_generic"
 		texturefile = "gfx/interface/ideologies/popular_socialism/new_democracy.png"
 	}
 	#ここから修正社会主義
@@ -111,14 +111,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_social_patriotism"
 		texturefile = "gfx/interface/ideologies/progressivism/social_patriotism.png"
-	}
-	spriteType = {
-		name = "GFX_ideology_tridemism"
-		texturefile = "gfx/interface/ideologies/progressivism/tridemism.png"
-	}
-	spriteType = {
-		name = "GFX_ideology_christian_progressivism"
-		texturefile = "gfx/interface/ideologies/progressivism/christian_progressivism.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_left_wing_populism"
@@ -208,29 +200,38 @@ spriteTypes = {
 		name = "GFX_ideology_absolute_monarchy"
 		texturefile = "gfx/interface/ideologies/despotism/absolute_monarchy.png"
 	}
+	#ここから革命的ナショナリズム
 	spriteType = {
-		name = "GFX_ideology_revolutionary_nationalism"
-		texturefile = "gfx/interface/ideologies/despotism/fascism.png"
-	}
-	#ここから超国家主義
-	spriteType = {
-		name = "GFX_ideology_ultranationalism_group"
-		texturefile = "gfx/interface/ideologies/ultranationalism/ultranationalism.png"
+		name = "GFX_ideology_revolutionary_nationalism_group"
+		texturefile = "gfx/interface/ideologies/rev_nationalism/ultranationalism.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_ultranationalism_generic"
-		texturefile = "gfx/interface/ideologies/ultranationalism/ultranationalism.png"
+		name = "GFX_ideology_revolutionary_nationalism_generic"
+		texturefile = "gfx/interface/ideologies/rev_nationalism/ultranationalism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_fascism"
+		texturefile = "gfx/interface/ideologies/rev_nationalism/fascism.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_ultramilitarism"
-		texturefile = "gfx/interface/ideologies/ultranationalism/ultramilitarism.png"
+		texturefile = "gfx/interface/ideologies/rev_nationalism/ultramilitarism.png"
+	}
+	#ここから反動主義
+	spriteType = {
+		name = "GFX_ideology_reactionarism_group"
+		texturefile = "gfx/interface/ideologies/reactionarism/integralism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_reactionarism_generic"
+		texturefile = "gfx/interface/ideologies/reactionarism/integralism.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_integralism"
-		texturefile = "gfx/interface/ideologies/ultranationalism/integralism.png"
+		texturefile = "gfx/interface/ideologies/reactionarism/integralism.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_national_religionism"
-		texturefile = "gfx/interface/ideologies/ultranationalism/national_religionism.png"
+		name = "GFX_ideology_religious_nationalism"
+		texturefile = "gfx/interface/ideologies/reactionarism/national_religionism.png"
 	}
 }

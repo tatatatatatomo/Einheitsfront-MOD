@@ -56,7 +56,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_religionism
+			ideology = right_national_corporatism
 			desc = POL_Bolesław_Piasecki_desc
 		}
 	}

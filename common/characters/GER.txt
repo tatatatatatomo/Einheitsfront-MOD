@@ -116,7 +116,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = progressivism_generic
+			ideology = social_reformism
 			desc = GER_Hans_Vogel_desc
 		}
 	}

@@ -11,10 +11,11 @@ set_politics = {
 }
 
 set_popularities = {
-	national_socialism = 35
+	national_socialism = 30
 	vanguard_socialism = 15
 	revisionist_socialism = 20
-	despotism = 30
+	despotism = 10
+	revolutionary_nationalism = 25
 }
 
 add_ideas = {

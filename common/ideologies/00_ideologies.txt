@@ -12,10 +12,10 @@ ideologies = {
 			national_bolshevism = {
 				can_be_randomly_selected = no
 			}
-			kita_ikki_thought = {
+			monarcho_socialism = {
 				can_be_randomly_selected = no
 			}
-			monarcho_socialism = {
+			left_national_corporatism = {
 				can_be_randomly_selected = no
 			}
 		}
@@ -70,9 +70,6 @@ ideologies = {
 			council_communism = {
 				can_be_randomly_selected = no
 			}
-			new_democracy = {
-				can_be_randomly_selected = no
-			}
 		}
 		color = {
 			255
@@ -122,13 +119,10 @@ ideologies = {
 			social_patriotism = {
 				can_be_randomly_selected = no
 			}
-			tridemism = {
-				can_be_randomly_selected = no
-			}
-			christian_progressivism = {
-				can_be_randomly_selected = no
-			}
 			left_wing_populism = {
+				can_be_randomly_selected = no
+			}
+			social_reformism = {
 				can_be_randomly_selected = no
 			}
 		}
@@ -235,9 +229,6 @@ ideologies = {
 			absolute_monarchy = {
 				can_be_randomly_selected = no
 			}
-			revolutionary_nationalism = {
-				can_be_randomly_selected = no
-			}
 		}
 		color = {
 			142
@@ -251,17 +242,40 @@ ideologies = {
 		can_collaborate = yes
 		ai_neutral = yes
 	}
-	ultranationalism = {
+	revolutionary_nationalism = {
 		types = {
-			ultranationalism_generic = {
+			revolutionary_nationalism_generic = {
+			}
+			fascism = {
+				can_be_randomly_selected = no
+			}
+			right_national_corporatism = {
+				can_be_randomly_selected = no
 			}
 			ultramilitarism = {
 				can_be_randomly_selected = no
 			}
+		}
+		color = {
+			0
+			0
+			0
+		}
+		can_host_government_in_exile = no
+		war_impact_on_world_tension = 0.2
+		faction_impact_on_world_tension = 0.3
+		can_be_boosted = yes
+		can_collaborate = yes
+		ai_fascist = yes
+	}
+	reactionarism = {
+		types = {
+			reactionarism_generic = {
+			}
 			integralism = {
 				can_be_randomly_selected = no
 			}
-			national_religionism = {
+			religious_nationalism = {
 				can_be_randomly_selected = no
 			}
 		}

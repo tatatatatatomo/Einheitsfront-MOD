@@ -186,12 +186,13 @@ set_politics = {
 }
 
 set_popularities = {
-	national_socialism = 15
+	national_socialism = 10
 	vanguard_socialism = 10
-	popular_socialism = 20
+	popular_socialism = 15
 	revisionist_socialism = 20
-	progressivism = 15
-	conservatism = 20
+	progressivism = 20
+	conservatism = 15
+	liberalism = 10
 }
 
 add_ideas = {

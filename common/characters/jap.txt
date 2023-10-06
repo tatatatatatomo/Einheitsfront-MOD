@@ -43,7 +43,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism_generic
+			ideology = national_conservatism
 			desc = JAP_Hatoyama_Ichiro_desc
 		}
 	}
@@ -87,7 +87,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = kita_ikki_thought
+			ideology = monarcho_socialism
 			desc = JAP_Kita_Ikki_desc
 		}
 	}
@@ -109,10 +109,6 @@ characters = {
 			civilian = {
 				large = GFX_portrait_JAP_Akao_Bin
 			}
-		}
-		country_leader = {
-			ideology = monarcho_socialism
-			desc = JAP_Akao_Bin
 		}
 	}
 	JAP_Suzuki_Mosaburo = {

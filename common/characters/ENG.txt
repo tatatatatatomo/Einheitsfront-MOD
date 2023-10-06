@@ -31,7 +31,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = progressivism_generic
+			ideology = social_reformism
 			desc = ENG_Clement_Attlee_desc
 		}
 	}
