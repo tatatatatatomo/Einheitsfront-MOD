@@ -28,6 +28,10 @@ spriteTypes = {
 		name = "GFX_ideology_monarcho_socialism"
 		texturefile = "gfx/interface/ideologies/national_socialism/monarcho_socialism.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_left_national_corporatism"
+		texturefile = "gfx/interface/ideologies/national_socialism/left_nat_corporatism.png"
+	}
 	#ここから前衛社会主義
 	spriteType = {
 		name = "GFX_ideology_vanguard_socialism_group"
@@ -116,6 +120,10 @@ spriteTypes = {
 		name = "GFX_ideology_left_wing_populism"
 		texturefile = "gfx/interface/ideologies/progressivism/left_wing_populism.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_social_reformism"
+		texturefile = "gfx/interface/ideologies/progressivism/social_reformism.png"
+	}
 	#ここから自由主義
 	spriteType = {
 		name = "GFX_ideology_liberalism_group"
@@ -203,11 +211,11 @@ spriteTypes = {
 	#ここから革命的ナショナリズム
 	spriteType = {
 		name = "GFX_ideology_revolutionary_nationalism_group"
-		texturefile = "gfx/interface/ideologies/rev_nationalism/ultranationalism.png"
+		texturefile = "gfx/interface/ideologies/rev_nationalism/rev_nationalism.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_revolutionary_nationalism_generic"
-		texturefile = "gfx/interface/ideologies/rev_nationalism/ultranationalism.png"
+		texturefile = "gfx/interface/ideologies/rev_nationalism/rev_nationalism.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_fascism"
@@ -217,14 +225,18 @@ spriteTypes = {
 		name = "GFX_ideology_ultramilitarism"
 		texturefile = "gfx/interface/ideologies/rev_nationalism/ultramilitarism.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_right_national_corporatism"
+		texturefile = "gfx/interface/ideologies/rev_nationalism/right_nat_corporatism.png"
+	}
 	#ここから反動主義
 	spriteType = {
 		name = "GFX_ideology_reactionarism_group"
-		texturefile = "gfx/interface/ideologies/reactionarism/integralism.png"
+		texturefile = "gfx/interface/ideologies/reactionarism/reactionarism.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_reactionarism_generic"
-		texturefile = "gfx/interface/ideologies/reactionarism/integralism.png"
+		texturefile = "gfx/interface/ideologies/reactionarism/reactionarism.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_integralism"
