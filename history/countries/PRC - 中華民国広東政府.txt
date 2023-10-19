@@ -1,15 +1,13 @@
 ﻿capital = 592
-
 oob = "PRC_1936"
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	mass_assault = 1
 }
+
 set_stability = 0.6
 set_war_support = 0.7
-
 recruit_character = PRC_mao_zedong
 recruit_character = PRC_zhu_de
 recruit_character = PRC_chen_yi
@@ -39,17 +37,11 @@ recruit_character = PRC_liu_shaoqi
 recruit_character = PRC_lin_bojiu
 recruit_character = PRC_dong_biwu
 recruit_character = PRC_he_yuandang
-
-
 save_global_event_target_as = WTT_communist_china
-
-
 1939.1.1 = {
-
 	add_political_power = 1198
 	add_command_power = 100
 	oob = "PRC_1939"
-
 	if = {
 		limit = {
 			has_dlc = "Waking the Tiger"
@@ -70,9 +62,7 @@ save_global_event_target_as = WTT_communist_china
 		complete_national_focus = PRC_anti_japanese_expedition
 		complete_national_focus = PRC_provoke_japan
 		complete_national_focus = PRC_mobile_warfare
-
 		set_research_slots = 3
-
 		add_ideas = {
 			PRC_revolutionary_military_commission
 			PRC_low_popular_support_3
@@ -97,7 +87,6 @@ save_global_event_target_as = WTT_communist_china
 			complete_national_focus = production_effort
 		}
 	}
-	
 	# Chinese Popular Front effects
 	add_to_war = {
 		targeted_alliance = CHI
@@ -105,7 +94,10 @@ save_global_event_target_as = WTT_communist_china
 		hostility_reason = asked_to_join
 	}
 	set_country_flag = PRC_joined_CHI_against_JAP
-	remove_opinion_modifier = { target = CHI modifier = hostile_status }
+	remove_opinion_modifier = {
+		target = CHI
+		modifier = hostile_status
+	}
 	add_state_claim = 612
 	add_state_claim = 611
 	add_state_claim = 714
@@ -121,21 +113,18 @@ save_global_event_target_as = WTT_communist_china
 	add_state_claim = 608
 	add_state_claim = 615
 	add_state_claim = 527
-
 	add_ideas = {
 		#laws
 		partial_economic_mobilisation
 		service_by_requirement
 		closed_economy
 	}
-	
 	set_technology = {
 		tech_mountaineers = 1
 		#doctrines
 		air_superiority = 1
 		pocket_defence = 1
 		defence_in_depth = 1
-
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
@@ -144,7 +133,6 @@ save_global_event_target_as = WTT_communist_china
 		computing_machine = 1
 		basic_encryption = 1
 		basic_decryption = 1
-
 		#industry
 		basic_machine_tools = 1
 		improved_machine_tools = 1
@@ -161,13 +149,14 @@ save_global_event_target_as = WTT_communist_china
 }
 
 set_politics = {
-	ruling_party = progressivism
+	ruling_party = popular_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	progressivism = 100
+	popular_socialism = 100
 }
 
 add_ideas = {
@@ -188,4 +177,7 @@ if = {
 	}
 }
 
-add_opinion_modifier = { target = CHI modifier = hostile_status }
+add_opinion_modifier = {
+	target = CHI
+	modifier = hostile_status
+}

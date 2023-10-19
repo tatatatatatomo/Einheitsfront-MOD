@@ -297,7 +297,7 @@ set_politics = {
 }
 
 set_popularities = {
-	ultranationalism = 15
+	revolutionary_nationalism = 15
 	conservatism = 15
 	liberalism = 15
 	progressivism = 20

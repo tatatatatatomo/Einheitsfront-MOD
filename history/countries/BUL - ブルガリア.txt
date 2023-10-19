@@ -49,9 +49,9 @@ set_popularities = {
 	liberalism = 10
 	conservatism = 25
 	paternalism = 10
-	despotism = 5
-	revolutionary_nationalism = 15
-	ultranationalism = 5
+	despotism = 15
+	revolutionary_nationalism = 5
+	reactionarism = 5
 }
 
 set_research_slots = 3

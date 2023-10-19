@@ -5,14 +5,14 @@ set_stability = 0.3
 set_war_support = 0.3
 recruit_character = CRO_Ante_Pavelić
 set_politics = {
-	ruling_party = ultranationalism
+	ruling_party = reactionarism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	ultranationalism = 100
+	reactionarism = 100
 }
 
 add_ideas = {

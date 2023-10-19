@@ -67,7 +67,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = military_junta
+			ideology = reactionarism_generic
 			desc = BUL_Pyotr_Wrangel_desc
 		}
 	}
@@ -79,7 +79,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = reactionarism_generic
+			ideology = fascism
 			desc = BUL_Hristo_Lukov_desc
 		}
 	}
@@ -91,7 +91,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = right_national_corporatism
+			ideology = despotism_generic
 			desc = BUL_Kimon_Georgiev_desc
 		}
 	}
