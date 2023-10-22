@@ -42,6 +42,8 @@ set_politics = {
 	elections_allowed = yes
 }
 
+set_war_support = 0.5
+set_stability = 0.7
 set_popularities = {
 	national_socialism = 8
 	vanguard_socialism = 20
