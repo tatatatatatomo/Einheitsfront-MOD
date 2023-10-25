@@ -11,4 +11,16 @@ characters = {
 			desc = CRO_Ante_Pavelić_desc
 		}
 	}
+	CRO_Stjepan_Radic = {
+		name = CRO_Stjepan_Radic
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CRO_Stjepan_Radic
+			}
+		}
+		country_leader = {
+			ideology = agrarianism
+			desc = CRO_Stjepan_Radic_desc
+		}
+	}
 }

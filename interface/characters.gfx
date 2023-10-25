@@ -229,6 +229,10 @@ spriteTypes = {
 	}
 	#クロアチアの国家元首たち
 	spriteType = {
+		name = GFX_portrait_CRO_Stjepan_Radic
+		textureFile = gfx/leaders/CRO/Stjepan_Radic.png
+	}
+	spriteType = {
 		name = GFX_portrait_CRO_Ante_Pavelić
 		textureFile = gfx/leaders/CRO/Ante_Pavelić.png
 	}
