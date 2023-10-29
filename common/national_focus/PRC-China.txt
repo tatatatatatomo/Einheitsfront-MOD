@@ -1,0 +1,47 @@
+#PRC - 中華民国広東政府のNFだよ
+focus_tree = {
+	id = PRC_focus
+	country = {
+		base = 0
+		modifier = {
+			add = 10
+			tag = PRC
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 50
+		y = 2200
+    }
+    focus = {
+	id = PRC-1
+	icon = "GFX_focus_generic_china1"
+    #prerequisite = {
+	#		focus = 
+	#	}
+	x = 4
+	y = 6
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+
+}
+focus = {
+	id = PRC-2
+	icon = "GFX_focus_generic_china1"
+    #prerequisite = {
+	#		focus = 
+	#	}
+	x = 12
+	y = 6
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+}
