@@ -44,4 +44,1272 @@ focus = {
 	completion_reward = {
 	}
 }
+focus = {
+	id = PRC-3
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {
+			focus = PRC-1
+		}
+	x = 4
+	y = 7
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
 }
+focus = {
+	id = PRC-4
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {
+			focus = PRC-1
+		}
+	x = 2
+	y = 7
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus = {
+	id = PRC-5
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {
+			focus = PRC-3
+		}
+	x = 2
+	y = 8
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus = {
+	id = PRC-6
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {
+			focus = PRC-5
+		}
+	x = 2
+	y = 9
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus = {
+	id = PRC-7
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {
+			focus = PRC-6
+		}
+	x = 2
+	y = 10
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus = {
+	id = PRC-8
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {
+			focus = PRC-5
+		}
+	x = 0
+	y = 9
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus = {
+	id = PRC-9
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {
+			focus = PRC-8
+		}
+	x = 0
+	y = 10
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus = {
+	id = PRC-10
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {
+			focus = PRC-7
+		}
+	 prerequisite = {
+			focus = PRC-9
+		}
+	prerequisite = {
+		focus = PRC-14
+	}
+	x = 4
+	y = 11
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus = {
+	id = PRC-11
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {
+			focus = PRC-7
+		}
+	 prerequisite = {
+			focus = PRC-10
+		}
+	x = 4
+	y = 12
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+ focus= {
+	id = PRC-12
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {
+			focus = PRC-3
+		}
+	x = 4
+	y = 8
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus = {
+	id = PRC-13
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {
+			focus = PRC-12
+		}
+	x = 4
+	y = 9
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus = {
+	id = PRC-14
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {
+			focus = PRC-13
+		}
+	x = 4
+	y = 10
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-15
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {
+			focus = PRC-3
+		}
+	x = 7
+	y = 8
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-16
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {
+			focus = PRC-15
+		}
+	x = 7
+	y = 9
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-17
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {
+			focus = PRC-16
+		}
+	x = 6
+	y = 10
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-18
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {
+			focus = PRC-16
+		}
+	x = 8
+	y = 10
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-19
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {
+			focus = PRC-17
+		}
+	 prerequisite = {
+			focus = PRC-18
+		}
+	x = 7
+	y = 11
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-20
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {
+			focus = PRC-2
+		}
+	x = 12
+	y = 7
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-21
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {
+			focus = PRC-20
+		}
+	x = 11
+	y = 8
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-22
+	icon = "GFX_focus_generic_china1"
+	mutually_exclusive = { focus = PRC-21 }
+    prerequisite = {
+			focus = PRC-20
+		}
+	x = 13
+	y = 8
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-23
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-21 focus = PRC-22 }
+	x = 10.5
+	y = 9
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-24
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-21 focus = PRC-22 }
+	x = 12
+	y = 9
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-25
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-21 focus = PRC-22 }
+	x = 14
+	y = 9
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-26
+	icon = "GFX_focus_generic_china1"
+   prerequisite = {
+			focus = PRC-25
+		}
+	x = 14
+	y = 10
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-27
+	icon = "GFX_focus_generic_china1"
+	prerequisite = { focus = PRC-21 focus = PRC-22 }
+	x = 16
+	y = 9
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-28
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-24
+		}
+	x = 12
+	y = 10
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-29
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-23
+		}
+	x = 10.5
+	y = 10
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-30
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-28
+		}
+	x = 12
+	y = 11
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-31
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-28
+		}
+	x = 10
+	y = 11
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-32
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-30
+		}
+	x = 11
+	y = 12
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-33
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-30
+		}
+	x = 13
+	y = 12
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-34
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-32
+		}
+	prerequisite = {
+			focus = PRC-33
+		}
+	x = 9
+	y = 13
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-35
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-32
+		}
+	prerequisite = {
+		focus = PRC-33
+	}
+	x = 11.5
+	y = 13
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-36
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-32
+		}
+	prerequisite = {
+		focus = PRC-33
+	}
+	x = 13
+	y = 13
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-37
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-32
+		}
+	prerequisite = {
+		focus = PRC-33
+	}
+	x = 15
+	y = 13
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-38
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-35
+		}
+	x = 11.5
+	y = 14
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-39
+	icon = "GFX_focus_generic_china1"
+#	prerequisite = {
+#			focus = 
+#		}
+	x = 28
+	y = 3
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-40
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-39
+		}
+	x = 27
+	y = 4
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-41
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-39
+		}
+	x = 29
+	y = 4
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-42
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-39
+		}
+	x = 22
+	y = 4
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-43
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-39
+		}
+	x = 18
+	y = 4
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-44
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-39
+		}
+	x = 38
+	y = 4
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-45
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-39
+		}
+	x = 36
+	y = 4
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-46
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-40
+		}
+	x = 27
+	y = 5
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-47
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-46
+		}
+	x = 27
+	y = 7
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-48
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-47
+		}
+		prerequisite = { focus = PRC-65  }
+	x = 27
+	y = 9
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-49
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-40
+		}
+	x = 25.6
+	y = 5
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-50
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-42
+		}
+	x = 23
+	y = 5
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-51
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-42
+		}
+	x = 21
+	y = 5
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-52
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-43
+		}
+	x = 19
+	y = 5
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-53
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-43
+		}
+	x = 17
+	y = 5
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-54
+	icon = "GFX_focus_generic_china1"
+	prerequisite = { focus = PRC-53 }
+	prerequisite = { focus = PRC-52 }
+	x = 16
+	y = 6
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-55
+	icon = "GFX_focus_generic_china1"
+	prerequisite = { focus = PRC-54 }
+	x = 16
+	y = 7
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-56
+	icon = "GFX_focus_generic_china1"
+	prerequisite = { focus = PRC-52 }
+	prerequisite = { focus = PRC-51 }
+	x = 20
+	y = 6
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-57
+	icon = "GFX_focus_generic_china1"
+	prerequisite = { focus = PRC-52 }
+	prerequisite = { focus = PRC-53 }
+	x = 18
+	y = 6.5
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-58
+	icon = "GFX_focus_generic_china1"
+	prerequisite = { focus = PRC-57 }
+	x = 18
+	y = 8.5
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-59
+	icon = "GFX_focus_generic_china1"
+	prerequisite = { focus = PRC-56 }
+	x = 20
+	y = 7.5
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-60
+	icon = "GFX_focus_generic_china1"
+	prerequisite = { focus = PRC-59}
+	x = 20
+	y = 9.5
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-61
+	icon = "GFX_focus_generic_china1"
+	prerequisite = { focus = PRC-51 }
+	prerequisite = { focus = PRC-50 }
+	x = 22
+	y = 6.5
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-62
+	icon = "GFX_focus_generic_china1"
+	prerequisite = { focus = PRC-61 }
+	x = 22
+	y = 8.5
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-63
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-50
+		}
+	x = 23.8
+	y = 7
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-64
+	icon = "GFX_focus_generic_china1"
+prerequisite = { focus = PRC-49 }
+	x = 25.3
+	y = 6
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-65
+	icon = "GFX_focus_generic_china1"
+prerequisite = { focus = PRC-64 }
+	x = 25.3
+	y = 7
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-66
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-46 focus = PRC-67  }
+	x = 28
+	y = 6
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-67
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-41  }
+	x = 29
+	y = 5
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-68
+	icon = "GFX_focus_generic_china1"
+	prerequisite = {
+			focus = PRC-67  }
+	prerequisite ={focus = PRC-83}
+	x = 29
+	y = 9
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-69
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-41  }
+	x = 31.5
+	y = 5
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-70
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-69  }
+	x = 31.5
+	y = 6
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-71
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-70  }
+	x = 32
+	y = 7
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-72
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-70  }
+	prerequisite = { focus = PRC-67  }
+	x = 30
+	y = 7
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-73
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-44 focus = PRC-45  }
+	x = 37
+	y = 5
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-74
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-73  }
+	x = 37
+	y = 6
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-75
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-74  }
+	x = 37
+	y = 8
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-76
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-44  }
+	x = 38
+	y = 7
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-77
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-45  }
+	x = 36
+	y = 7
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-78
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-77  }
+	x = 36
+	y = 9
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-79
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-76  }
+	x = 38
+	y = 9
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-80
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-79  }
+	x = 37
+	y = 10
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-81
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-80 }
+	x = 37
+	y = 11
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-82
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-41 }
+	x = 34.2
+	y = 7
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-83
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-82  }
+	prerequisite = { focus = PRC-70  }
+	x = 32.5
+	y = 8
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-84
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-82 }
+	x = 34.5
+	y = 8
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-85
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-84 }
+	x = 34.3
+	y = 9
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-86
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-83 }
+	x = 32.5
+	y = 9
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-87
+	icon = "GFX_focus_generic_china1"
+    prerequisite = { focus = PRC-72  }
+	x = 30
+	y = 8
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-88
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {focus = PRC-68 }
+	x = 29
+	y = 10
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+focus= {
+	id = PRC-89
+	icon = "GFX_focus_generic_china1"
+    prerequisite = {focus = PRC-88 }
+	x = 29
+	y = 11
+	cost = 10
+	ai_will_do = {
+	factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+
+
+}
+	#prerequisite = { focus =   }
+	#prerequisite = { focus = NFID  }
+	#prerequisite = { focus = focus =  }
