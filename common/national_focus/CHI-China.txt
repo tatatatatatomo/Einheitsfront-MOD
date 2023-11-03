@@ -1,0 +1,271 @@
+#中華民国北洋政府のNFです
+focus_tree = {
+	id = CHI_focus
+	country = {
+		base = 0
+		modifier = {
+			add = 60
+			tag = CHI
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 100
+		y = 2200
+	}
+	#最初のNF
+	focus = {
+		id = CHI_focus_unstable_gov
+		icon = "GFX_focus_generic_self_management"
+		x = 12
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ここから政治ツリー
+	focus = {
+		id = CHI_focus_stabilization
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_unstable_gov
+		}
+		relative_position_id = CHI_focus_unstable_gov
+		x = -3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#政治ツリーの「中国の夢」ルート
+	focus = {
+		id = CHI_focus_chinese_dream
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_stabilization
+		}
+		relative_position_id = CHI_focus_stabilization
+		mutually_exclusive = {
+			focus = CHI_focus_centrism
+			focus = CHI_focus_federalism
+		}
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_finest_among_ruin
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_chinese_dream
+		}
+		relative_position_id = CHI_focus_chinese_dream
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_people_first
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_chinese_dream
+		}
+		relative_position_id = CHI_focus_chinese_dream
+		x = 2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_pursuit_of_truth
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_finest_among_ruin
+		}
+		prerequisite = {
+			focus = CHI_focus_people_first
+		}
+		relative_position_id = CHI_focus_finest_among_ruin
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_change_opposition_idea
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_finest_among_ruin
+		}
+		prerequisite = {
+			focus = CHI_focus_people_first
+		}
+		relative_position_id = CHI_focus_people_first
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_forgive_public_mean
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_finest_among_ruin
+		}
+		prerequisite = {
+			focus = CHI_focus_people_first
+		}
+		relative_position_id = CHI_focus_people_first
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_indoctorination
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_change_opposition_idea
+		}
+		prerequisite = {
+			focus = CHI_focus_pursuit_of_truth
+		}
+		relative_position_id = CHI_focus_pursuit_of_truth
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_constant_mean
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_change_opposition_idea
+		}
+		prerequisite = {
+			focus = CHI_focus_pursuit_of_truth
+		}
+		relative_position_id = CHI_focus_pursuit_of_truth
+		x = 2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_mankinds_dream
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_indoctorination
+		}
+		prerequisite = {
+			focus = CHI_focus_constant_mean
+		}
+		relative_position_id = CHI_focus_indoctorination
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_to_practice
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_mankinds_dream
+		}
+		relative_position_id = CHI_focus_mankinds_dream
+		x = -2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#政治ツリーの「中道主義」ルート
+	focus = {
+		id = CHI_focus_centrism
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_stabilization
+		}
+		relative_position_id = CHI_focus_stabilization
+		mutually_exclusive = {
+			focus = CHI_focus_chinese_dream
+			focus = CHI_focus_federalism
+		}
+		x = 5
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#政治ツリーの「中央と地方」ルート
+	focus = {
+		id = CHI_focus_federalism
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_stabilization
+		}
+		relative_position_id = CHI_focus_stabilization
+		mutually_exclusive = {
+			focus = CHI_focus_chinese_dream
+			focus = CHI_focus_centrism
+		}
+		x = 12
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+}

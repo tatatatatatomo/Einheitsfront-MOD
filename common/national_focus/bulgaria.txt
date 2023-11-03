@@ -1,4 +1,4 @@
-#祖国戦線以外のブルガリアのNFです。
+#ブルガリアのNFです。
 focus_tree = {
 	id = BUL_focus
 	country = {
