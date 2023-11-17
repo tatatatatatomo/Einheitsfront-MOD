@@ -211,13 +211,46 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = CHI_focus_to_practice
+		id = CHI_focus_go_practicing
 		icon = "GFX_focus_generic_self_management"
 		prerequisite = {
 			focus = CHI_focus_mankinds_dream
 		}
 		relative_position_id = CHI_focus_mankinds_dream
 		x = -2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_right_trade
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_mankinds_dream
+		}
+		relative_position_id = CHI_focus_mankinds_dream
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_education_reform
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_mankinds_dream
+			focus = CHI_focus_for_everyone
+		}
+		relative_position_id = CHI_focus_mankinds_dream
+		x = 3
 		y = 1
 		cost = 10
 		ai_will_do = {
@@ -247,6 +280,178 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	focus = {
+		id = CHI_focus_proclaim_legitimacy
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_centrism
+		}
+		relative_position_id = CHI_focus_centrism
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_deal_opposition
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_centrism
+		}
+		relative_position_id = CHI_focus_centrism
+		x = -2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_deal_moderates
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_centrism
+		}
+		relative_position_id = CHI_focus_centrism
+		x = 2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_purge_corrupt
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_deal_opposition
+		}
+		relative_position_id = CHI_focus_deal_opposition
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_reconcile_both
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_deal_moderates
+		}
+		relative_position_id = CHI_focus_deal_moderates
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_stop_betrayal
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_deal_moderates
+		}
+		relative_position_id = CHI_focus_deal_moderates
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_against_both
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_deal_opposition
+		}
+		relative_position_id = CHI_focus_deal_opposition
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_no_regionalism
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_purge_corrupt
+		}
+		prerequisite = {
+			focus = CHI_focus_reconcile_both
+		}
+		relative_position_id = CHI_focus_purge_corrupt
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_end_factionalism
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_stop_betrayal
+		}
+		prerequisite = {
+			focus = CHI_focus_reconcile_both
+		}
+		relative_position_id = CHI_focus_reconcile_both
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_for_everyone
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_against_both
+		}
+		prerequisite = {
+			focus = CHI_focus_no_regionalism
+		}
+		prerequisite = {
+			focus = CHI_focus_end_factionalism
+		}
+		relative_position_id = CHI_focus_against_both
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
 	#政治ツリーの「中央と地方」ルート
 	focus = {
 		id = CHI_focus_federalism
@@ -260,6 +465,156 @@ focus_tree = {
 			focus = CHI_focus_centrism
 		}
 		x = 12
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_expand_regional
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_federalism
+		}
+		relative_position_id = CHI_focus_federalism
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_deal_with_autonomist
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_federalism
+		}
+		relative_position_id = CHI_focus_federalism
+		x = 2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_formalize_YY
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_expand_regional
+		}
+		relative_position_id = CHI_focus_expand_regional
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_autonomy_experiment
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_expand_regional
+		}
+		relative_position_id = CHI_focus_expand_regional
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_federalize
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_deal_with_autonomist
+		}
+		relative_position_id = CHI_focus_deal_with_autonomist
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_look_to_USA
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_formalize_YY
+		}
+		relative_position_id = CHI_focus_formalize_YY
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_look_to_England
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_autonomy_experiment
+		}
+		relative_position_id = CHI_focus_autonomy_experiment
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_our_own_ways
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_federalize
+		}
+		relative_position_id = CHI_focus_federalize
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_new_constitution
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_look_to_USA
+		}
+		prerequisite = {
+			focus = CHI_focus_look_to_England
+		}
+		prerequisite = {
+			focus = CHI_focus_our_own_ways
+		}
+		relative_position_id = CHI_focus_look_to_England
+		x = 0
 		y = 1
 		cost = 10
 		ai_will_do = {
