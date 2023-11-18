@@ -210,55 +210,6 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
-	focus = {
-		id = CHI_focus_go_practicing
-		icon = "GFX_focus_generic_self_management"
-		prerequisite = {
-			focus = CHI_focus_mankinds_dream
-		}
-		relative_position_id = CHI_focus_mankinds_dream
-		x = -2
-		y = 1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = CHI_focus_right_trade
-		icon = "GFX_focus_generic_self_management"
-		prerequisite = {
-			focus = CHI_focus_mankinds_dream
-		}
-		relative_position_id = CHI_focus_mankinds_dream
-		x = 1
-		y = 1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = CHI_focus_education_reform
-		icon = "GFX_focus_generic_self_management"
-		prerequisite = {
-			focus = CHI_focus_mankinds_dream
-			focus = CHI_focus_for_everyone
-		}
-		relative_position_id = CHI_focus_mankinds_dream
-		x = 3
-		y = 1
-		cost = 10
-		ai_will_do = {
-			factor = 100
-		}
-		completion_reward = {
-		}
-	}
 	#政治ツリーの「中道主義」ルート
 	focus = {
 		id = CHI_focus_centrism
@@ -444,6 +395,103 @@ focus_tree = {
 		}
 		relative_position_id = CHI_focus_against_both
 		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_go_practicing
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_mankinds_dream
+		}
+		relative_position_id = CHI_focus_mankinds_dream
+		x = -2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_right_trade
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_mankinds_dream
+		}
+		relative_position_id = CHI_focus_mankinds_dream
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_education_reform
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_mankinds_dream
+			focus = CHI_focus_for_everyone
+		}
+		relative_position_id = CHI_focus_mankinds_dream
+		x = 3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_inherit_tridem
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_for_everyone
+		}
+		relative_position_id = CHI_focus_for_everyone
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_land_reforms
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_for_everyone
+		}
+		relative_position_id = CHI_focus_for_everyone
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_monetary_reform
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_for_everyone
+		}
+		relative_position_id = CHI_focus_for_everyone
+		x = 3
 		y = 1
 		cost = 10
 		ai_will_do = {
