@@ -1,26 +1,29 @@
 
 state={
 	id=956
-	name="STATE_956"	#ノビ・パザル
-
+	name="STATE_956"
+	manpower = 1
+	resources={
+	}
+	
+	state_category = town
+	
 	history={
 		owner = YUG
-		add_core_of = SRB
-		add_core_of = ALB
+		victory_points = {
+			6983 3
+		}
 		buildings = {
-			infrastructure = 2
-
+			infrastructure = 4
 		}
 		add_core_of = YUG
+		add_core_of = BOS
 
 	}
 
 	provinces={
-		3922 
+		3985 6614 6957 6983 9586 
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=rural
 
-	local_supplies=3.0 
+	local_supplies=0.0 
 }

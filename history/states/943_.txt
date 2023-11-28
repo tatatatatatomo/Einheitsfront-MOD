@@ -1,23 +1,16 @@
-
-state={
-	id=943
-	name="STATE_943" # Croatia
-	manpower = 1
-	
-	state_category = town
-
-	history={
-		owner = YUG
-		buildings = {
-			infrastructure = 3
-		}
-		add_core_of = YUG
-		add_core_of = CRO
+state = {
+	id = 943
+	name="STATE_943"
+	state_category=wasteland
+	manpower = 6090
+	impassable = yes
+	history = {
+		owner = ITA
+		add_core_of = LBA
+		
+		
 	}
-
-	provinces={
-		984 3974 6611 
+	provinces = {
+		13276 
 	}
-
-	local_supplies=0.0 
 }

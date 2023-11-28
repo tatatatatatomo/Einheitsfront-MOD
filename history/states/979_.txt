@@ -1,0 +1,25 @@
+state={
+	id=979
+	name="STATE_979"	#キルケラ
+	manpower = 1
+	
+	state_category = rural
+
+	history={
+		owner = GRE
+		add_core_of = ALB
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			10203 1
+		}
+	}
+
+	provinces={
+		10203 
+	}
+
+	local_supplies=11.0 
+}

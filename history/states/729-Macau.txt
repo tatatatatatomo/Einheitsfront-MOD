@@ -9,12 +9,6 @@ state={
 		owner = POR
 		add_core_of = CHI
 		add_core_of = PRC
-		add_core_of = YUN
-		add_core_of = MAN
-		add_core_of = ZHC
-		add_core_of = XSM
-		add_core_of = SZC
-		add_core_of = SIK
 		victory_points = {
 			4189 1 
 		}

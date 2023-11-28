@@ -1,0 +1,27 @@
+state={
+	id=988
+	name="STATE_988"
+	resources={
+	#	aluminium=9.000
+	}
+
+	history={
+		owner = SIT
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = { #Parma
+			9752 1
+		}
+		add_core_of = NIT
+	}
+
+	provinces={
+		3773 3976 6790 9752 
+	}
+	manpower=3202401
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

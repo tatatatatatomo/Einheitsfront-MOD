@@ -1,27 +1,17 @@
-
-state={
-	id=951
-	name="STATE_951"	#コソフスカ・ミトロビツァ
-	manpower = 1
-	
-	state_category = rural
-
-	history={
-		owner = YUG
-		add_core_of = YUG
-		add_core_of = MAC
-		add_core_of = COS
+state = {
+	id = 951
+	name="STATE_951"
+	state_category=town
+	manpower = 144287
+	history = {
+		owner = PDS
+		add_core_of = GER
 		buildings = {
-			infrastructure = 2
-		}
-		victory_points = {
-			6940 3 
+			infrastructure = 4
+			
 		}
 	}
-
-	provinces={
-		6940 
+	provinces = {
+		11560 
 	}
-
-	local_supplies=11.0 
 }

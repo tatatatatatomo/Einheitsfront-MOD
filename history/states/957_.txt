@@ -1,30 +1,29 @@
+
 state={
 	id=957
 	name="STATE_957"
+	manpower = 1
 	resources={
-	#	steel=20 # was: 32.000
-	#	aluminium=11 # was: 18.000
 	}
 	
-	state_category = city
-
+	state_category = town
+	
 	history={
-		owner = AUS
-	#	victory_points = {
-	#		11584 10 
-	#	}
+		owner = CRO
+		victory_points = {
+			11899 5 
+		}
 		buildings = {
 			infrastructure = 3
+		}
+		add_core_of = YUG
+		add_core_of = BOS
 
-			}
-		add_core_of = NIT
 	}
 
 	provinces={
-		628 3657 6656 9613 
+		953 11845 11872 11899 13286 
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
 
-	local_supplies=5.0 
+	local_supplies=0.0 
 }

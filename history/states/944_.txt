@@ -1,25 +1,16 @@
-state={
-	id=944
+state = {
+	id = 944
 	name="STATE_944"
-	manpower = 1
-	
-	state_category = town
-
-	history={
-		owner = SOV
-		buildings = {
-			infrastructure = 3
-		}
-		add_core_of = POL
-		add_core_of = SOV
-		victory_points = {
-			9494 1
-		}
+	state_category=wasteland
+	manpower = 6090
+	impassable = yes
+	history = {
+		owner = ITA
+		add_core_of = LBA
+		
+		
 	}
-
-	provinces={
-		466 3434 6522 9494 
+	provinces = {
+		7985 12022 12082 13280 
 	}
-
-	local_supplies=0.0 
 }

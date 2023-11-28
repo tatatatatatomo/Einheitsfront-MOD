@@ -1,0 +1,22 @@
+state={
+	id=976
+	name="STATE_976"
+	manpower = 1
+	
+	state_category = rural
+
+	history={
+		owner = ALB
+		add_core_of = YUG
+		add_core_of = MAC
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		833 867 
+	}
+
+	local_supplies=11.0 
+}

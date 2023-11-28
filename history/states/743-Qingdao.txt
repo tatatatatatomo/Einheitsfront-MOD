@@ -16,13 +16,13 @@ state={
 		add_core_of = SZC
 		add_core_of = SIK
 		victory_points = {
-			13272 5 
+			13288 5 
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
 			air_base = 1
-			13272 = {
+			13288 = {
 				naval_base = 5
 				coastal_bunker = 1
 				bunker = 1
@@ -30,7 +30,7 @@ state={
 		}
 	}
 	provinces={
-		13272 
+		13288 
 	}
 
 	local_supplies=0.0 
