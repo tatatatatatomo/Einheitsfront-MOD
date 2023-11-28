@@ -500,6 +500,261 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	focus = {
+		id = CHI_focus_to_value_not_abuse
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_go_practicing
+		}
+		relative_position_id = CHI_focus_go_practicing
+		x = -2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_trad_with_modern
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_go_practicing
+		}
+		relative_position_id = CHI_focus_go_practicing
+		x = 2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_spread_free_education
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_education_reform
+		}
+		relative_position_id = CHI_focus_education_reform
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_destroy_corruption
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_education_reform
+		}
+		prerequisite = {
+			focus = CHI_focus_for_everyone
+		}
+		relative_position_id = CHI_focus_education_reform
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_create_new_constitution
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_for_everyone
+		}
+		relative_position_id = CHI_focus_for_everyone
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_land_village_ownership
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_land_reforms
+		}
+		prerequisite = {
+			focus = CHI_focus_monetary_reform
+		}
+		relative_position_id = CHI_focus_land_reforms
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_region_develop
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_monetary_reform
+		}
+		relative_position_id = CHI_focus_monetary_reform
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_proclaim_new_constitution
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_to_value_not_abuse
+		}
+		relative_position_id = CHI_focus_to_value_not_abuse
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_public_and_man
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_to_value_not_abuse
+		}
+		relative_position_id = CHI_focus_to_value_not_abuse
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_one_for_all_all_for_one
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_trad_with_modern
+		}
+		relative_position_id = CHI_focus_trad_with_modern
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_national_research_facility
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_trad_with_modern
+		}
+		prerequisite = {
+			focus = CHI_focus_spread_free_education
+		}
+		relative_position_id = CHI_focus_trad_with_modern
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_establish_broadcast
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_destroy_corruption
+		}
+		relative_position_id = CHI_focus_destroy_corruption
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_legalize_pol_parties
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_destroy_corruption
+		}
+		prerequisite = {
+			focus = CHI_focus_create_new_constitution
+		}
+		relative_position_id = CHI_focus_destroy_corruption
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_legacy_of_Xinhai
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_create_new_constitution
+		}
+		relative_position_id = CHI_focus_create_new_constitution
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = CHI_focus_six_policy_three_farm
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = CHI_focus_land_village_ownership
+		}
+		prerequisite = {
+			focus = CHI_focus_region_develop
+		}
+		relative_position_id = CHI_focus_land_village_ownership
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
 	#政治ツリーの「中央と地方」ルート
 	focus = {
 		id = CHI_focus_federalism
