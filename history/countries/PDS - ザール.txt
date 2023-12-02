@@ -16,13 +16,3 @@ set_popularities = {
 
 add_ideas = {
 }
-
-#create_country_leader = {
-#	name = "しれーかんさん"
-#	desc = "今やドイツはアメリカの占領下にある。"
-#	picture = "gfx/leaders/USA/Portrait_しれーかんさん.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {		
-#	}
-#}

@@ -1,10 +1,8 @@
 ﻿capital = 602
-
 set_research_slots = 3
 set_convoys = 0
-set_stability = 0.30
-set_war_support = 0.30
-
+set_stability = 0.3
+set_war_support = 0.3
 set_politics = {
 	ruling_party = despotism
 	last_election = "1936.1.1"
@@ -13,18 +11,8 @@ set_politics = {
 }
 
 set_popularities = {
-   despotism = 100
+	despotism = 100
 }
 
 add_ideas = {
 }
-
-#create_country_leader = {
-#	name = "しれーかんさん"
-#	desc = "今やドイツはアメリカの占領下にある。"
-#	picture = "gfx/leaders/USA/Portrait_しれーかんさん.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {		
-#	}
-#}
