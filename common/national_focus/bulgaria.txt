@@ -829,4 +829,20 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	focus = {
+		id = BUL_focus_five_year_plan
+		icon = "GFX_focus_generic_industry_2"
+		prerequisite = {
+			focus = BUL_focus_control_economy
+		}
+		relative_position_id = BUL_focus_control_economy
+		x = -2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
 }
