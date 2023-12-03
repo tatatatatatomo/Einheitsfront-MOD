@@ -836,7 +836,7 @@ focus_tree = {
 			focus = BUL_focus_control_economy
 		}
 		relative_position_id = BUL_focus_control_economy
-		x = -2
+		x = -1
 		y = 1
 		cost = 10
 		ai_will_do = {
