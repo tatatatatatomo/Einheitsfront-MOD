@@ -835,6 +835,7 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	#統制経済ルート
 	focus = {
 		id = BUL_focus_five_year_plan
 		icon = "GFX_focus_generic_industry_2"
@@ -844,6 +845,60 @@ focus_tree = {
 		relative_position_id = BUL_focus_control_economy
 		x = -1
 		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_technocracy
+		icon = "GFX_goal_generic_scientific_exchange"
+		prerequisite = {
+			focus = BUL_focus_moskva_support
+			focus	=	BUL_focus_nasion_custom_plan
+		}
+		relative_position_id = BUL_focus_five_year_plan
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_heavy_industry_acceleration
+		icon = "GFX_focus_generic_tank_production"
+		prerequisite = {
+			focus = BUL_focus_kolkhoz
+			focus	=	BUL_focus_observation_mussolini
+		}
+		relative_position_id = BUL_focus_five_year_plan
+		x = 0
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_plan_complete
+		icon = "GFX_goal_generic_soviet_construction"
+		prerequisite	=	{
+			focus	=	BUL_focus_heavy_industry_acceleration
+		}
+		prerequisite = {
+			focus = BUL_focus_iron_industry
+			focus	=	BUL_focus_total_war_construct
+		}
+		relative_position_id = BUL_focus_five_year_plan
+		x = 0
+		y = 6
 		cost = 10
 		ai_will_do = {
 			factor = 100
@@ -889,6 +944,41 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	focus = {
+		id = BUL_focus_kolkhoz
+		icon = "GFX_focus_SOV_breadbasket_of_the_union"
+		prerequisite = {
+			focus = BUL_focus_moskva_support
+		}
+		relative_position_id = BUL_focus_five_year_plan
+		x = -1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_iron_industry
+		icon = "GFX_focus_SOV_merge_plants"
+		prerequisite	=	{
+			focus	=	BUL_focus_kolkhoz
+		}
+		prerequisite	=	{
+			focus	=	BUL_focus_heavy_industry_acceleration
+		}
+		relative_position_id = BUL_focus_five_year_plan
+		x = -1
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
 	#ズヴェノ、国家軍団経済ルート
 	focus = {
 		id = BUL_focus_nasion_custom_plan
@@ -899,6 +989,98 @@ focus_tree = {
 		relative_position_id = BUL_focus_five_year_plan
 		mutually_exclusive = {
 			focus = BUL_focus_moskva_support
+		}
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_observation_mussolini
+		icon = "GFX_focus_ger_assassinate_mussolini"
+		prerequisite = {
+			focus = BUL_focus_nasion_custom_plan
+		}
+		relative_position_id = BUL_focus_five_year_plan
+		x = 1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_total_war_construct
+		icon = "GFX_focus_generic_combined_arms"
+		prerequisite = {
+			focus = BUL_focus_observation_mussolini
+		}
+		prerequisite = {
+			focus = BUL_focus_heavy_industry_acceleration
+		}
+		relative_position_id = BUL_focus_five_year_plan
+		x = 1
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#自由市場ルート
+	focus = {
+		id = BUL_focus_economic_depression
+		icon = "GFX_goal_generic_consumer_goods"
+		prerequisite = {
+			focus = BUL_focus_open_economy
+		}
+		relative_position_id = BUL_focus_control_economy
+		x = 3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#介入経済ルート
+	focus = {
+		id = BUL_focus_not_laissez_faire
+		icon = "GFX_goal_reichsautobahn"
+		prerequisite = {
+			focus = BUL_focus_economic_depression
+		}
+		relative_position_id = BUL_focus_economic_depression
+		mutually_exclusive	{
+			focus = BUL_focus_invisible_hand
+		}
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#完全自由市場ルート
+	focus = {
+		id = BUL_focus_invisible_hand
+		icon = "GFX_focus_generic_the_giant_wakes"
+		prerequisite = {
+			focus = BUL_focus_economic_depression
+		}
+		relative_position_id = BUL_focus_economic_depression
+		mutually_exclusive	{
+			focus = BUL_focus_not_laissez_faire
 		}
 		x = 1
 		y = 1
