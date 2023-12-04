@@ -804,6 +804,9 @@ focus_tree = {
 			focus = BUL_focus_grasp_the_situation
 		}
 		relative_position_id = BUL_focus_grasp_the_situation
+		mutually_exclusive = {
+			focus =	BUL_focus_open_economy
+		}
 		x = -1
 		y = 1
 		cost = 10
@@ -820,6 +823,9 @@ focus_tree = {
 			focus = BUL_focus_grasp_the_situation
 		}
 		relative_position_id = BUL_focus_grasp_the_situation
+		mutually_exclusive = {
+		foucus = BUL_focus_control_economy
+		}
 		x = 1
 		y = 1
 		cost = 10
@@ -837,6 +843,64 @@ focus_tree = {
 		}
 		relative_position_id = BUL_focus_control_economy
 		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#資源開発ツリー
+	focus = {
+		id = BUL_focus_resouce_depvelopment_plan
+		icon = "GFX_goal_generic_construction2"
+		prerequisite = {
+			focus = BUL_focus_control_economy
+			focus = BUL_focus_open_economy
+		}
+		relative_position_id = BUL_focus_control_economy
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#共産経済ルート
+	focus = {
+		id = BUL_foucus_moskva_support
+		icon = "GFX_focus_chi_mission_to_the_soviet_union"
+		prerequisite = {
+			focus = BUL_focus_five_year_plan
+		}
+		relative_position_id = BUL_focus_five_year_plan
+		mutually_exclusive	=	{
+			focus = BUL_foucus_nasion_custom_plan
+		}
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ズヴェノ、国家軍団経済ルート
+	focus = {
+		id = BUL_foucus_nasion_custom_plan
+		icon = "GFX_goal_generic_production2"
+		prerequisite = {
+			focus = BUL_focus_five_year_plan
+		}
+		relative_position_id = BUL_focus_five_year_plan
+		mutually_exclusive	=	{
+		focus = BUL_foucus_moskva_support
+		}
+		x = 1
 		y = 1
 		cost = 10
 		ai_will_do = {
