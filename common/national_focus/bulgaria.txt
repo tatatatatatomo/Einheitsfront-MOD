@@ -857,7 +857,7 @@ focus_tree = {
 		icon = "GFX_goal_generic_scientific_exchange"
 		prerequisite = {
 			focus = BUL_focus_moskva_support
-			focus	=	BUL_focus_nasion_custom_plan
+			focus =	BUL_focus_nasion_custom_plan
 		}
 		relative_position_id = BUL_focus_five_year_plan
 		x = 0
@@ -874,7 +874,7 @@ focus_tree = {
 		icon = "GFX_focus_generic_tank_production"
 		prerequisite = {
 			focus = BUL_focus_kolkhoz
-			focus	=	BUL_focus_observation_mussolini
+			focus =	BUL_focus_observation_mussolini
 		}
 		relative_position_id = BUL_focus_five_year_plan
 		x = 0
@@ -890,11 +890,11 @@ focus_tree = {
 		id = BUL_focus_plan_complete
 		icon = "GFX_goal_generic_soviet_construction"
 		prerequisite	=	{
-			focus	=	BUL_focus_heavy_industry_acceleration
+			focus = BUL_focus_heavy_industry_acceleration
 		}
 		prerequisite = {
 			focus = BUL_focus_iron_industry
-			focus	=	BUL_focus_total_war_construct
+			focus = BUL_focus_total_war_construct
 		}
 		relative_position_id = BUL_focus_five_year_plan
 		x = 0
@@ -917,6 +917,54 @@ focus_tree = {
 		relative_position_id = BUL_focus_control_economy
 		x = 1
 		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_sofia_university_expantion
+		icon = "GFX_focus_research2"
+		prerequisite = {
+			focus = BUL_focus_resource_depvelopment_plan
+		}
+		relative_position_id = BUL_focus_resource_depvelopment_plan
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_friends_economic_integration
+		icon = "GFX_goal_generic_intelligence_exchange"
+		prerequisite = {
+			focus = BUL_focus_sofia_university_expantion
+		}
+		relative_position_id = BUL_focus_resource_depvelopment_plan
+		x = 0
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_uranium_future
+		icon = "GFX_focus_wonderweapons"
+		prerequisite = {
+			focus = BUL_focus_friends_economic_integration
+		}
+		relative_position_id = BUL_focus_resource_depvelopment_plan
+		x = 0
+		y = 6
 		cost = 10
 		ai_will_do = {
 			factor = 100
@@ -963,11 +1011,8 @@ focus_tree = {
 	focus = {
 		id = BUL_focus_iron_industry
 		icon = "GFX_focus_SOV_merge_plants"
-		prerequisite	=	{
-			focus	=	BUL_focus_kolkhoz
-		}
-		prerequisite	=	{
-			focus	=	BUL_focus_heavy_industry_acceleration
+		prerequisite = {
+			focus = BUL_focus_kolkhoz
 		}
 		relative_position_id = BUL_focus_five_year_plan
 		x = -1
@@ -1021,9 +1066,6 @@ focus_tree = {
 		prerequisite = {
 			focus = BUL_focus_observation_mussolini
 		}
-		prerequisite = {
-			focus = BUL_focus_heavy_industry_acceleration
-		}
 		relative_position_id = BUL_focus_five_year_plan
 		x = 1
 		y = 5
@@ -1051,10 +1093,96 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	focus = {
+		id = BUL_focus_agricultural_mechanization
+		icon = "GFX_focus_SOV_the_road_of_life"
+		prerequisite = {
+			focus = BUL_focus_not_laissez_faire
+			focus = BUL_focus_invisible_hand
+		}
+		relative_position_id = BUL_focus_economic_depression
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_light_industry
+		icon = "GFX_goal_generic_construction"
+		prerequisite = {
+			focus = BUL_focus_social_security_expantion
+			focus = BUL_focus_invisible_hand
+			focus = BUL_focus_railroad_enlarge
+		}
+		relative_position_id = BUL_focus_economic_depression
+		x = 1
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_railroad_enlarge
+		icon = "GFX_goal_generic_construct_infrastructure"
+		prerequisite = {
+			focus = BUL_focus_not_laissez_faire
+			focus = BUL_focus_invisible_hand
+			focus = BUL_focus_agricultural_mechanization
+		}
+		relative_position_id = BUL_focus_economic_depression
+		x = 1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_nonstop_factory
+		icon = "GFX_goal_generic_construct_civilian"
+		prerequisite = {
+			focus = BUL_focus_light_industry
+		}
+		relative_position_id = BUL_focus_economic_depression
+		x = 1
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_call_miracle
+		icon = "GFX_focus_mex_privatisation"
+		prerequisite = {
+			focus = BUL_focus_labour_union_hold_hands
+			focus = BUL_focus_nonstop_factory
+		}
+		relative_position_id = BUL_focus_economic_depression
+		x = 0
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
 	#介入経済ルート
 	focus = {
 		id = BUL_focus_not_laissez_faire
-		icon = "GFX_goal_reichsautobahn"
+		icon = "GFX_focus_generic_self_management"
 		prerequisite = {
 			focus = BUL_focus_economic_depression
 		}
@@ -1071,7 +1199,42 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
-	#完全自由市場ルート
+	focus = {
+		id = BUL_focus_social_security_expantion
+		icon = "GFX_focus_por_workers_of_iberia"
+		prerequisite = {
+			focus = BUL_focus_not_laissez_faire
+		}
+		prerequisite = {
+			focus = BUL_focus_agricultural_mechanization
+		}
+		relative_position_id = BUL_focus_economic_depression
+		x = -1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_labour_union_hold_hands
+		icon = "GFX_focus_spr_unify_the_london_bureau"
+		prerequisite = {
+			focus = BUL_focus_social_security_expantion
+		}
+		relative_position_id = BUL_focus_economic_depression
+		x = -1
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#完全自由経済
 	focus = {
 		id = BUL_focus_invisible_hand
 		icon = "GFX_focus_generic_the_giant_wakes"
