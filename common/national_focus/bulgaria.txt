@@ -1187,7 +1187,7 @@ focus_tree = {
 			focus = BUL_focus_economic_depression
 		}
 		relative_position_id = BUL_focus_economic_depression
-		mutually_exclusive	{
+		mutually_exclusive	= {
 			focus = BUL_focus_invisible_hand
 		}
 		x = -1
@@ -1242,7 +1242,7 @@ focus_tree = {
 			focus = BUL_focus_economic_depression
 		}
 		relative_position_id = BUL_focus_economic_depression
-		mutually_exclusive	{
+		mutually_exclusive	= {
 			focus = BUL_focus_not_laissez_faire
 		}
 		x = 1
