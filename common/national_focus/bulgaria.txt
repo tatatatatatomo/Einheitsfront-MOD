@@ -1254,4 +1254,285 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	#ここから軍事ツリー
+	focus = {
+		id = BUL_focus_rearmament_plan
+		icon = "GFX_focus_secret_rearmament"
+		x = 28
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_openly_rearmament
+		icon = "GFX_focus_generic_military_dictatorship"
+		prerequisite = {
+			focus = BUL_focus_rearmament_plan
+		}
+		relative_position_id = BUL_focus_rearmament_plan
+		mutually_exclusive = {
+			focus = BUL_focus_winner_permission
+		}
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_winner_permission
+		icon = "GFX_focus_generic_treaty"
+		prerequisite = {
+			focus = BUL_focus_rearmament_plan
+		}
+		relative_position_id = BUL_focus_rearmament_plan
+		mutually_exclusive = {
+			focus = BUL_focus_openly_rearmament
+		}
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#陸軍ツリー
+	focus = {
+		id = BUL_focus_bulgaria_army
+		icon = "GFX_goal_generic_allies_build_infantry"
+		prerequisite = {
+			focus = BUL_focus_openly_rearmament
+			focus = BUL_focus_winner_permission
+		}
+		relative_position_id = BUL_focus_rearmament_plan
+		x = -2
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_blackbaron_support
+		icon = "GFX_focus_SOV_the_true_tsars"
+		prerequisite = {
+			focus = BUL_focus_bulgaria_army
+		}
+		relative_position_id = BUL_focus_bulgaria_army
+		mutually_exclusive = {
+			focus = BUL_focus_bulgalian_blade
+		}
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_bulgalian_blade
+		icon = "GFX_focus_BUL_bulgarian_administration_of_the_balkans"
+		prerequisite = {
+			focus = BUL_focus_bulgaria_army
+		}
+		relative_position_id = BUL_focus_bulgaria_army
+		mutually_exclusive = {
+			focus = BUL_focus_blackbaron_support
+		}
+		x = 2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_daikibosakusenn
+		icon = "GFX_goal_generic_position_armies"
+		prerequisite = {
+			focus = BUL_focus_blackbaron_support
+			focus = BUL_focus_bulgalian_blade
+		}
+		relative_position_id = BUL_focus_bulgaria_army
+		mutually_exclusive = {
+			focus = BUL_focus_yuuseikaryoku
+		}
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_yuuseikaryoku
+		icon = "GFX_goal_generic_build_tank"
+		prerequisite = {
+			focus = BUL_focus_blackbaron_support
+			focus = BUL_focus_bulgalian_blade
+		}
+		relative_position_id = BUL_focus_bulgaria_army
+		mutually_exclusive = {
+			focus = BUL_focus_daikibosakusenn
+		}
+		x = 2
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_lifle_custom
+		icon = "GFX_goal_generic_small_arms"
+		prerequisite = {
+			focus = BUL_focus_daikibosakusenn
+			focus = BUL_focus_yuuseikaryoku
+		}
+		relative_position_id = BUL_focus_bulgaria_army
+		x = 1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_state_fortress
+		icon = "GFX_goal_generic_fortify_city"
+		prerequisite = {
+			focus = BUL_focus_daikibosakusenn
+			focus = BUL_focus_yuuseikaryoku
+		}
+		relative_position_id = BUL_focus_bulgaria_army
+		x = -1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_cannon_custom
+		icon = "GFX_goal_generic_army_artillery2"
+		prerequisite = {
+			focus = BUL_focus_daikibosakusenn
+			focus = BUL_focus_yuuseikaryoku
+		}
+		relative_position_id = BUL_focus_bulgaria_army
+		x = 3
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#空軍ツリー
+	focus = {
+		id = BUL_focus_wing_to_sky
+		icon = "GFX_focus_generic_aircraft_production"
+		prerequisite = {
+			focus = BUL_focus_bulgaria_army
+		}
+		relative_position_id = BUL_focus_bulgaria_army
+		x = -3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_light_aircraft
+		icon = "GFX_goal_generic_air_fighter"
+		prerequisite = {
+			focus = BUL_focus_wing_to_sky
+		}
+		relative_position_id = BUL_focus_bulgaria_army
+		x = -3
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#海軍ツリー
+	focus = {
+		id = BUL_focus_bulgaria_navy
+		icon = "GFX_goal_generic_build_navy"
+		prerequisite = {
+			focus = BUL_focus_openly_rearmament
+			focus = BUL_focus_winner_permission
+		}
+		relative_position_id = BUL_focus_rearmament_plan
+		x = 2
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_bulgaria_shipyard_enlarge
+		icon = "GFX_focus_POL_develop_polish_shipbuilding"
+		prerequisite = {
+			focus = BUL_focus_bulgaria_navy
+		}
+		relative_position_id = BUL_focus_rearmament_plan
+		x = 2
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_small_craft
+		icon = "GFX_focus_generic_cruiser2"
+		prerequisite = {
+		focus = BUL_focus_bulgaria_shipyard_enlarge
+		}
+		relative_position_id = BUL_focus_rearmament_plan
+		x = 2
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
 }
