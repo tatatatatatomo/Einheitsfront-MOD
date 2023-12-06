@@ -1572,6 +1572,9 @@ focus_tree = {
 		focus = BUL_focus_north_plan
 		}
 		relative_position_id = BUL_focus_north_plan
+		mutually_exclusive	= {
+			focus = BUL_focus_budapest_alliance
+		}
 		x = 1
 		y = 1
 		cost = 10
@@ -1588,6 +1591,9 @@ focus_tree = {
 		focus = BUL_focus_north_plan
 		}
 		relative_position_id = BUL_focus_north_plan
+		mutually_exclusive	= {
+			focus = BUL_focus_hungary_vigilance
+		}
 		x = -1
 		y = 1
 		cost = 10
@@ -1605,6 +1611,9 @@ focus_tree = {
 		focus = BUL_focus_hungary_vigilance
 		}
 		relative_position_id = BUL_focus_north_plan
+		mutually_exclusive	= {
+			focus = BUL_focus_bucharest_non_aggression
+		}
 		x = 1
 		y = 2
 		cost = 10
@@ -1622,6 +1631,9 @@ focus_tree = {
 		focus = BUL_focus_hungary_vigilance
 		}
 		relative_position_id = BUL_focus_north_plan
+		mutually_exclusive	= {
+			focus = BUL_focus_romania_crash
+		}
 		x = -1
 		y = 2
 		cost = 10
@@ -1639,6 +1651,9 @@ focus_tree = {
 		focus = BUL_focus_romania_crash
 		}
 		relative_position_id = BUL_focus_north_plan
+		mutually_exclusive	= {
+			focus = BUL_focus_wien_is_myfriend
+		}
 		x = 1
 		y = 3
 		cost = 10
@@ -1656,6 +1671,9 @@ focus_tree = {
 		focus = BUL_focus_romania_crash
 		}
 		relative_position_id = BUL_focus_north_plan
+		mutually_exclusive	= {
+			focus = BUL_focus_yugoslav_unification
+		}
 		x = -1
 		y = 3
 		cost = 10
@@ -1706,6 +1724,9 @@ focus_tree = {
 		focus = BUL_focus_south_plan
 		}
 		relative_position_id = BUL_focus_south_plan
+		mutually_exclusive = {
+			focus = BUL_focus_athenae_envoy
+		}
 		x = -1
 		y = 1
 		cost = 10
@@ -1722,6 +1743,9 @@ focus_tree = {
 		focus = BUL_focus_south_plan
 		}
 		relative_position_id = BUL_focus_south_plan
+		mutually_exclusive	= {
+			focus = BUL_focus_graecia_revenge
+		}
 		x = 1
 		y = 1
 		cost = 10
@@ -1739,6 +1763,9 @@ focus_tree = {
 		focus = BUL_focus_graecia_revenge
 		}
 		relative_position_id = BUL_focus_south_plan
+		mutually_exclusive	= {
+			focus = BUL_focus_ankara_business
+		}
 		x = -1
 		y = 2
 		cost = 10
@@ -1756,6 +1783,9 @@ focus_tree = {
 		focus = BUL_focus_graecia_revenge
 		}
 		relative_position_id = BUL_focus_south_plan
+		mutually_exclusive	= {
+			focus = BUL_focus_constantinople_reconquest
+		}
 		x = 1
 		y = 2
 		cost = 10
@@ -1789,6 +1819,9 @@ focus_tree = {
 		focus = BUL_focus_west_plan
 		}
 		relative_position_id = BUL_focus_west_plan
+		mutually_exclusive = {
+			focus = BUL_focus_skopje_contact
+		}
 		x = 1
 		y = 1
 		cost = 10
@@ -1805,6 +1838,9 @@ focus_tree = {
 		focus = BUL_focus_west_plan
 		}
 		relative_position_id = BUL_focus_west_plan
+		mutually_exclusive = {
+			focus = BUL_focus_macedonia_smashing
+		}
 		x = -1
 		y = 1
 		cost = 10
@@ -1822,6 +1858,9 @@ focus_tree = {
 		focus = BUL_focus_macedonia_smashing
 		}
 		relative_position_id = BUL_focus_west_plan
+		mutually_exclusive = {
+			focus = BUL_focus_serbia_invasion
+		}
 		x = -1
 		y = 2
 		cost = 10
@@ -1839,6 +1878,9 @@ focus_tree = {
 		focus = BUL_focus_macedonia_smashing
 		}
 		relative_position_id = BUL_focus_west_plan
+		mutually_exclusive = {
+			focus = BUL_focus_beograd_reconciliation
+		}
 		x = 1
 		y = 2
 		cost = 10
@@ -1856,6 +1898,9 @@ focus_tree = {
 		focus = BUL_focus_serbia_invasion
 		}
 		relative_position_id = BUL_focus_west_plan
+		mutually_exclusive = {
+			focus = BUL_focus_tirana_friendship
+		}
 		x = 1
 		y = 3
 		cost = 10
@@ -1873,6 +1918,9 @@ focus_tree = {
 		focus = BUL_focus_serbia_invasion
 		}
 		relative_position_id = BUL_focus_west_plan
+		mutually_exclusive = {
+			focus = BUL_focus_fate_albania
+		}
 		x = -1
 		y = 3
 		cost = 10
@@ -2178,6 +2226,35 @@ focus_tree = {
 			focus = BUL_focus_yug_in_world
 		}
 		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ロシア帰還後ツリー
+	focus = {
+		id = BUL_focus_rus_home_come
+		icon = "GFX_goal_unknown"
+		x = 30
+		y = 10
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_revival_start
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_home_come
+		}
+		relative_position_id = BUL_focus_rus_home_come
+		x = 0
 		y = 1
 		cost = 10
 		ai_will_do = {
