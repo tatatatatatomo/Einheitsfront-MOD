@@ -1,0 +1,15 @@
+add_namespace = TEST_core_annex
+country_event = {
+	id = TEST_core_annex.1
+	title = "state has annex"
+	picture = shirannwaboke
+	is_triggered_only = yes
+	fire_only_once = no
+	# trigger = {
+	# 	owns_state_with = "alert_core_annex"
+	# }
+	desc = "annex done"
+	option = {
+		name = TEST_core_annex.3
+	}
+}

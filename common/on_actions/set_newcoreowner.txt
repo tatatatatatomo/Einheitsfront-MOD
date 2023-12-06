@@ -6,16 +6,17 @@ on_actions = {
 					owner = {
 						is_ai = no
 					}
-					compliance > 80
+					compliance > 10
 				}
 				# set_variable = {
 				# 	var = setcorecountry
-				# 	value = FROM
+				# 	value = FROMs
 				# }
 				add_core_of = owner
-				# owner = {
-				# 	country_event = TEST_core.1
-				# }
+				#set_state_flag = alert_core_annex
+				owner = {
+					country_event = TEST_core_annex.1
+				}
 			}
 		}
 	}
