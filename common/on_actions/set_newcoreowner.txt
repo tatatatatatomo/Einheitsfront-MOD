@@ -1,4 +1,3 @@
-#test2
 on_actions = {
 	on_weekly = {
 		effect = {
@@ -7,13 +6,14 @@ on_actions = {
 					owner = {
 						is_ai = no
 					}
-					compliance > 10
+					compliance > 80
 				}
 				# set_variable = {
 				# 	var = setcorecountry
 				# 	value = FROMs
 				# }
 				add_core_of = owner
+				set_compliance = 0
 				#set_state_flag = alert_core_annex
 				owner = {
 					country_event = TEST_core_annex.1

@@ -1,0 +1,5 @@
+﻿l_japanese:
+ TEST_core_annex.1.t:"州の統合完了！"
+ TEST_core_annex.1.d:"§Y[?integrated_state.GetName]§!は今や§Y[ROOT.GetFlag][annex_test.owner]§!の中核州である"
+ TEST_core_annex.3:"素晴らしい"
+ 
