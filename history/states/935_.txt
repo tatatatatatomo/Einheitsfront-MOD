@@ -1,21 +1,29 @@
-state={
-	id=900
-	name="STATE_900"
-	manpower = 1163674
-	state_category = pastoral 
-
-	history={
-		owner = ENG
-		add_core_of = NGA
+state = {
+	id = 935
+	name="STATE_935"
+	state_category=pastoral
+	manpower=400000
+	history = {
+		owner = SZC
+		add_core_of = TIB
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = YUN
+		add_core_of = MAN
+		add_core_of = ZHC
+		add_core_of = XSM
+		add_core_of = SZC
+		add_core_of = SIK
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
+		
+		victory_points = {
+			10856 1
+		}
+		
 	}
-
-	provinces={
-		1992 4889 7978 8034 10831 
+	provinces = {
+		4407 5102 10856
 	}
-	
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
 }
