@@ -178,7 +178,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BUL_focus_to_unify_yugoslav
-		icon = "GFX_focus_BUL_guardians_of_the_balkans"
+		icon = "GFX_goal_unknown"
 		prerequisite = {
 			focus = BUL_focus_our_nation
 		}
@@ -775,6 +775,1485 @@ focus_tree = {
 			focus = BUL_focus_justice_served
 		}
 		relative_position_id = BUL_focus_justice_served
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ここから経済ツリー
+	focus = {
+		id = BUL_focus_grasp_the_situation
+		icon = "GFX_goal_generic_production"
+		x = 17
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_control_economy
+		icon = "GFX_goal_generic_construct_mil_factory"
+		prerequisite = {
+			focus = BUL_focus_grasp_the_situation
+		}
+		relative_position_id = BUL_focus_grasp_the_situation
+		mutually_exclusive = {
+			focus = BUL_focus_open_economy
+		}
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_open_economy
+		icon = "GFX_goal_generic_construct_civ_factory"
+		prerequisite = {
+			focus = BUL_focus_grasp_the_situation
+		}
+		relative_position_id = BUL_focus_grasp_the_situation
+		mutually_exclusive = {
+			foucus = BUL_focus_control_economy
+		}
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#統制経済ルート
+	focus = {
+		id = BUL_focus_five_year_plan
+		icon = "GFX_focus_generic_industry_2"
+		prerequisite = {
+			focus = BUL_focus_control_economy
+		}
+		relative_position_id = BUL_focus_control_economy
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_technocracy
+		icon = "GFX_goal_generic_scientific_exchange"
+		prerequisite = {
+			focus = BUL_focus_moskva_support
+			focus =	BUL_focus_nasion_custom_plan
+		}
+		relative_position_id = BUL_focus_five_year_plan
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_heavy_industry_acceleration
+		icon = "GFX_focus_generic_tank_production"
+		prerequisite = {
+			focus = BUL_focus_kolkhoz
+			focus =	BUL_focus_observation_mussolini
+		}
+		relative_position_id = BUL_focus_five_year_plan
+		x = 0
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_plan_complete
+		icon = "GFX_goal_generic_soviet_construction"
+		prerequisite	=	{
+			focus = BUL_focus_heavy_industry_acceleration
+		}
+		prerequisite = {
+			focus = BUL_focus_iron_industry
+			focus = BUL_focus_total_war_construct
+		}
+		relative_position_id = BUL_focus_five_year_plan
+		x = 0
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#資源開発ツリー
+	focus = {
+		id = BUL_focus_resource_depvelopment_plan
+		icon = "GFX_goal_generic_construction2"
+		prerequisite = {
+			focus = BUL_focus_control_economy
+			focus = BUL_focus_open_economy
+		}
+		relative_position_id = BUL_focus_control_economy
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_sofia_university_expantion
+		icon = "GFX_focus_research2"
+		prerequisite = {
+			focus = BUL_focus_resource_depvelopment_plan
+		}
+		relative_position_id = BUL_focus_resource_depvelopment_plan
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_friends_economic_integration
+		icon = "GFX_goal_generic_intelligence_exchange"
+		prerequisite = {
+			focus = BUL_focus_sofia_university_expantion
+		}
+		relative_position_id = BUL_focus_resource_depvelopment_plan
+		x = 0
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_uranium_future
+		icon = "GFX_focus_wonderweapons"
+		prerequisite = {
+			focus = BUL_focus_friends_economic_integration
+		}
+		relative_position_id = BUL_focus_resource_depvelopment_plan
+		x = 0
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#共産経済ルート
+	focus = {
+		id = BUL_focus_moskva_support
+		icon = "GFX_focus_chi_mission_to_the_soviet_union"
+		prerequisite = {
+			focus = BUL_focus_five_year_plan
+		}
+		relative_position_id = BUL_focus_five_year_plan
+		mutually_exclusive = {
+			focus = BUL_focus_nasion_custom_plan
+		}
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_kolkhoz
+		icon = "GFX_focus_SOV_breadbasket_of_the_union"
+		prerequisite = {
+			focus = BUL_focus_moskva_support
+		}
+		relative_position_id = BUL_focus_five_year_plan
+		x = -1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_iron_industry
+		icon = "GFX_focus_SOV_merge_plants"
+		prerequisite = {
+			focus = BUL_focus_kolkhoz
+		}
+		relative_position_id = BUL_focus_five_year_plan
+		x = -1
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ズヴェノ、国家軍団経済ルート
+	focus = {
+		id = BUL_focus_nasion_custom_plan
+		icon = "GFX_goal_generic_production2"
+		prerequisite = {
+			focus = BUL_focus_five_year_plan
+		}
+		relative_position_id = BUL_focus_five_year_plan
+		mutually_exclusive = {
+			focus = BUL_focus_moskva_support
+		}
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_observation_mussolini
+		icon = "GFX_focus_ger_assassinate_mussolini"
+		prerequisite = {
+			focus = BUL_focus_nasion_custom_plan
+		}
+		relative_position_id = BUL_focus_five_year_plan
+		x = 1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_total_war_construct
+		icon = "GFX_focus_generic_combined_arms"
+		prerequisite = {
+			focus = BUL_focus_observation_mussolini
+		}
+		relative_position_id = BUL_focus_five_year_plan
+		x = 1
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#自由市場ルート
+	focus = {
+		id = BUL_focus_economic_depression
+		icon = "GFX_goal_generic_consumer_goods"
+		prerequisite = {
+			focus = BUL_focus_open_economy
+		}
+		relative_position_id = BUL_focus_control_economy
+		x = 3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_agricultural_mechanization
+		icon = "GFX_focus_SOV_the_road_of_life"
+		prerequisite = {
+			focus = BUL_focus_not_laissez_faire
+			focus = BUL_focus_invisible_hand
+		}
+		relative_position_id = BUL_focus_economic_depression
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_light_industry
+		icon = "GFX_goal_generic_construction"
+		prerequisite = {
+			focus = BUL_focus_social_security_expantion
+			focus = BUL_focus_invisible_hand
+			focus = BUL_focus_railroad_enlarge
+		}
+		relative_position_id = BUL_focus_economic_depression
+		x = 1
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_railroad_enlarge
+		icon = "GFX_goal_generic_construct_infrastructure"
+		prerequisite = {
+			focus = BUL_focus_not_laissez_faire
+			focus = BUL_focus_invisible_hand
+			focus = BUL_focus_agricultural_mechanization
+		}
+		relative_position_id = BUL_focus_economic_depression
+		x = 1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_nonstop_factory
+		icon = "GFX_goal_generic_construct_civilian"
+		prerequisite = {
+			focus = BUL_focus_light_industry
+		}
+		relative_position_id = BUL_focus_economic_depression
+		x = 1
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_call_miracle
+		icon = "GFX_focus_mex_privatisation"
+		prerequisite = {
+			focus = BUL_focus_labour_union_hold_hands
+			focus = BUL_focus_nonstop_factory
+		}
+		relative_position_id = BUL_focus_economic_depression
+		x = 0
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#介入経済ルート
+	focus = {
+		id = BUL_focus_not_laissez_faire
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = BUL_focus_economic_depression
+		}
+		relative_position_id = BUL_focus_economic_depression
+		mutually_exclusive	= {
+			focus = BUL_focus_invisible_hand
+		}
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_social_security_expantion
+		icon = "GFX_focus_por_workers_of_iberia"
+		prerequisite = {
+			focus = BUL_focus_not_laissez_faire
+		}
+		prerequisite = {
+			focus = BUL_focus_agricultural_mechanization
+		}
+		relative_position_id = BUL_focus_economic_depression
+		x = -1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_labour_union_hold_hands
+		icon = "GFX_focus_spr_unify_the_london_bureau"
+		prerequisite = {
+			focus = BUL_focus_social_security_expantion
+		}
+		relative_position_id = BUL_focus_economic_depression
+		x = -1
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#完全自由経済
+	focus = {
+		id = BUL_focus_invisible_hand
+		icon = "GFX_focus_generic_the_giant_wakes"
+		prerequisite = {
+			focus = BUL_focus_economic_depression
+		}
+		relative_position_id = BUL_focus_economic_depression
+		mutually_exclusive	= {
+			focus = BUL_focus_not_laissez_faire
+		}
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ここから軍事ツリー
+	focus = {
+		id = BUL_focus_rearmament_plan
+		icon = "GFX_focus_secret_rearmament"
+		x = 28
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_openly_rearmament
+		icon = "GFX_focus_generic_military_dictatorship"
+		prerequisite = {
+			focus = BUL_focus_rearmament_plan
+		}
+		relative_position_id = BUL_focus_rearmament_plan
+		mutually_exclusive = {
+			focus = BUL_focus_winner_permission
+		}
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_winner_permission
+		icon = "GFX_focus_generic_treaty"
+		prerequisite = {
+			focus = BUL_focus_rearmament_plan
+		}
+		relative_position_id = BUL_focus_rearmament_plan
+		mutually_exclusive = {
+			focus = BUL_focus_openly_rearmament
+		}
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#陸軍ツリー
+	focus = {
+		id = BUL_focus_bulgaria_army
+		icon = "GFX_goal_generic_allies_build_infantry"
+		prerequisite = {
+			focus = BUL_focus_openly_rearmament
+			focus = BUL_focus_winner_permission
+		}
+		relative_position_id = BUL_focus_rearmament_plan
+		x = -2
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_blackbaron_support
+		icon = "GFX_focus_SOV_the_true_tsars"
+		prerequisite = {
+			focus = BUL_focus_bulgaria_army
+		}
+		relative_position_id = BUL_focus_bulgaria_army
+		mutually_exclusive = {
+			focus = BUL_focus_bulgalian_blade
+		}
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_bulgalian_blade
+		icon = "GFX_focus_BUL_bulgarian_administration_of_the_balkans"
+		prerequisite = {
+			focus = BUL_focus_bulgaria_army
+		}
+		relative_position_id = BUL_focus_bulgaria_army
+		mutually_exclusive = {
+			focus = BUL_focus_blackbaron_support
+		}
+		x = 2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_daikibosakusenn
+		icon = "GFX_goal_generic_position_armies"
+		prerequisite = {
+			focus = BUL_focus_blackbaron_support
+			focus = BUL_focus_bulgalian_blade
+		}
+		relative_position_id = BUL_focus_bulgaria_army
+		mutually_exclusive = {
+			focus = BUL_focus_yuuseikaryoku
+		}
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_yuuseikaryoku
+		icon = "GFX_goal_generic_build_tank"
+		prerequisite = {
+			focus = BUL_focus_blackbaron_support
+			focus = BUL_focus_bulgalian_blade
+		}
+		relative_position_id = BUL_focus_bulgaria_army
+		mutually_exclusive = {
+			focus = BUL_focus_daikibosakusenn
+		}
+		x = 2
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rifle_custom
+		icon = "GFX_goal_generic_small_arms"
+		prerequisite = {
+			focus = BUL_focus_daikibosakusenn
+			focus = BUL_focus_yuuseikaryoku
+		}
+		relative_position_id = BUL_focus_bulgaria_army
+		x = 1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_state_fortress
+		icon = "GFX_goal_generic_fortify_city"
+		prerequisite = {
+			focus = BUL_focus_daikibosakusenn
+			focus = BUL_focus_yuuseikaryoku
+		}
+		relative_position_id = BUL_focus_bulgaria_army
+		x = -1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_cannon_custom
+		icon = "GFX_goal_generic_army_artillery2"
+		prerequisite = {
+			focus = BUL_focus_daikibosakusenn
+			focus = BUL_focus_yuuseikaryoku
+		}
+		relative_position_id = BUL_focus_bulgaria_army
+		x = 3
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#空軍ツリー
+	focus = {
+		id = BUL_focus_wing_to_sky
+		icon = "GFX_focus_generic_aircraft_production"
+		prerequisite = {
+			focus = BUL_focus_bulgaria_army
+		}
+		relative_position_id = BUL_focus_bulgaria_army
+		x = -3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_light_aircraft
+		icon = "GFX_goal_generic_air_fighter"
+		prerequisite = {
+			focus = BUL_focus_wing_to_sky
+		}
+		relative_position_id = BUL_focus_bulgaria_army
+		x = -3
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#海軍ツリー
+	focus = {
+		id = BUL_focus_bulgaria_navy
+		icon = "GFX_goal_generic_build_navy"
+		prerequisite = {
+			focus = BUL_focus_openly_rearmament
+			focus = BUL_focus_winner_permission
+		}
+		relative_position_id = BUL_focus_rearmament_plan
+		x = 2
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_bulgaria_shipyard_enlarge
+		icon = "GFX_focus_POL_develop_polish_shipbuilding"
+		prerequisite = {
+			focus = BUL_focus_bulgaria_navy
+		}
+		relative_position_id = BUL_focus_rearmament_plan
+		x = 2
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_small_craft
+		icon = "GFX_focus_generic_cruiser2"
+		prerequisite = {
+		focus = BUL_focus_bulgaria_shipyard_enlarge
+		}
+		relative_position_id = BUL_focus_rearmament_plan
+		x = 2
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#外交ツリー
+	focus = {
+		id = BUL_focus_glory_bulgaria
+		icon = "GFX_goal_unknown"
+		x = 39
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#北方計画ツリー
+	focus = {
+		id = BUL_focus_north_plan
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+		focus = BUL_focus_glory_bulgaria
+		}
+		relative_position_id = BUL_focus_glory_bulgaria
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_hungary_vigilance
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+		focus = BUL_focus_north_plan
+		}
+		relative_position_id = BUL_focus_north_plan
+		mutually_exclusive	= {
+			focus = BUL_focus_budapest_alliance
+		}
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_budapest_alliance
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+		focus = BUL_focus_north_plan
+		}
+		relative_position_id = BUL_focus_north_plan
+		mutually_exclusive	= {
+			focus = BUL_focus_hungary_vigilance
+		}
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_romania_crash
+		icon = "GFX_focus_generic_attack_romania"
+		prerequisite = {
+		focus = BUL_focus_budapest_alliance
+		focus = BUL_focus_hungary_vigilance
+		}
+		relative_position_id = BUL_focus_north_plan
+		mutually_exclusive	= {
+			focus = BUL_focus_bucharest_non_aggression
+		}
+		x = 1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_bucharest_non_aggression
+		icon = "GFX_focus_invite_romania"
+		prerequisite = {
+		focus = BUL_focus_budapest_alliance
+		focus = BUL_focus_hungary_vigilance
+		}
+		relative_position_id = BUL_focus_north_plan
+		mutually_exclusive	= {
+			focus = BUL_focus_romania_crash
+		}
+		x = -1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_yugoslav_unification
+		icon = "GFX_focus_invite_yugoslavia"
+		prerequisite = {
+		focus = BUL_focus_bucharest_non_aggression
+		focus = BUL_focus_romania_crash
+		}
+		relative_position_id = BUL_focus_north_plan
+		mutually_exclusive	= {
+			focus = BUL_focus_wien_is_myfriend
+		}
+		x = 1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_wien_is_myfriend
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+		focus = BUL_focus_bucharest_non_aggression
+		focus = BUL_focus_romania_crash
+		}
+		relative_position_id = BUL_focus_north_plan
+		mutually_exclusive	= {
+			focus = BUL_focus_yugoslav_unification
+		}
+		x = -1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_tsar_go_home
+		icon = "GFX_focus_SOV_panslavic_nationalism"
+		prerequisite = {
+		focus = BUL_focus_wien_is_myfriend
+		focus = BUL_focus_yugoslav_unification
+		}
+		relative_position_id = BUL_focus_north_plan
+		x = 0
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#南方計画ツリー
+	focus = {
+		id = BUL_focus_south_plan
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+		focus = BUL_focus_glory_bulgaria
+		}
+		relative_position_id = BUL_focus_glory_bulgaria
+		x = 4
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_graecia_revenge
+		icon = "GFX_focus_generic_attack_greece"
+		prerequisite = {
+		focus = BUL_focus_south_plan
+		}
+		relative_position_id = BUL_focus_south_plan
+		mutually_exclusive = {
+			focus = BUL_focus_athenae_envoy
+		}
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_athenae_envoy
+		icon = "GFX_focus_generic_befriend_greece"
+		prerequisite = {
+		focus = BUL_focus_south_plan
+		}
+		relative_position_id = BUL_focus_south_plan
+		mutually_exclusive	= {
+			focus = BUL_focus_graecia_revenge
+		}
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_constantinople_reconquest
+		icon = "GFX_focus_BUL_supremacy_on_the_bosporus"
+		prerequisite = {
+		focus = BUL_focus_athenae_envoy
+		focus = BUL_focus_graecia_revenge
+		}
+		relative_position_id = BUL_focus_south_plan
+		mutually_exclusive	= {
+			focus = BUL_focus_ankara_business
+		}
+		x = -1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_ankara_business
+		icon = "GFX_focus_generic_befriend_turkey"
+		prerequisite = {
+		focus = BUL_focus_athenae_envoy
+		focus = BUL_focus_graecia_revenge
+		}
+		relative_position_id = BUL_focus_south_plan
+		mutually_exclusive	= {
+			focus = BUL_focus_constantinople_reconquest
+		}
+		x = 1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#西方計画ツリー
+	focus = {
+		id = BUL_focus_west_plan
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+		focus = BUL_focus_glory_bulgaria
+		}
+		relative_position_id = BUL_focus_glory_bulgaria
+		x = -4
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_macedonia_smashing
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+		focus = BUL_focus_west_plan
+		}
+		relative_position_id = BUL_focus_west_plan
+		mutually_exclusive = {
+			focus = BUL_focus_skopje_contact
+		}
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_skopje_contact
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+		focus = BUL_focus_west_plan
+		}
+		relative_position_id = BUL_focus_west_plan
+		mutually_exclusive = {
+			focus = BUL_focus_macedonia_smashing
+		}
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_beograd_reconciliation
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+		focus = BUL_focus_skopje_contact
+		focus = BUL_focus_macedonia_smashing
+		}
+		relative_position_id = BUL_focus_west_plan
+		mutually_exclusive = {
+			focus = BUL_focus_serbia_invasion
+		}
+		x = -1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_serbia_invasion
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+		focus = BUL_focus_skopje_contact
+		focus = BUL_focus_macedonia_smashing
+		}
+		relative_position_id = BUL_focus_west_plan
+		mutually_exclusive = {
+			focus = BUL_focus_beograd_reconciliation
+		}
+		x = 1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_fate_albania
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+		focus = BUL_focus_beograd_reconciliation
+		focus = BUL_focus_serbia_invasion
+		}
+		relative_position_id = BUL_focus_west_plan
+		mutually_exclusive = {
+			focus = BUL_focus_tirana_friendship
+		}
+		x = 1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_tirana_friendship
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+		focus = BUL_focus_beograd_reconciliation
+		focus = BUL_focus_serbia_invasion
+		}
+		relative_position_id = BUL_focus_west_plan
+		mutually_exclusive = {
+			focus = BUL_focus_fate_albania
+		}
+		x = -1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ユーゴスラビア形成後ツリー
+	focus = {
+		id = BUL_focus_second_yugoslavia
+		icon = "GFX_goal_unknown"
+		x = 19
+		y = 10
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_democratic_federation_republic
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_second_yugoslavia
+		}
+		relative_position_id = BUL_focus_second_yugoslavia
+		mutually_exclusive = {
+			focus = BUL_focus_unity_national_republic
+		}
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_unity_national_republic
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_second_yugoslavia
+		}
+		relative_position_id = BUL_focus_second_yugoslavia
+		mutually_exclusive = {
+			focus = BUL_focus_democratic_federation_republic
+		}
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_croatia_relation
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_democratic_federation_republic
+		}
+		relative_position_id = BUL_focus_second_yugoslavia
+		x = -1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_separatist_oppression
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_unity_national_republic
+		}
+		relative_position_id = BUL_focus_second_yugoslavia
+		x = 1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_regnition
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_croatia_relation
+			focus = BUL_focus_separatist_oppression
+		}
+		relative_position_id = BUL_focus_second_yugoslavia
+		x = 0
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ブルゴスラビア内政ツリー
+	focus = {
+		id = BUL_focus_yug_inside
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_regnition
+		}
+		relative_position_id = BUL_focus_second_yugoslavia
+		x = -3
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_yug_economic_policy
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_yug_inside
+		}
+		relative_position_id = BUL_focus_yug_inside
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_yug_south_development
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_yug_economic_policy
+		}
+		relative_position_id = BUL_focus_yug_inside
+		x = -1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_yug_north_development
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_yug_south_development
+		}
+		relative_position_id = BUL_focus_yug_inside
+		x = -1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_yug_military_reform
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_yug_inside
+		}
+		relative_position_id = BUL_focus_yug_inside
+		x = 2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_yug_union_army
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_yug_military_reform
+		}
+		relative_position_id = BUL_focus_yug_military_reform
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_yug_language_ploblem
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_yug_union_army
+		}
+		relative_position_id = BUL_focus_yug_military_reform
+		x = -1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_yug_hate_suppress
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_yug_union_army
+		}
+		relative_position_id = BUL_focus_yug_military_reform
+		x = 1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_yug_
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_yug_union_army
+		}
+		prerequisite = {
+			focus = BUL_focus_yug_north_development
+
+		}
+		relative_position_id = BUL_focus_yug_inside
+		x = 0
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ブルゴスラビア外交ツリー
+	focus = {
+		id = BUL_focus_yug_outside
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_regnition
+		}
+		relative_position_id = BUL_focus_second_yugoslavia
+		x = 3
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_yug_in_world
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_yug_outside
+		}
+		relative_position_id = BUL_focus_yug_outside
+		mutually_exclusive = {
+			focus = BUL_focus_yug_non_aligned
+		}
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_yug_non_aligned
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_yug_outside
+		}
+		relative_position_id = BUL_focus_yug_outside
+		mutually_exclusive = {
+			focus = BUL_focus_yug_in_world
+		}
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ロシア帰還後ツリー
+	focus = {
+		id = BUL_focus_rus_home_come
+		icon = "GFX_goal_unknown"
+		x = 30
+		y = 10
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_revival_start
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_home_come
+		}
+		relative_position_id = BUL_focus_rus_home_come
 		x = 0
 		y = 1
 		cost = 10

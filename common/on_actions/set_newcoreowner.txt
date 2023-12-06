@@ -1,0 +1,22 @@
+on_actions = {
+	on_weekly = {
+		effect = {
+			every_state = {
+				limit = {
+					owner = {
+						is_ai = no
+					}
+					compliance > 80
+				}
+				# set_variable = {
+				# 	var = setcorecountry
+				# 	value = FROM
+				# }
+				add_core_of = owner
+				# owner = {
+				# 	country_event = TEST_core.1
+				# }
+			}
+		}
+	}
+}
