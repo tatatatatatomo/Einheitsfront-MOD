@@ -1538,7 +1538,7 @@ focus_tree = {
 	#外交ツリー
 	focus = {
 		id = BUL_focus_glory_bulgaria
-		icon = "GFX_focus_BUL_guardians_of_the_balkans"
+		icon = "GFX_goal_unknown"
 		x = 39
 		y = 0
 		cost = 10
@@ -1875,6 +1875,172 @@ focus_tree = {
 		relative_position_id = BUL_focus_west_plan
 		x = -1
 		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ユーゴスラビア形成後ツリー
+	focus = {
+		id = BUL_focus_second_yugoslavia
+		icon = "GFX_goal_unknown"
+		x = 19
+		y = 10
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_democratic_federation_republic
+		icon = "GFX_goal_generic_construct_mil_factory"
+		prerequisite = {
+			focus = BUL_focus_second_yugoslavia
+		}
+		relative_position_id = BUL_focus_second_yugoslavia
+		mutually_exclusive = {
+			focus = BUL_focus_unity_national_republic
+		}
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_unity_national_republic
+		icon = "GFX_goal_generic_construct_mil_factory"
+		prerequisite = {
+			focus = BUL_focus_second_yugoslavia
+		}
+		relative_position_id = BUL_focus_second_yugoslavia
+		mutually_exclusive = {
+			focus = BUL_focus_democratic_federation_republic
+		}
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_croatia_relation
+		icon = "GFX_goal_generic_construct_mil_factory"
+		prerequisite = {
+			focus = BUL_focus_democratic_federation_republic
+		}
+		relative_position_id = BUL_focus_second_yugoslavia
+		x = -1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_separatist_oppression
+		icon = "GFX_goal_generic_construct_mil_factory"
+		prerequisite = {
+			focus = BUL_focus_unity_national_republic
+		}
+		relative_position_id = BUL_focus_second_yugoslavia
+		x = 1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_regnition
+		icon = "GFX_goal_generic_construct_mil_factory"
+		prerequisite = {
+			focus = BUL_focus_croatia_relation
+			focus = BUL_focus_separatist_oppression
+		}
+		relative_position_id = BUL_focus_second_yugoslavia
+		x = 0
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ブルゴスラビア内政ツリー
+	focus = {
+		id = BUL_focus_yug_inside
+		icon = "GFX_goal_generic_construct_mil_factory"
+		prerequisite = {
+			focus = BUL_focus_regnition
+		}
+		relative_position_id = BUL_focus_second_yugoslavia
+		x = -3
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_yug_economic_policy
+		icon = "GFX_goal_generic_construct_mil_factory"
+		prerequisite = {
+			focus = BUL_focus_yug_inside
+		}
+		relative_position_id = BUL_focus_yug_inside
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_yug_military_reform
+		icon = "GFX_goal_generic_construct_mil_factory"
+		prerequisite = {
+			focus = BUL_focus_yug_inside
+		}
+		relative_position_id = BUL_focus_yug_inside
+		x = 2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ブルゴスラビア外交ツリー
+	focus = {
+		id = BUL_focus_yug_outside
+		icon = "GFX_goal_generic_construct_mil_factory"
+		prerequisite = {
+			focus = BUL_focus_regnition
+		}
+		relative_position_id = BUL_focus_second_yugoslavia
+		x = 3
+		y = 4
 		cost = 10
 		ai_will_do = {
 			factor = 100
