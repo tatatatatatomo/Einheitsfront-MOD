@@ -2160,7 +2160,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BUL_focus_yug_
+		id = BUL_focus_yug_national_border_fortress
 		icon = "GFX_goal_unknown"
 		prerequisite = {
 			focus = BUL_focus_yug_union_army
@@ -2256,6 +2256,398 @@ focus_tree = {
 		relative_position_id = BUL_focus_rus_home_come
 		x = 0
 		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BUL_focus_rus_building_repair
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_revival_start
+		}
+		relative_position_id = BUL_focus_rus_home_come
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_new_patriarch_appoint
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_revival_start
+		}
+		relative_position_id = BUL_focus_rus_home_come
+		x = -2
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_support_request
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_revival_start
+		}
+		relative_position_id = BUL_focus_rus_home_come
+		x = 2
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_fate_bolshevik
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_building_repair
+		}
+		prerequisite = {
+			focus = BUL_focus_rus_new_patriarch_appoint
+		}
+		prerequisite = {
+			focus = BUL_focus_rus_support_request
+		}
+		relative_position_id = BUL_focus_rus_home_come
+		x = 0
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_military_goverment
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_fate_bolshevik
+		}
+		relative_position_id = BUL_focus_rus_home_come
+		mutually_exclusive = {
+			focus = BUL_focus_rus_sickle_hammer_recycle
+			focus = BUL_focus_rus_duma_restart
+		}
+		x = 0
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_sickle_hammer_recycle
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_fate_bolshevik
+		}
+		relative_position_id = BUL_focus_rus_home_come
+		mutually_exclusive = {
+			focus = BUL_focus_rus_military_goverment
+			focus = BUL_focus_rus_duma_restart
+		}
+		x = 2
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_duma_restart
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_fate_bolshevik
+		}
+		relative_position_id = BUL_focus_rus_home_come
+		mutually_exclusive = {
+			focus = BUL_focus_rus_military_goverment
+			focus = BUL_focus_rus_sickle_hammer_recycle
+		}
+		x = -2
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_esteemed_empire
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_duma_restart
+			focus = BUL_focus_rus_military_goverment
+		    focus = BUL_focus_rus_sickle_hammer_recycle
+		}
+		relative_position_id = BUL_focus_rus_home_come
+		x = 0
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ロシア帝国内政ツリー
+	focus = {
+		id = BUL_focus_rus_economic_policy
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_esteemed_empire
+		}
+		relative_position_id = BUL_focus_rus_home_come
+		x = -4
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_stolypin_dream
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_economic_policy
+		}
+		relative_position_id = BUL_focus_rus_economic_policy
+		mutually_exclusive = {
+			focus = BUL_focus_rus_dont_repeat_mistakes
+		}
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_dont_repeat_mistakes
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_economic_policy
+		}
+		relative_position_id = BUL_focus_rus_economic_policy
+		mutually_exclusive = {
+			focus = BUL_focus_rus_stolypin_dream
+		}
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_balkan_economy
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_stolypin_dream
+			focus = BUL_focus_rus_dont_repeat_mistakes
+		}
+		relative_position_id = BUL_focus_rus_economic_policy
+		x = -1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_siberia_rail
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_stolypin_dream
+			focus = BUL_focus_rus_dont_repeat_mistakes
+		}
+		relative_position_id = BUL_focus_rus_economic_policy
+		x = 1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_new_agricultual_policy
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_siberia_rail
+			focus = BUL_focus_rus_balkan_economy
+		}
+		relative_position_id = BUL_focus_rus_economic_policy
+		x = 1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_military_industry
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_siberia_rail
+			focus = BUL_focus_rus_balkan_economy
+		}
+		relative_position_id = BUL_focus_rus_economic_policy
+		x = -1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ロシア帝国外交ツリー
+	focus = {
+		id = BUL_focus_rus_foreign_policy
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_esteemed_empire
+		}
+		relative_position_id = BUL_focus_rus_home_come
+		x = 4
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_fate_bulgaria
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_foreign_policy
+		}
+		relative_position_id = BUL_focus_rus_foreign_policy
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_holy_alliance
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_fate_bulgaria
+		}
+		relative_position_id = BUL_focus_rus_foreign_policy
+		mutually_exclusive = {
+			focus = BUL_focus_rus_old_entente_contact
+		}
+		x = -1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_old_entente_contact
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_fate_bulgaria
+		}
+		relative_position_id = BUL_focus_rus_foreign_policy
+		mutually_exclusive = {
+			focus = BUL_focus_rus_holy_alliance
+		}
+		x = 1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_great_game
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_holy_alliance
+		}
+		relative_position_id = BUL_focus_rus_foreign_policy
+		x = -1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_Triple_entente_restoration
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_old_entente_contact
+		}
+		relative_position_id = BUL_focus_rus_foreign_policy
+		x = 1
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_focus_rus_reconquest
+		icon = "GFX_goal_unknown"
+		prerequisite = {
+			focus = BUL_focus_rus_Triple_entente_restoration
+			focus = BUL_focus_rus_great_game
+		}
+		relative_position_id = BUL_focus_rus_foreign_policy
+		x = 0
+		y = 4
 		cost = 10
 		ai_will_do = {
 			factor = 100
