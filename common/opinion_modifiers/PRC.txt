@@ -1,0 +1,6 @@
+opinion_modifiers = {
+    PRC_Anti_Japaneseism = {#抗日運動
+        value = -30
+    }
+    
+}

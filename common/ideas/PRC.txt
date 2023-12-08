@@ -1,0 +1,123 @@
+ideas = {
+	country = {
+		PRC_San_Min_Zhu_yi = {#三民主義
+			picture = ATODEKIMERUYO
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				political_power_gain = 0.01
+			}
+		}
+		PRC_anti_Capitalism = {#反資本主義
+			picture = ATODEKIMERUYO
+			removal_cost = -1
+			modifier = {
+				#資本主義国との貿易コスト+30%
+				#非資本主義国との貿易コスト-30%
+				stability_weekly = 0.001
+			}
+		}
+		PRC_value_people = {#人民重視
+			picture = ATODEKIMERUYO
+			removal_cost = -1
+			modifier = {
+				consumer_goods_expected_value = 0.05
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+		PRC_National_Revolution = {#国民革命
+			picture = ATODEKIMERUYO
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				political_power_gain = 0.01
+				#日毎の与党支持率+0.1%、与党がわからないため
+			}
+		}
+		PRC_support_from_GER_and_SOV = {#独蘇の支援
+			picture = ATODEKIMERUYO
+			removal_cost = -1
+			modifier = {
+				consumer_goods_expected_value = -0.05
+				research_speed_factor = 0.05
+			}
+			targeted_modifier = {
+                tag = GER
+                trade_cost_for_target_factor = -0.1
+            }
+			targeted_modifier = {
+                tag = SOV
+                trade_cost_for_target_factor = -0.1
+            }
+		}
+		PRC_Anti_Japaneseism = {#抗日運動
+			picture = ATODEKIMERUYO
+			removal_cost = -1
+			modifier = {
+				targeted_modifier = {
+					tag = JAP
+					trade_cost_for_target_factor = 0.3
+				}
+			}
+		}
+		PRC_Northern_Expedition = {#北伐運動
+			picture = ATODEKIMERUYO
+			removal_cost = -1
+			modifier = {
+				army_core_defence_factor = 0.3
+				political_power_gain = 0.01
+			}
+		}
+		PRC_government_legitimacy_1 = {#政府の正当性:良好
+			picture = ATODEKIMERUYO
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.15
+				political_power_gain = 0.2
+				compliance_gain = 0.05
+				resistance_target = -0.2
+			}
+		}
+		PRC_citizen_support_1 = {#市民の支持:高い
+			picture = ATODEKIMERUYO
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				political_power_gain = 0.2
+				compliance_gain = 0.05
+				resistance_target = -0.2
+			}
+		}
+		PRC_illiteracy = {#文盲の健在
+			picture = ATODEKIMERUYO
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = -0.25
+			}
+		}
+		PRC_land_reform_1 = {#低度の土地改革
+			picture = ATODEKIMERUYO
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.04
+				global_building_slots_factor = -0.04
+			}
+		}
+		PRC_modern_army_1 = {#半近代的軍隊
+			picture = ATODEKIMERUYO
+			removal_cost = -1
+			modifier = {
+				offence = -0.05
+				defence = -0.02
+				army_morale_factor = 0.05
+				max_planning = -0.05
+				army_speed_factor = -0.05
+			}
+		}
+	}
+}
