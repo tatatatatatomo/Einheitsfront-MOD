@@ -2,26 +2,23 @@
 state={
 	id=962
 	name="STATE_962"
-	manpower = 1
-	resources={
-	}
-	
-	state_category=pastoral
-	
+
 	history={
-		owner = BUL
+		owner = GRE
+		add_core_of = GRE
+		add_claim_by = BUL
 		buildings = {
 			infrastructure = 3
+
 		}
-		add_core_of = YUG
-		add_core_of = SER
-		add_claim_by = BUL
 
 	}
 
 	provinces={
-		11868 
+		6990 9791 9930 
 	}
-
-	local_supplies=0.0 
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

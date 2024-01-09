@@ -1,0 +1,14 @@
+state={
+	id=1053
+	name="STATE_1053"
+	state_category=pastoral
+	history = {
+		owner = BUL
+	}
+	provinces={
+		6857 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

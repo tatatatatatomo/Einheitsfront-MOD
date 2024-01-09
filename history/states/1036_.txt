@@ -1,0 +1,14 @@
+state={
+	id=1036
+	name="STATE_1036"
+	state_category=pastoral
+	history = {
+		owner = AFG
+	}
+	provinces={
+		7519
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

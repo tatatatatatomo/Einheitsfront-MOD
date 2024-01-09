@@ -1,19 +1,23 @@
+
 state={
 	id=818
 	name="STATE_818"
-	provinces={
-		1774 4751 4777 7773 7808 7843 7870 10539 10563 10669 12520 12695 
-	}
 
 	history={
-		owner = MON
+		owner = CHI
 		buildings = {
 			infrastructure = 1
-		}
-		victory_points = {
-			7843 1 #Ulaangom
+
 		}
 		add_core_of = MON
+
+		victory_points = {
+			7799 1 
+		}
+	}
+
+	provinces={
+		1689 1781 4777 4786 4858 7799 7864 10560 10563 10634 10669 10695 12649 
 	}
 	manpower=149000
 	buildings_max_level_factor=1.000

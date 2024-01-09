@@ -1,21 +1,19 @@
+
 state={
 	id=801
 	name="STATE_801"
-	manpower = 1218780
-
-	state_category=rural
 
 	history={
 		owner = BUL
-		victory_points = { #Ruse
-			9612 3
+		victory_points = {
+			3796 3 
 		}
-		victory_points = { #Pleven
-			3796 3
+		victory_points = {
+			9771 1 
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex =1
+			industrial_complex = 1
 
 		}
 		add_core_of = BUL
@@ -23,11 +21,10 @@ state={
 	}
 
 	provinces={
-		3796 3819 3952 6842 9610 9612 
+		793 965 3796 3819 3952 6842 9610 9771 11754 
 	}
-#	resources={
-#		oil=1
-#	}
-
-	local_supplies=0.0 
+	manpower=1218780
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

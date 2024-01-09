@@ -12,15 +12,18 @@ state={
 		add_core_of = YUG
 		add_core_of = SER
 		add_claim_by = BUL
+		victory_points = {
+			11857 1 
+		}
+
 
 	}
 
 	provinces={
-		11832 
+		11832 11857 11868 
 	}
 	manpower=210000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
-
-	local_supplies=0.0 
+	local_supplies=0.000
 }

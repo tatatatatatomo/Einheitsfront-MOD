@@ -1,0 +1,31 @@
+
+state={
+	id=1011
+	name="STATE_1011"
+	state_category=rural
+	history={
+			owner = PRC
+			add_core_of = CHI
+			add_core_of = PRC
+			add_core_of = YUN
+			add_core_of = MAN
+			add_core_of = ZHC
+			add_core_of = XSM
+			add_core_of = SZC
+			add_core_of = SIK
+		
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+
+			}
+
+	}
+	provinces={
+		1612 4009 4130 7019 7580 7596 7609 7625 8072 9934 10474 12408 
+	}
+	manpower=17770800
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

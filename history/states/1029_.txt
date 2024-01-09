@@ -1,0 +1,19 @@
+
+state={
+	id=1029
+	name="STATE_1029"
+	state_category=enclave
+
+	history={
+		owner = CHI
+		add_core_of = MON
+
+	}
+
+	provinces={
+		4873 10575 12629 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

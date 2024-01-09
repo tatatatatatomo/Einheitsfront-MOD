@@ -1,0 +1,22 @@
+state={
+	id=1007
+	name="STATE_1007"
+	state_category=rural
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = YUN
+		add_core_of = MAN
+		add_core_of = ZHC
+		add_core_of = XSM
+		add_core_of = SZC
+		add_core_of = SIK
+	}
+	provinces={
+		1004 1603 6932 7508 11931 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=1027
+	name="STATE_1027"
+
+	history={
+		owner = SZC
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = YUN
+		add_core_of = MAN
+		add_core_of = ZHC
+		add_core_of = XSM
+		add_core_of = SZC
+		add_core_of = SIK
+
+		victory_points = {
+			12141 3 
+		}
+		victory_points = {
+			4925 5 
+		}
+	}
+
+	provinces={
+		1367 1395 4375 4925 7240 8026 10132 11972 12141 12705 12767 12819 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}
