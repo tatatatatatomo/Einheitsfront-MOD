@@ -19,11 +19,12 @@ focus_tree = {
 		icon = "GFX_focus_rom_abdicate"
 		x = 5
 		y = 0
-		cost = 10
+		cost = 2
 		ai_will_do = {
 			factor = 100
 		}
 		completion_reward = {
+			add_politial_power = 50
 		}
 	}
 	#ここから内戦確定するかどうかの分岐
@@ -39,7 +40,7 @@ focus_tree = {
 		}
 		x = -1
 		y = 1
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 100
 		}
@@ -58,7 +59,7 @@ focus_tree = {
 		}
 		x = 1
 		y = 1
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 100
 		}
@@ -81,7 +82,7 @@ focus_tree = {
 		}
 		x = -2
 		y = 1
-		cost = 10
+		cost = 2
 		ai_will_do = {
 			factor = 100
 		}
@@ -240,7 +241,7 @@ focus_tree = {
 		}
 		x = 6
 		y = 1
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 100
 		}
@@ -260,7 +261,7 @@ focus_tree = {
 		}
 		x = -1
 		y = 1
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 100
 		}
@@ -344,7 +345,7 @@ focus_tree = {
 		}
 		x = 1
 		y = 1
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 100
 		}
@@ -431,7 +432,7 @@ focus_tree = {
 		}
 		x = 1
 		y = 1
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 100
 		}
@@ -447,7 +448,7 @@ focus_tree = {
 		relative_position_id = BUL_focus_royalist_government
 		x = 0
 		y = 1
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 100
 		}
@@ -463,7 +464,7 @@ focus_tree = {
 		relative_position_id = BUL_focus_attempt_stabilization
 		x = 0
 		y = 3
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 100
 		}
@@ -480,6 +481,10 @@ focus_tree = {
 		relative_position_id = BUL_focus_fate_of_kingdom
 		mutually_exclusive = {
 			focus = BUL_focus_russians_strike
+		}
+		has_country_leader = {
+			character = BUL_boris_the_3rd
+			ruling_onry = yes
 		}
 		x = 1
 		y = 1
@@ -713,7 +718,7 @@ focus_tree = {
 		}
 		x = 3
 		y = 1
-		cost = 10
+		cost = 2
 		ai_will_do = {
 			factor = 100
 		}
@@ -790,10 +795,22 @@ focus_tree = {
 		icon = "GFX_goal_generic_production"
 		x = 17
 		y = 0
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 100
 		}
+		available = {
+			OR = {
+			has_completed_focus = BUL_focus_our_king_boris
+			has_completed_focus = BUL_focus_our_revolution
+			has_completed_focus = BUL_focus_our_nation
+			has_completed_focus = BUL_focus_national_region
+			has_completed_focus = BUL_focus_agrarian_union
+			has_completed_focus = BUL_focus_constitutional_bloc
+			has_completed_focus = BUL_focus_mladorossi
+			has_completed_focus = BUL_focus_ROVS
+		}
+	}
 		completion_reward = {
 		}
 	}
@@ -806,6 +823,16 @@ focus_tree = {
 		relative_position_id = BUL_focus_grasp_the_situation
 		mutually_exclusive = {
 			focus = BUL_focus_open_economy
+		}
+		available = {
+			OR = {
+has_country_leader = BUL_alexander_kazembek
+has_country_leader = BUL_Kirill_Romanov
+has_country_leader = BUL_Vladimir_Romanov
+has_country_leader = BUL_Georgi_Dimitrov
+has_country_leader = BUL_Kimon_Georgiev
+has_country_leader = BUL_Hristo_Lukov
+			}
 		}
 		x = -1
 		y = 1
@@ -824,7 +851,16 @@ focus_tree = {
 		}
 		relative_position_id = BUL_focus_grasp_the_situation
 		mutually_exclusive = {
-			foucus = BUL_focus_control_economy
+			foucus = BUL_focus_control_economy	
+		}
+		available = {
+			OR = {
+			has_country_leader = BUL_boris_the_3rd
+			has_country_leader = BUL_Aleksandar_Stamboliyski
+			has_country_leader = BUL_Aleksandar_Tsankov
+			has_country_leader = BUL_Pyotr_Wrangel
+			has_country_leader = BUL_Dmitri_Romanov
+			}
 		}
 		x = 1
 		y = 1
@@ -1260,7 +1296,7 @@ focus_tree = {
 		icon = "GFX_focus_secret_rearmament"
 		x = 28
 		y = 0
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 100
 		}
@@ -1541,7 +1577,7 @@ focus_tree = {
 		icon = "GFX_goal_unknown"
 		x = 39
 		y = 0
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 100
 		}
@@ -1558,7 +1594,7 @@ focus_tree = {
 		relative_position_id = BUL_focus_glory_bulgaria
 		x = 0
 		y = 1
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 100
 		}
@@ -1710,7 +1746,7 @@ focus_tree = {
 		relative_position_id = BUL_focus_glory_bulgaria
 		x = 4
 		y = 1
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 100
 		}
@@ -1805,7 +1841,7 @@ focus_tree = {
 		relative_position_id = BUL_focus_glory_bulgaria
 		x = -4
 		y = 1
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 100
 		}
@@ -1936,7 +1972,7 @@ focus_tree = {
 		icon = "GFX_goal_unknown"
 		x = 19
 		y = 10
-		cost = 10
+		cost = 2
 		ai_will_do = {
 			factor = 100
 		}
@@ -2240,7 +2276,7 @@ focus_tree = {
 		icon = "GFX_goal_unknown"
 		x = 30
 		y = 10
-		cost = 10
+		cost = 2
 		ai_will_do = {
 			factor = 100
 		}
