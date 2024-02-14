@@ -20,7 +20,7 @@ state={
 		}
 		add_core_of = CZS
 		add_core_of = SLO
-		
+		add_core_of = HUN
 	}
 	
 	provinces={
