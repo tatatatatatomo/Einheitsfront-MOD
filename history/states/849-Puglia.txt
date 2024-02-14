@@ -5,7 +5,11 @@ state = {
 	manpower = 2642000 
 	state_category = city
 	history = {
-		owner = SIT
+		owner = NIT
+		add_core_of = ITA
+		add_core_of = SIT
+		add_core_of = NIT
+
 		victory_points = { #Bari
 			9784 3
 		}
@@ -30,7 +34,6 @@ state = {
 				naval_base = 3
 			}
 		}
-		add_core_of = SIT
 
 	}
 	provinces = {

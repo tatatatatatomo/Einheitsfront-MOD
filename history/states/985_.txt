@@ -13,10 +13,12 @@ state={
 
 	history={
 		owner = ITA
+		add_core_of = ITA
+		add_core_of = SIT
+		add_core_of = NIT
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = NIT
 	}
 	provinces={
 		611 

@@ -7,6 +7,9 @@ state={
 
 	history={
 		owner = SIT
+		add_core_of = ITA
+		add_core_of = SIT
+		add_core_of = NIT
 		buildings = {
 			infrastructure = 4
 
@@ -14,7 +17,6 @@ state={
 		victory_points = { #Parma
 			9752 1
 		}
-		add_core_of = NIT
 	}
 
 	provinces={
