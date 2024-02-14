@@ -1,8 +1,18 @@
-version = "v0.1"
+name = "Einheitsfront"
+version = "Bata1.0"
 tags = {
 	"Alternative History"
+	"Ideologies"
 }
-
-name = "Einheitsfront"
-supported_version = "1.12.*"
-replace_path = "common/national_focus"
+replace_path="common/idea_tags"
+replace_path="common/ideologies"
+replace_path="common/technologies"
+replace_path="common/technology_sharing"
+replace_path="common/technology_tags"
+replace_path="common/terrain"
+replace_path="common/unit_tags"
+replace_path="common/unit_medals"
+replace_path="history/states"
+replace_path="map/strategicregions"
+supported_version = "1.13.6"
+path=""
