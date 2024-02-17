@@ -16,7 +16,6 @@ state={
 		}
 		add_core_of = CZS
 		add_core_of = SLO
-		add_claim_by = HUN
 	}
 
 	provinces={

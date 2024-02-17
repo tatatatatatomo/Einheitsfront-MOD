@@ -5,7 +5,9 @@ state={
 	manpower = 1
 	resources={
 	}
+	
 	state_category = town
+	
 	history={
 		owner = HUN
 		buildings = {
@@ -13,10 +15,11 @@ state={
 		}
 		add_core_of = ROM
 		add_core_of = TRA
-		add_claim_by = HUN
 	}
+
 	provinces={
 		727 9704 
 	}
+
 	local_supplies=0.0 
 }

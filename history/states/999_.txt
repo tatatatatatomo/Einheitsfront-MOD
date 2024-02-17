@@ -13,6 +13,7 @@ state={
 		add_core_of = XSM
 		add_core_of = SZC
 		add_core_of = SIK
+		victory_points = {1134 1}
 	}
 	provinces={
 		1134 4137 4140 6828 7181 9969 10119 11761 12026 

@@ -14,13 +14,12 @@ state={
 		add_core_of = XSM
 		add_core_of = SZC
 		add_core_of = SIK
-		victory_points = {
-			11752 4 
-		}
 		buildings = {
 			infrastructure = 1
 
 		}
+		victory_points = {7648 1}
+		victory_points = {11752 4}
 
 	}
 
