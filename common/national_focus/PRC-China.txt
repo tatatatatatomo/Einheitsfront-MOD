@@ -523,7 +523,7 @@ focus= {
 	prerequisite = {
 			focus = PRC-33
 		}
-	x = 9
+	x = 10
 	y = 13
 	cost = 10
 	ai_will_do = {
