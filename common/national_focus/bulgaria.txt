@@ -1976,7 +1976,19 @@ has_country_leader = BUL_Hristo_Lukov
 		ai_will_do = {
 			factor = 100
 		}
+		available = {
+				has_country_flag = BUL_claim_yugoslavia_flag
+				custom_effect_tooltip = focus_BUL_claim_yugoslavia_before_tooltip
+			#hidden_tooltip = {
+			#}
+		}
+		bypass = {
+			has_country_flag = BUL_claim_yugoslavia_flag
+		}
 		completion_reward = {
+				custom_effect_tooltip = focus_BUL_claim_yugoslavia_after_tooltip
+			#hidden_effect = {
+			#}
 		}
 	}
 	focus = {

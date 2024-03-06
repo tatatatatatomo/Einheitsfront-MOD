@@ -1,0 +1,9 @@
+BUL_second_yug_decision={
+	icon = GFX_decision_category_generic_political_actions
+	visible = {
+		OR = {
+			has_completed_focus = BUL_focus_our_new_republic
+			has_completed_focus = BUL_focus_yugoslav_prussia
+		}
+	}
+}

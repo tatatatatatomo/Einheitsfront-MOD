@@ -1,0 +1,7 @@
+﻿l_japanese:
+BUL_second_yug_decision:0 "ブルガリアはバルカンへ、"
+BUL_claim_yugoslavia:0 "第二のユーゴスラヴィア"
+#BUL_claim_yugoslavia_flag:0 ""
+focus_BUL_claim_yugoslavia_tooltip:0 "バルカンはブルガリアたるべきだろう！"
+decision_BUL_claim_yugoslavia_tooltip:0 "我らの共和国、若しくは南スラヴのプロイセンを達成し、\n§Hモンテネグロ、セルビア、マケドニア§!を領有している。"
+decision_BUL_claim_yugoslavia_effect_tooltip:0 "モンテネグロ セルビア マケドニアは今やブルガリアの"構成国"である。\nさらに、\n§Hユーゴスラヴィア\nイストリア\nヴォイヴォディナ\nバナト\nアルバニア§!を§G請求§!する。"
