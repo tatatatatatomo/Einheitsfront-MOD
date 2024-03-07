@@ -1,12 +1,24 @@
+
 state={
 	id=1055
 	name="STATE_1055"
-	state_category=pastoral
-	history = {
-		owner = BUL
+	state_category=town
+
+	history={
+		owner = PRC
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = YUN
+		add_core_of = MAN
+		add_core_of = ZHC
+		add_core_of = XSM
+		add_core_of = SZC
+		add_core_of = SIK
+
 	}
+
 	provinces={
-		893 878 
+		1120 9970 9997 10080 12014 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

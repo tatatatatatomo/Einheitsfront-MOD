@@ -1,9 +1,10 @@
+
 state={
 	id=1050
 	name="STATE_1050"
-	state_category=town
+	state_category=rural
 	history = {
-		owner = PRC
+		owner = ZHC
 		add_core_of = CHI
 		add_core_of = PRC
 		add_core_of = YUN
@@ -14,7 +15,7 @@ state={
 		add_core_of = SIK
 	}
 	provinces={
-		9938
+		1055 4099 7086 9972 11947 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

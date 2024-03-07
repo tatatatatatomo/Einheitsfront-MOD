@@ -1,31 +1,28 @@
 
 state={
 	id=991
-	name="STATE_991" # 
+	name="STATE_991"
 	manpower = 1
-	
-	state_category = rural
-
 	resources={
-		
 	}
-
+	
+	state_category = town
+	
 	history={
-		owner = MAN
-		add_core_of = CHI
-		add_core_of = MAN
-		add_core_of = PRC
-		buildings = {
-			infrastructure = 2
-			#industrial_complex = 1
-		}
+		owner = YUG
 		victory_points = {
-			9897 1
+			6983 3
 		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = YUG
+		add_core_of = BOS
+
 	}
 
 	provinces={
-		783 944 973 3791 3929 3944 6806 6811 6964 7670 9766 9782 9897 10376 10503 11823 11862 11893 11906 12355 12412 12482 
+		3985 6614 6957 6983 9586 
 	}
 
 	local_supplies=0.0 

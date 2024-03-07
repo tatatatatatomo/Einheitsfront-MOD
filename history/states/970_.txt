@@ -1,25 +1,29 @@
-state={
-	id=970
+state = {
+	id = 970
 	name="STATE_970"
-	manpower = 1
-	
-	state_category = town
-
-	history={
-		owner = SOV
+	state_category=pastoral
+	manpower=400000
+	history = {
+		owner = SZC
+		add_core_of = TIB
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = YUN
+		add_core_of = MAN
+		add_core_of = ZHC
+		add_core_of = XSM
+		add_core_of = SZC
+		add_core_of = SIK
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 		}
-		add_core_of = POL
-		add_core_of = SOV
+		
 		victory_points = {
-			9494 1
+			10856 1
 		}
+		
 	}
-
-	provinces={
-		466 3434 6522 9494 
+	provinces = {
+		4407 5102 10856
 	}
-
-	local_supplies=0.0 
 }

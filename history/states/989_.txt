@@ -1,27 +1,23 @@
-state={
-	id=989
-	name="STATE_989"
-	resources={
-	#	aluminium=9.000
-	}
-
-	history={
-		owner = SIT
-		add_core_of = ITA
-		add_core_of = SIT
-		add_core_of = NIT
-		buildings = {
-			infrastructure = 4
-
-		}
-
-	}
-
-	provinces={
-		6862 
-	}
-	manpower=1
+state = {
+	id = 989
+	name = "STATE_989"
+	manpower = 1
+	state_category = rural
 	buildings_max_level_factor=1.000
-	state_category=large_city
-	local_supplies=0.000
+	local_supplies=0.0 
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = KAR
+		add_core_of = FIN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		86 94 155 3008 3078 3189 6021 6029 6090 6159 9045 9055 9195 11094 11175 11212 
+	}
+
+
+
 }

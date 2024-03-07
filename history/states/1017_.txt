@@ -1,23 +1,25 @@
-
 state={
 	id=1017
-	name="STATE_1017"
-	state_category=rural
+	name="STATE_1017"	#ノビ・パザル
+
 	history={
-		owner = ZHC
-		add_core_of = CHI
-		add_core_of = PRC
-		add_core_of = YUN
-		add_core_of = MAN
-		add_core_of = ZHC
-		add_core_of = XSM
-		add_core_of = SZC
-		add_core_of = SIK
+		owner = YUG
+		add_core_of = SRB
+		add_core_of = ALB
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = YUG
+
 	}
+
 	provinces={
-		1006 4053 7099 10010 10054 10093 12084 
+		3922 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	state_category=rural
+
+	local_supplies=3.0 
 }

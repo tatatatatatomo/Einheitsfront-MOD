@@ -2,22 +2,32 @@
 state={
 	id=1016
 	name="STATE_1016"
-	state_category=town
-	history = {
-		owner = ZHC
-		add_core_of = CHI
-		add_core_of = PRC
-		add_core_of = YUN
-		add_core_of = MAN
-		add_core_of = ZHC
-		add_core_of = XSM
-		add_core_of = SZC
-		add_core_of = SIK
+
+	history={
+		owner = YUG
+		add_core_of = MNT
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			9809 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			9821 1
+		}
+		add_core_of = YUG
+
 	}
+
 	provinces={
-		1094 1166 4169 7027 7131 10069 11986 
+		937 9821 11858 
 	}
-	manpower=1
+	manpower=895500
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	state_category=rural
+
+	local_supplies=3.0 
 }

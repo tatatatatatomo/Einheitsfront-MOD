@@ -1,26 +1,30 @@
-
 state={
 	id=1018
 	name="STATE_1018"
-	state_category=rural
+	resources={
+	#	steel=20 # was: 32.000
+	#	aluminium=11 # was: 18.000
+	}
+	
+	state_category = city
 
 	history={
-		owner = ZHC
-		add_core_of = CHI
-		add_core_of = PRC
-		add_core_of = YUN
-		add_core_of = MAN
-		add_core_of = ZHC
-		add_core_of = XSM
-		add_core_of = SZC
-		add_core_of = SIK
+		owner = AUS
+	#	victory_points = {
+	#		11584 10 
+	#	}
+		buildings = {
+			infrastructure = 3
 
+			}
+		add_core_of = NIT
 	}
 
 	provinces={
-		1053 1110 4081 4156 4183 7172 7199 9942 10057 10112 11945 12030 
+		628 3657 6656 9613 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
+	local_supplies=5.0 
 }

@@ -1,26 +1,32 @@
 
 state={
 	id=1026
-	name="STATE_1026"
-	state_category=rural
+	name="STATE_1026" # 
+	manpower = 1
+	
+	state_category = rural
+
+	resources={
+		
+	}
 
 	history={
-		owner = SZC
+		owner = MAN
 		add_core_of = CHI
-		add_core_of = PRC
-		add_core_of = YUN
 		add_core_of = MAN
-		add_core_of = ZHC
-		add_core_of = XSM
-		add_core_of = SZC
-		add_core_of = SIK
-
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			#industrial_complex = 1
+		}
+		victory_points = {
+			9897 1
+		}
 	}
 
 	provinces={
-		2030 2091 5048 7256 12274 
+		783 944 973 3791 3929 3944 6806 6811 6964 7670 9766 9782 9897 10376 10503 11823 11862 11893 11906 12355 12412 12482 
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

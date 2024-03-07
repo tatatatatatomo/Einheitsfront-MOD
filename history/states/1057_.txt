@@ -1,15 +1,21 @@
+
 state={
 	id=1057
 	name="STATE_1057"
 	state_category=rural
 	history = {
-		owner = TUR
-		victory_points = {
-			11842 5 
-		}
+		owner = PRC
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = YUN
+		add_core_of = MAN
+		add_core_of = ZHC
+		add_core_of = XSM
+		add_core_of = SZC
+		add_core_of = SIK
 	}
 	provinces={
-		922 3893 11842 
+		1018 4023 7192 10004 11926 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

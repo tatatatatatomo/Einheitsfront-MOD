@@ -1,25 +1,17 @@
-state={
-	id=982
-	name="STATE_982"	#ノビ・パザル
-
-	history={
-		owner = YUG
-		add_core_of = SRB
-		add_core_of = ALB
+state = {
+	id = 982
+	name="STATE_982"
+	state_category=wasteland
+	manpower = 20216
+	history = {
+		owner = ITA
+		add_core_of = LBA
 		buildings = {
-			infrastructure = 2
-
+			infrastructure = 1
 		}
-		add_core_of = YUG
-
+		
 	}
-
-	provinces={
-		3922 
+	provinces = {
+		1198 4057 
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=rural
-
-	local_supplies=3.0 
 }

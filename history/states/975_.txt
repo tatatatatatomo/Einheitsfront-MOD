@@ -1,23 +1,16 @@
-
-state={
-	id=975
+state = {
+	id = 975
 	name="STATE_975"
-
-	history={
-		owner = GRE
-		add_core_of = GRE
-		buildings = {
-			infrastructure = 2
-
-		}
-
+	state_category=wasteland
+	manpower = 6090
+	impassable = yes
+	history = {
+		owner = ITA
+		add_core_of = LBA
+		
+		
 	}
-
-	provinces={
-		3526 3936 
+	provinces = {
+		5004
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=11.000
 }

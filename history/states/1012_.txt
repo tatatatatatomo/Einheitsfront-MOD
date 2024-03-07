@@ -1,26 +1,26 @@
-
 state={
 	id=1012
-	name="STATE_1012"
-	state_category=city
-	history = {
-		owner = ZHC
-		add_core_of = CHI
-		add_core_of = PRC
-		add_core_of = YUN
-		add_core_of = MAN
-		add_core_of = ZHC
-		add_core_of = XSM
-		add_core_of = SZC
-		add_core_of = SIK
+	name="STATE_1012"	#コソフスカ・ミトロビツァ
+	manpower = 1
+	
+	state_category = rural
+
+	history={
+		owner = YUG
+		add_core_of = YUG
+		add_core_of = MAC
+		add_core_of = COS
+		buildings = {
+			infrastructure = 2
+		}
 		victory_points = {
-			10076 3 
+			6940 3 
 		}
 	}
+
 	provinces={
-		996 7120 10076 11982 13142 
+		6940 
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
+	local_supplies=11.0 
 }

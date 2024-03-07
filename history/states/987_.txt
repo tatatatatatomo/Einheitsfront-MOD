@@ -1,29 +1,33 @@
 state={
 	id=987
-	name="STATE_987"
+	name="STATE_987" #south sudatenland
+	manpower = 14150000
+	
+	state_category = town
+	
 	resources={
-	#	aluminium=9.000
+		steel=4 # was: 8
 	}
-
+	
 	history={
-		owner = SIT
-		add_core_of = ITA
-		add_core_of = SIT
-		add_core_of = NIT
+		owner = CZE
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 1
+			8783 = {
+				bunker = 1
+			}
+			6470 = {
+				bunker = 1
+			}
+		}
+		add_core_of = CZE
+		add_core_of = CZS
 
-		}
-		victory_points = {
-			925 1 
-		}
 	}
-
 	provinces={
-		925 967 3885 6926 11861 
+		543 557 5283 7857 11525 
 	}
-	manpower=3202401
-	buildings_max_level_factor=1.000
-	state_category=large_city
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

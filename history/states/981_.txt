@@ -1,33 +1,18 @@
-
-state={
-	id=981
+state = {
+	id = 981
 	name="STATE_981"
-
-	history={
-		owner = YUG
-		add_core_of = MNT
+	state_category=wasteland
+	manpower = 6607
+	history = {
+		owner = ITA
+		add_core_of = LBA
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			9809 = {
-				naval_base = 1
-
-			}
-
+			infrastructure = 1
 		}
-		victory_points = {
-			9821 1
-		}
-		add_core_of = YUG
-
+		
+		
 	}
-
-	provinces={
-		937 9821 11858 
+	provinces = {
+		7136 13073
 	}
-	manpower=895500
-	buildings_max_level_factor=1.000
-	state_category=rural
-
-	local_supplies=3.0 
 }

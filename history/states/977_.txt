@@ -1,26 +1,16 @@
-state={
-	id=977
-	name="STATE_977"	#コソフスカ・ミトロビツァ
-	manpower = 1
-	
-	state_category = rural
-
-	history={
-		owner = YUG
-		add_core_of = YUG
-		add_core_of = MAC
-		add_core_of = COS
-		buildings = {
-			infrastructure = 2
-		}
-		victory_points = {
-			6940 3 
-		}
+state = {
+	id = 977
+	name="STATE_977"
+	state_category=wasteland
+	manpower = 6090
+	impassable = yes
+	history = {
+		owner = ITA
+		add_core_of = LBA
+		
+		
 	}
-
-	provinces={
-		6940 
+	provinces = {
+		1994 4191 
 	}
-
-	local_supplies=11.0 
 }

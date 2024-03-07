@@ -1,23 +1,29 @@
-
 state={
 	id=1023
 	name="STATE_1023"
-	state_category=rural
-	history = {
-		owner = PRC
-		add_core_of = CHI
-		add_core_of = PRC
-		add_core_of = YUN
-		add_core_of = MAN
-		add_core_of = ZHC
-		add_core_of = XSM
-		add_core_of = SZC
-		add_core_of = SIK
+	resources={
+	#	aluminium=9.000
 	}
+
+	history={
+		owner = SIT
+		add_core_of = ITA
+		add_core_of = SIT
+		add_core_of = NIT
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = { #Parma
+			9752 1
+		}
+	}
+
 	provinces={
-		1625 4077 4085 4628 10459 
+		3773 3976 6790 9752 
 	}
-	manpower=1
+	manpower=3202401
 	buildings_max_level_factor=1.000
+	state_category=large_city
 	local_supplies=0.000
 }

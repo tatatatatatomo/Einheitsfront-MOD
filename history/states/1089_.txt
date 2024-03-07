@@ -1,0 +1,17 @@
+state={
+	id=1089
+	name="STATE_1089"
+	state_category=town
+	history = {
+		owner = TUR
+		victory_points = {
+			11811 1 
+		}
+	}
+	provinces={
+		3851 11811 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

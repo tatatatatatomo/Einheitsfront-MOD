@@ -2,27 +2,24 @@
 state={
 	id=990
 	name="STATE_990"
-
+	manpower = 1
+	resources={
+	}
+	
+	state_category = town
+	
 	history={
-		owner = MAN
-		add_core_of = CHI
-		add_core_of = MAN
-		add_core_of = PRC
+		owner = HUN
 		buildings = {
-			infrastructure = 2
-
+			infrastructure = 4
 		}
-		victory_points = {681 1}
-		victory_points = {6981 1}
-		victory_points = {9803 1}
+		add_core_of = HUN
 
 	}
 
 	provinces={
-		800 861 945 3839 3888 3949 3970 6804 6860 6868 6905 6910 6981 9759 9803 9841 9848 9866 11781 
+		3700 9661 11630 
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

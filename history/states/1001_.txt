@@ -1,22 +1,25 @@
+
 state={
 	id=1001
 	name="STATE_1001"
-	state_category=rural
-	history = {
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = PRC
-		add_core_of = YUN
-		add_core_of = MAN
-		add_core_of = ZHC
-		add_core_of = XSM
-		add_core_of = SZC
-		add_core_of = SIK
+	manpower = 1
+	resources={
 	}
+	
+	state_category = town
+	
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ROM
+		add_core_of = TRA
+	}
+
 	provinces={
-		1084 4032 7160 7189 9987 11962 12093 
+		727 9704 
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

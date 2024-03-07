@@ -1,24 +1,14 @@
-
 state={
 	id=1028
 	name="STATE_1028"
-	state_category=pastoral
-	history={
-		owner = SZC
-		add_core_of = CHI
-		add_core_of = PRC
-		add_core_of = YUN
+	state_category = rural
+	history = {
+		owner = MAN
 		add_core_of = MAN
-		add_core_of = ZHC
-		add_core_of = XSM
-		add_core_of = SZC
-		add_core_of = SIK
-		victory_points = {
-			7294 1 
-		}
+		victory_points = {11903 1}
 	}
 	provinces={
-		2067 7294 10726 
+		3877 11903 12469 12478 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
