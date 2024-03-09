@@ -4,8 +4,8 @@ ideas = {
 			picture = ATODEKIMERUYO
 			removal_cost = -1
 			modifier = {
-				stability_factor = 0.05
-				war_support_factor = 0.05
+				stability_factor = 0.1
+				war_support_factor = 0.1
 				political_power_gain = 0.01
 			}
 		}
@@ -22,18 +22,18 @@ ideas = {
 			picture = ATODEKIMERUYO
 			removal_cost = -1
 			modifier = {
-				consumer_goods_expected_value = 0.05
-				production_speed_arms_factory_factor = 0.1
+				consumer_goods_factor = 0.05
 				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = -0.1
 			}
 		}
 		PRC_National_Revolution = {#国民革命
 			picture = ATODEKIMERUYO
 			removal_cost = -1
 			modifier = {
-				stability_factor = 0.05
-				war_support_factor = 0.05
-				political_power_gain = 0.01
+				stability_factor = 0.15
+				war_support_factor = 0.15
+				political_power_gain = 0.1
 				#日毎の与党支持率+0.1%、与党がわからないため
 			}
 		}
@@ -41,7 +41,7 @@ ideas = {
 			picture = ATODEKIMERUYO
 			removal_cost = -1
 			modifier = {
-				consumer_goods_expected_value = -0.05
+				consumer_goods_factor = -0.05
 				research_speed_factor = 0.05
 			}
 			targeted_modifier = {
@@ -57,18 +57,19 @@ ideas = {
 			picture = ATODEKIMERUYO
 			removal_cost = -1
 			modifier = {
-				targeted_modifier = {
-					tag = JAP
-					trade_cost_for_target_factor = 0.3
-				}
+			}
+			targeted_modifier = {
+				tag = JAP
+				trade_cost_for_target_factor = 0.3
 			}
 		}
 		PRC_Northern_Expedition = {#北伐運動
 			picture = ATODEKIMERUYO
 			removal_cost = -1
 			modifier = {
+				army_core_attack_factor = 0.1
 				army_core_defence_factor = 0.3
-				political_power_gain = 0.01
+				political_power_gain = 0.1
 			}
 		}
 		PRC_government_legitimacy_1 = {#政府の正当性:良好
@@ -117,6 +118,21 @@ ideas = {
 				army_morale_factor = 0.05
 				max_planning = -0.05
 				army_speed_factor = -0.05
+			}
+		}
+			PRC_use_silver = {#銀本位制
+			picture = ATODEKIMERUYO
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.1
+				stability_factor = -0.05
+				conversion_cost_civ_to_mil_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.1
+				production_speed_infrastructure_factor = -0.1
+				production_speed_industrial_complex_factor = -0.1
+				production_speed_arms_factory_factor = -0.1
+				production_speed_dockyard_factor = -0.1
 			}
 		}
 	}

@@ -22,9 +22,15 @@ set_technology = {
 	tech_mountaineers = 1
 	support_weapons = 1
 }
-set_stability = 0.6
-set_war_support = 0.7
 
+#研究枠
+set_research_slots = 4
+
+#安定度、戦争協力度
+set_stability = 0.45
+set_war_support = 0.30
+
+#キャラクター
 recruit_character = PRC_mao_zedong
 recruit_character = PRC_zhu_de
 recruit_character = PRC_chen_yi
@@ -68,8 +74,8 @@ set_politics = {
 
 #国民精神
 add_ideas = {
-	closed_economy
-	service_by_requirement
+	export_focus
+	volunteer_only
 	partial_economic_mobilisation
 	PRC_San_Min_Zhu_yi
 	PRC_anti_Capitalism
@@ -83,6 +89,7 @@ add_ideas = {
 	PRC_illiteracy
 	PRC_land_reform_1
 	PRC_modern_army_1
+	PRC_use_silver
 }
 
 #国家関係
