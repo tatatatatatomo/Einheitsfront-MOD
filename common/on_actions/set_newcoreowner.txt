@@ -10,12 +10,14 @@ on_actions = {
 				}
 				# set_variable = {
 				# 	var = setcorecountry
-				# 	value = FROM
+				# 	value = FROMs
 				# }
 				add_core_of = owner
-				# owner = {
-				# 	country_event = TEST_core.1
-				# }
+				set_compliance = 0
+				#set_state_flag = alert_core_annex
+				owner = {
+					country_event = TEST_core_annex.1
+				}
 			}
 		}
 	}

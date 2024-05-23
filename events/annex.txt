@@ -1,0 +1,16 @@
+add_namespace = TEST_core_annex
+country_event = {
+	id = TEST_core_annex.1
+	title = TEST_core_annex.1.t
+	picture = shirannwaboke
+	is_triggered_only = yes
+	fire_only_once = no
+	# hidden = yes
+	# trigger = {
+	# 	owns_state_with = "alert_core_annex"
+	# }
+	desc = TEST_core_annex.1.d
+	option = {
+		name = TEST_core_annex.3
+	}
+}
